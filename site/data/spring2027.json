@@ -1,0 +1,2114 @@
+{
+ "term": "Spring 2027",
+ "builtAt": "2026-11-07",
+ "sources": {
+  "grades": "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/",
+  "schedule": "https://courses.illinois.edu/schedule/2027/spring"
+ },
+ "courses": [
+  {
+   "code": "CPSC 113",
+   "zh": "环境、农业与社会",
+   "title": "Environment, Agriculture, and Society",
+   "geneds": [
+    "Nat Sci & Tech - Life Sciences",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7178,
+    "aRateInclMinus": 0.7319,
+    "gpa": 3.59,
+    "students": 567,
+    "semesters": 7
+   },
+   "teachers": [
+    {
+     "name": "Dokyoung Lee",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8409,
+      "aRateInclMinus": 0.8409,
+      "gpa": 3.78,
+      "students": 176,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "K Vittore",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "LS",
+    "WCC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "CPSC 131",
+   "zh": "神话中的农业",
+   "title": "Agriculture in Mythology",
+   "geneds": [
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9094,
+    "aRateInclMinus": 0.9094,
+    "gpa": 3.81,
+    "students": 2085,
+    "semesters": 11
+   },
+   "teachers": [
+    {
+     "name": "Kris Lambert",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.9341,
+      "aRateInclMinus": 0.9341,
+      "gpa": 3.87,
+      "students": 1822,
+      "semesters": 5
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "MUSE 250",
+   "zh": "博物馆看世界",
+   "title": "The World Through Museums",
+   "geneds": [
+    "Cultural Studies - Western",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7133,
+    "aRateInclMinus": 0.8055,
+    "gpa": 3.66,
+    "students": 293,
+    "semesters": 10
+   },
+   "teachers": [
+    {
+     "name": "Susan Frankenberg",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7133,
+      "aRateInclMinus": 0.8055,
+      "gpa": 3.66,
+      "students": 293,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "WCC",
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "SPAN 246",
+   "zh": "拉丁裔文学中的性别与性",
+   "title": "Gender & Sexuality in Latina/o Literature",
+   "geneds": [
+    "Cultural Studies - US Minority",
+    "Humanities - Lit & Arts"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7632,
+    "aRateInclMinus": 0.8596,
+    "gpa": 3.72,
+    "students": 114,
+    "semesters": 4
+   },
+   "teachers": [
+    {
+     "name": "A Ramirez Mendez",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "US",
+    "LA"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "MUS 133",
+   "zh": "世界音乐导论",
+   "title": "Introduction to World Music",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8537,
+    "aRateInclMinus": 0.9047,
+    "gpa": 3.83,
+    "students": 7538,
+    "semesters": 42
+   },
+   "teachers": [
+    {
+     "name": "Jonathon Smith",
+     "role": "主讲",
+     "modes": [
+      "线上",
+      "线下"
+     ],
+     "sections": 22,
+     "stats": {
+      "aRate": 0.8345,
+      "aRateInclMinus": 0.9006,
+      "gpa": 3.83,
+      "students": 4435,
+      "semesters": 17
+     },
+     "notes": []
+    },
+    {
+     "name": "L Yaralian",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 4,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "S Ortiz Vazquez",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 4,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "S Basson",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 2,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "J Balekita",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 4,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "J Mercado Mendez",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 4,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "D Chuang",
+     "role": "讨论课",
+     "modes": [
+      "线上"
+     ],
+     "sections": 2,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "EPSY 220",
+   "zh": "职业发展",
+   "title": "Career Development: Exploration, Choice, and Skills",
+   "geneds": [
+    "Social & Beh Sci - Beh Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7545,
+    "aRateInclMinus": 0.8138,
+    "gpa": 3.58,
+    "students": 1654,
+    "semesters": 68
+   },
+   "teachers": [
+    {
+     "name": "Xu Li",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周",
+      "线下"
+     ],
+     "sections": 5,
+     "stats": {
+      "aRate": 0.7942,
+      "aRateInclMinus": 0.8195,
+      "gpa": 3.61,
+      "students": 277,
+      "semesters": 3
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "BSC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "AIS 285",
+   "zh": "原住民思想家",
+   "title": "Indigenous Thinkers",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Humanities - Hist & Phil"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6324,
+    "aRateInclMinus": 0.7984,
+    "gpa": 3.63,
+    "students": 253,
+    "semesters": 21
+   },
+   "teachers": [
+    {
+     "name": "Korinta Maldonado",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7143,
+      "aRateInclMinus": 0.873,
+      "gpa": 3.71,
+      "students": 126,
+      "semesters": 13
+     },
+     "notes": []
+    },
+    {
+     "name": "N Myhal",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "NW",
+    "HP"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "CWL 207",
+   "zh": "印度电影",
+   "title": "Indian Cinema in Context",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9216,
+    "aRateInclMinus": 0.9646,
+    "gpa": 3.93,
+    "students": 1697,
+    "semesters": 10
+   },
+   "teachers": [
+    {
+     "name": "Rini Mehta",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.9216,
+      "aRateInclMinus": 0.9646,
+      "gpa": 3.93,
+      "students": 1697,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "SHS 222",
+   "zh": "聋人社群语言与文化",
+   "title": "Language & Culture of Deaf Communities",
+   "geneds": [
+    "Cultural Studies - US Minority",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8826,
+    "aRateInclMinus": 0.946,
+    "gpa": 3.91,
+    "students": 6337,
+    "semesters": 21
+   },
+   "teachers": [
+    {
+     "name": "Jerri Seremeth",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周",
+      "线上·后八周"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.8895,
+      "aRateInclMinus": 0.9554,
+      "gpa": 3.92,
+      "students": 986,
+      "semesters": 2
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "US",
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HK 243",
+   "zh": "体育与现代社会",
+   "title": "Sport & Modern Society",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7128,
+    "aRateInclMinus": 0.8335,
+    "gpa": 3.67,
+    "students": 1027,
+    "semesters": 9
+   },
+   "teachers": [
+    {
+     "name": "Jihoon Choi",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6723,
+      "aRateInclMinus": 0.8487,
+      "gpa": 3.66,
+      "students": 119,
+      "semesters": 1
+     },
+     "notes": []
+    },
+    {
+     "name": "O Ayoola",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ADV 150",
+   "zh": "广告学导论",
+   "title": "Introduction to Advertising",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8768,
+    "aRateInclMinus": 0.8904,
+    "gpa": 3.79,
+    "students": 5585,
+    "semesters": 63
+   },
+   "teachers": [
+    {
+     "name": "Steven Hall",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 10,
+     "stats": {
+      "aRate": 0.8765,
+      "aRateInclMinus": 0.8899,
+      "gpa": 3.78,
+      "students": 3070,
+      "semesters": 26
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANTH 103",
+   "zh": "变迁世界中的人类学",
+   "title": "Anthro in a Changing World",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7521,
+    "aRateInclMinus": 0.8453,
+    "gpa": 3.74,
+    "students": 6620,
+    "semesters": 36
+   },
+   "teachers": [],
+   "genedCodes": [
+    "NW",
+    "SS"
+   ],
+   "status": "已开课，老师未公布"
+  },
+  {
+   "code": "HDFS 105",
+   "zh": "人类发展导论",
+   "title": "Intro to Human Development",
+   "geneds": [
+    "Social & Beh Sci - Beh Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7821,
+    "aRateInclMinus": 0.8377,
+    "gpa": 3.74,
+    "students": 4405,
+    "semesters": 74
+   },
+   "teachers": [
+    {
+     "name": "Elissa Mitchell",
+     "role": "主讲",
+     "modes": [
+      "线上",
+      "线下"
+     ],
+     "sections": 9,
+     "stats": {
+      "aRate": 0.8174,
+      "aRateInclMinus": 0.8564,
+      "gpa": 3.79,
+      "students": 745,
+      "semesters": 3
+     },
+     "notes": []
+    },
+    {
+     "name": "Madhulika Krishnaswamy",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7259,
+      "aRateInclMinus": 0.8222,
+      "gpa": 3.69,
+      "students": 270,
+      "semesters": 7
+     },
+     "notes": []
+    },
+    {
+     "name": "E Li",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "BSC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ECON 102",
+   "zh": "微观经济学原理",
+   "title": "Microeconomic Principles",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.483,
+    "aRateInclMinus": 0.6105,
+    "gpa": 3.36,
+    "students": 28724,
+    "semesters": 178
+   },
+   "teachers": [
+    {
+     "name": "Isaac DiIanni",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 17,
+     "stats": {
+      "aRate": 0.4921,
+      "aRateInclMinus": 0.6347,
+      "gpa": 3.43,
+      "students": 8843,
+      "semesters": 32
+     },
+     "notes": []
+    },
+    {
+     "name": "Bryan Buckley",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 17,
+     "stats": {
+      "aRate": 0.4766,
+      "aRateInclMinus": 0.5802,
+      "gpa": 3.28,
+      "students": 6653,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "GGIS 101",
+   "zh": "全球发展与环境",
+   "title": "Global Development & Environment",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8612,
+    "aRateInclMinus": 0.8925,
+    "gpa": 3.83,
+    "students": 2903,
+    "semesters": 12
+   },
+   "teachers": [
+    {
+     "name": "Sian Butcher",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.876,
+      "aRateInclMinus": 0.903,
+      "gpa": 3.85,
+      "students": 1927,
+      "semesters": 7
+     },
+     "notes": []
+    },
+    {
+     "name": "W Chen",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "K Kato",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "S Pochiraju",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "NW",
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "RST 335",
+   "zh": "休闲与消费文化",
+   "title": "Leisure and Consumer Culture",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6423,
+    "aRateInclMinus": 0.7647,
+    "gpa": 3.54,
+    "students": 4714,
+    "semesters": 16
+   },
+   "teachers": [
+    {
+     "name": "Caitlin Brooks",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周",
+      "线上·后八周"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.6375,
+      "aRateInclMinus": 0.7646,
+      "gpa": 3.55,
+      "students": 2392,
+      "semesters": 9
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "SS",
+    "WCC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HK 302",
+   "zh": "美国社会中的残障问题",
+   "title": "Disability in American Society",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9231,
+    "aRateInclMinus": 0.9331,
+    "gpa": 3.88,
+    "students": 1210,
+    "semesters": 8
+   },
+   "teachers": [
+    {
+     "name": "Yih-Kuen Jan",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8932,
+      "aRateInclMinus": 0.9167,
+      "gpa": 3.85,
+      "students": 468,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "S Choi",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "K Thornton",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANTH 246",
+   "zh": "法医科学",
+   "title": "Forensic Science",
+   "geneds": [
+    "Nat Sci & Tech - Life Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7367,
+    "aRateInclMinus": 0.7878,
+    "gpa": 3.62,
+    "students": 13193,
+    "semesters": 40
+   },
+   "teachers": [
+    {
+     "name": "Ripan Malhi",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6822,
+      "aRateInclMinus": 0.7338,
+      "gpa": 3.51,
+      "students": 1221,
+      "semesters": 5
+     },
+     "notes": []
+    },
+    {
+     "name": "B New",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "LS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "IB 110",
+   "zh": "种族与环境生物学",
+   "title": "",
+   "geneds": [],
+   "offered": false,
+   "overall": {
+    "aRate": 0.8792,
+    "aRateInclMinus": 0.8792,
+    "gpa": 3.81,
+    "students": 1060,
+    "semesters": 8
+   },
+   "teachers": [],
+   "status": "Spring 2027 不开课"
+  },
+  {
+   "code": "PLPA 200",
+   "zh": "植物、病原体与人类",
+   "title": "Plants, Pathogens, and People",
+   "geneds": [
+    "Advanced Composition",
+    "Nat Sci & Tech - Life Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.918,
+    "aRateInclMinus": 0.918,
+    "gpa": 3.87,
+    "students": 2134,
+    "semesters": 18
+   },
+   "teachers": [
+    {
+     "name": "Kris Lambert",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.918,
+      "aRateInclMinus": 0.918,
+      "gpa": 3.87,
+      "students": 2134,
+      "semesters": 18
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "CLL",
+    "LS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ATMS 140",
+   "zh": "气候与全球变化",
+   "title": "Climate and Global Change",
+   "geneds": [
+    "Nat Sci & Tech - Phys Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6153,
+    "aRateInclMinus": 0.7232,
+    "gpa": 3.5,
+    "students": 1149,
+    "semesters": 15
+   },
+   "teachers": [
+    {
+     "name": "Cristian Proistosescu",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8597,
+      "aRateInclMinus": 0.9038,
+      "gpa": 3.84,
+      "students": 613,
+      "semesters": 7
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "PS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "DANC 100",
+   "zh": "当代舞蹈导论",
+   "title": "Intro to Contemporary Dance",
+   "geneds": [
+    "Cultural Studies - Western",
+    "Humanities - Lit & Arts"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7284,
+    "aRateInclMinus": 0.8161,
+    "gpa": 3.64,
+    "students": 3480,
+    "semesters": 139
+   },
+   "teachers": [
+    {
+     "name": "Samuel Hanson",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.875,
+      "aRateInclMinus": 0.9583,
+      "gpa": 3.85,
+      "students": 48,
+      "semesters": 3
+     },
+     "notes": [
+      "样本小（48 人）"
+     ]
+    },
+    {
+     "name": "Elizabeth Brandt",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8308,
+      "aRateInclMinus": 0.8943,
+      "gpa": 3.8,
+      "students": 331,
+      "semesters": 5
+     },
+     "notes": [
+      "按姓氏匹配（WAF 名为 Elizabeth）"
+     ]
+    },
+    {
+     "name": "Banafsheh Amiri",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7899,
+      "aRateInclMinus": 0.8487,
+      "gpa": 3.65,
+      "students": 238,
+      "semesters": 8
+     },
+     "notes": []
+    },
+    {
+     "name": "Sophia Vangelatos",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.75,
+      "aRateInclMinus": 0.875,
+      "gpa": 3.74,
+      "students": 24,
+      "semesters": 1
+     },
+     "notes": [
+      "样本小（24 人）"
+     ]
+    },
+    {
+     "name": "Laura Chiaramonte",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.747,
+      "aRateInclMinus": 0.8795,
+      "gpa": 3.73,
+      "students": 83,
+      "semesters": 5
+     },
+     "notes": [
+      "样本小（83 人）"
+     ]
+    },
+    {
+     "name": "Betty Allen",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6316,
+      "aRateInclMinus": 0.7368,
+      "gpa": 3.42,
+      "students": 114,
+      "semesters": 6
+     },
+     "notes": []
+    },
+    {
+     "name": "A Hanson",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "R Rizzuto",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "WCC",
+    "LA"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "MUS 132",
+   "zh": "流行音乐研究",
+   "title": "Popular Music Studies",
+   "geneds": [
+    "Cultural Studies - US Minority",
+    "Humanities - Lit & Arts"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7036,
+    "aRateInclMinus": 0.8079,
+    "gpa": 3.67,
+    "students": 6710,
+    "semesters": 38
+   },
+   "teachers": [
+    {
+     "name": "Samantha Lampe",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 22,
+     "stats": {
+      "aRate": 0.7593,
+      "aRateInclMinus": 0.8668,
+      "gpa": 3.78,
+      "students": 428,
+      "semesters": 6
+     },
+     "notes": []
+    },
+    {
+     "name": "W Stedman",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 5,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "C Hochstetler",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 5,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "S Tong",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 5,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "A Trujillo Mojica",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 5,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "US",
+    "LA"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "SPED 117",
+   "zh": "残障文化",
+   "title": "The Culture of Disability",
+   "geneds": [
+    "Humanities - Hist & Phil"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8773,
+    "aRateInclMinus": 0.8931,
+    "gpa": 3.82,
+    "students": 5835,
+    "semesters": 34
+   },
+   "teachers": [
+    {
+     "name": "Erica Mason",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.9024,
+      "aRateInclMinus": 0.9024,
+      "gpa": 3.85,
+      "students": 584,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "Yvonne Carey",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8659,
+      "aRateInclMinus": 0.8824,
+      "gpa": 3.78,
+      "students": 1879,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "HP"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HK 208",
+   "zh": "医学伦理学导论",
+   "title": "Introduction to Medical Ethics",
+   "geneds": [
+    "Humanities - Hist & Phil"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9165,
+    "aRateInclMinus": 0.9187,
+    "gpa": 3.85,
+    "students": 4132,
+    "semesters": 12
+   },
+   "teachers": [
+    {
+     "name": "G Kpene",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "M Haugen",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "Y Hwang",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "X Su",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "A Mannava",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "M Matarneh",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "J Baah",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 2,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "HP"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "MACS 100",
+   "zh": "流行电视与电影导论",
+   "title": "Intro to Popular TV & Movies",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8431,
+    "aRateInclMinus": 0.9021,
+    "gpa": 3.84,
+    "students": 7158,
+    "semesters": 121
+   },
+   "teachers": [
+    {
+     "name": "Jonathan Knipp",
+     "role": "主讲",
+     "modes": [
+      "线上",
+      "线下"
+     ],
+     "sections": 22,
+     "stats": {
+      "aRate": 0.8636,
+      "aRateInclMinus": 0.9178,
+      "gpa": 3.86,
+      "students": 2918,
+      "semesters": 14
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "WCC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "FR 156",
+   "zh": "探索巴黎",
+   "title": "",
+   "geneds": [],
+   "offered": false,
+   "overall": {
+    "aRate": 0.8114,
+    "aRateInclMinus": 0.8864,
+    "gpa": 3.77,
+    "students": 933,
+    "semesters": 12
+   },
+   "teachers": [],
+   "status": "Spring 2027 不开课"
+  },
+  {
+   "code": "EALC 230",
+   "zh": "当代东亚流行文化",
+   "title": "Popular Cultures of Contemporary East Asia",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7212,
+    "aRateInclMinus": 0.8307,
+    "gpa": 3.74,
+    "students": 1754,
+    "semesters": 28
+   },
+   "teachers": [
+    {
+     "name": "Q Arkenstone",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    },
+    {
+     "name": "Yating Li",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 3,
+     "stats": {
+      "aRate": 0.8376,
+      "aRateInclMinus": 0.8803,
+      "gpa": 3.85,
+      "students": 117,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "Yuwei Jiang",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 3,
+     "stats": {
+      "aRate": 0.8214,
+      "aRateInclMinus": 0.8714,
+      "gpa": 3.8,
+      "students": 140,
+      "semesters": 3
+     },
+     "notes": []
+    },
+    {
+     "name": "Jingling Chen",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 9,
+     "stats": {
+      "aRate": 0.6684,
+      "aRateInclMinus": 0.7824,
+      "gpa": 3.66,
+      "students": 193,
+      "semesters": 1
+     },
+     "notes": []
+    },
+    {
+     "name": "Ruoyi Bian",
+     "role": "讨论课",
+     "modes": [
+      "线下"
+     ],
+     "sections": 3,
+     "stats": {
+      "aRate": 0.6522,
+      "aRateInclMinus": 0.8261,
+      "gpa": 3.75,
+      "students": 69,
+      "semesters": 1
+     },
+     "notes": [
+      "样本小（69 人）"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "CLCV 224",
+   "zh": "古典文化与少数族裔",
+   "title": "Greco-Roman Antiquity and US Minority Cultures",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8046,
+    "aRateInclMinus": 0.8417,
+    "gpa": 3.75,
+    "students": 3404,
+    "semesters": 77
+   },
+   "teachers": [
+    {
+     "name": "Craig Williams",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 11,
+     "stats": {
+      "aRate": 0.1429,
+      "aRateInclMinus": 0.381,
+      "gpa": 2.79,
+      "students": 21,
+      "semesters": 1
+     },
+     "notes": [
+      "样本小（21 人）"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "US"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "REL 110",
+   "zh": "世界宗教",
+   "title": "World Religions",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Humanities - Hist & Phil"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7237,
+    "aRateInclMinus": 0.8123,
+    "gpa": 3.65,
+    "students": 5813,
+    "semesters": 107
+   },
+   "teachers": [
+    {
+     "name": "Richard Layton",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.5805,
+      "aRateInclMinus": 0.7004,
+      "gpa": 3.41,
+      "students": 801,
+      "semesters": 20
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "NW",
+    "HP"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "REL 208",
+   "zh": "南亚文化与文学",
+   "title": "Cultures & Literatures of South Asia",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9595,
+    "aRateInclMinus": 0.968,
+    "gpa": 3.94,
+    "students": 469,
+    "semesters": 12
+   },
+   "teachers": [
+    {
+     "name": "Rini Mehta",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.9595,
+      "aRateInclMinus": 0.968,
+      "gpa": 3.94,
+      "students": 469,
+      "semesters": 12
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "RST 242",
+   "zh": "自然与美国文化",
+   "title": "Nature in a Multicultural US Society",
+   "geneds": [
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7843,
+    "aRateInclMinus": 0.7844,
+    "gpa": 3.58,
+    "students": 24190,
+    "semesters": 39
+   },
+   "teachers": [
+    {
+     "name": "Jeongeun Park",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周",
+      "线上·后八周"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.802,
+      "aRateInclMinus": 0.802,
+      "gpa": 3.66,
+      "students": 4404,
+      "semesters": 6
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "WCC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANSC 250",
+   "zh": "美国社会中的伴侣动物",
+   "title": "Companion Animals in Society",
+   "geneds": [
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7554,
+    "aRateInclMinus": 0.8278,
+    "gpa": 3.66,
+    "students": 4477,
+    "semesters": 20
+   },
+   "teachers": [
+    {
+     "name": "Sarah Richardson",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7554,
+      "aRateInclMinus": 0.8278,
+      "gpa": 3.66,
+      "students": 4477,
+      "semesters": 20
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "WCC"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HK 271",
+   "zh": "美国健康公平",
+   "title": "Health Equity in the United States",
+   "geneds": [
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.809,
+    "aRateInclMinus": 0.8887,
+    "gpa": 3.78,
+    "students": 4826,
+    "semesters": 13
+   },
+   "teachers": [
+    {
+     "name": "Mudita Dave",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8203,
+      "aRateInclMinus": 0.9015,
+      "gpa": 3.82,
+      "students": 1564,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "Sandraluz Lara-Cinisomo",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8182,
+      "aRateInclMinus": 0.8636,
+      "gpa": 3.75,
+      "students": 44,
+      "semesters": 2
+     },
+     "notes": [
+      "样本小（44 人）"
+     ]
+    },
+    {
+     "name": "Brenna Kelley-Freiburger",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7318,
+      "aRateInclMinus": 0.8259,
+      "gpa": 3.64,
+      "students": 563,
+      "semesters": 1
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "US"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "BTW 250",
+   "zh": "商务沟通原理",
+   "title": "Principles Bus Comm",
+   "geneds": [
+    "Advanced Composition"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7216,
+    "aRateInclMinus": 0.8382,
+    "gpa": 3.73,
+    "students": 3746,
+    "semesters": 276
+   },
+   "teachers": [
+    {
+     "name": "Julie Kraft",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.4318,
+      "aRateInclMinus": 0.5,
+      "gpa": 3.24,
+      "students": 44,
+      "semesters": 2
+     },
+     "notes": [
+      "样本小（44 人）"
+     ]
+    },
+    {
+     "name": "D Kinzy",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "CLL"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "SE 495",
+   "zh": "高年级工程设计项目 II",
+   "title": "Senior Engineering Project II",
+   "geneds": [],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7337,
+    "aRateInclMinus": 0.8867,
+    "gpa": 3.84,
+    "students": 980,
+    "semesters": 19
+   },
+   "teachers": [
+    {
+     "name": "Thomas Titone",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7311,
+      "aRateInclMinus": 0.8836,
+      "gpa": 3.83,
+      "students": 885,
+      "semesters": 11
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [],
+   "status": "已开课"
+  },
+  {
+   "code": "ME 470",
+   "zh": "高年级工程设计项目",
+   "title": "Senior Design Project",
+   "geneds": [
+    "Advanced Composition"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7249,
+    "aRateInclMinus": 0.9194,
+    "gpa": 3.86,
+    "students": 1414,
+    "semesters": 20
+   },
+   "teachers": [
+    {
+     "name": "Blake Johnson",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7249,
+      "aRateInclMinus": 0.9194,
+      "gpa": 3.86,
+      "students": 1414,
+      "semesters": 20
+     },
+     "notes": []
+    },
+    {
+     "name": "S Singh",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "CLL"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "MACS 101",
+   "zh": "媒体导论",
+   "title": "Introduction to the Media",
+   "geneds": [
+    "Advanced Composition"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7603,
+    "aRateInclMinus": 0.8599,
+    "gpa": 3.72,
+    "students": 5410,
+    "semesters": 78
+   },
+   "teachers": [
+    {
+     "name": "Jonathan Knipp",
+     "role": "主讲",
+     "modes": [
+      "线上",
+      "线下"
+     ],
+     "sections": 13,
+     "stats": {
+      "aRate": 0.7598,
+      "aRateInclMinus": 0.8658,
+      "gpa": 3.73,
+      "students": 2236,
+      "semesters": 14
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "CLL"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANSC 205",
+   "zh": "世界动物资源",
+   "title": "World Animal Resources",
+   "geneds": [
+    "Advanced Composition"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7377,
+    "aRateInclMinus": 0.8124,
+    "gpa": 3.63,
+    "students": 2463,
+    "semesters": 33
+   },
+   "teachers": [
+    {
+     "name": "Carl Parsons",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.7712,
+      "aRateInclMinus": 0.8302,
+      "gpa": 3.67,
+      "students": 424,
+      "semesters": 10
+     },
+     "notes": []
+    },
+    {
+     "name": "Jason Emmert",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.7308,
+      "aRateInclMinus": 0.8087,
+      "gpa": 3.62,
+      "students": 2039,
+      "semesters": 23
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "CLL"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HK 207",
+   "zh": "流行病学导论",
+   "title": "Introduction to Epidemiology",
+   "geneds": [
+    "Quantitative Reasoning I"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7696,
+    "aRateInclMinus": 0.8465,
+    "gpa": 3.79,
+    "students": 2196,
+    "semesters": 9
+   },
+   "teachers": [
+    {
+     "name": "Christy Bazan",
+     "role": "主讲",
+     "modes": [
+      "线上·前八周",
+      "线上·后八周"
+     ],
+     "sections": 2,
+     "stats": {
+      "aRate": 0.7994,
+      "aRateInclMinus": 0.8696,
+      "gpa": 3.82,
+      "students": 1810,
+      "semesters": 5
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "QR1"
+   ],
+   "status": "已开课"
+  }
+ ]
+}

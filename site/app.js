@@ -18,7 +18,7 @@ const GENED_OPTIONS = [
   ["QR1", "  └ QR1"],
   ["QR2", "  └ QR2"],
   ["SBS", "Social & Behavioral（任意）"],
-  ["BS", "  └ BS 行为科学"],
+  ["BSC", "  └ BSC 行为科学"],
   ["SS", "  └ SS 社会科学"],
 ];
 const GENED_GROUPS = {
@@ -26,7 +26,7 @@ const GENED_GROUPS = {
   HUM: ["HP", "LA"],
   NAT: ["LS", "PS"],
   QR: ["QR1", "QR2"],
-  SBS: ["BS", "SS"],
+  SBS: ["BSC", "SS"],
 };
 const PAGE_SIZE = 100;
 

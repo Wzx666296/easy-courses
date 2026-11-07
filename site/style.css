@@ -125,3 +125,6 @@ footer { color: var(--muted); font-size: 12px; padding-top: 24px; padding-bottom
   aside#detail { position: static; max-height: none; order: -1; }
   .hide-sm { display: none; }
 }
+
+.nav { font-size: 13px; color: var(--muted); margin-bottom: 10px; display: flex; gap: 8px; }
+.nav a { text-decoration: none; }

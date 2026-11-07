@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2027 春水课清单</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="spring2027.css">
+</head>
+<body>
+  <header>
+    <nav class="nav"><a href="index.html">全部课程查询</a><span>·</span><b>2027 春清单</b></nav>
+    <h1>2027 春水课清单</h1>
+    <p class="sub" id="intro">加载中…</p>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="筛选">
+      <div class="chips" id="gened-chips" role="group" aria-label="Gen Ed 类别"></div>
+      <div class="controls">
+        <label>形式
+          <select id="mode">
+            <option value="">全部</option>
+            <option value="线上">有线上班</option>
+            <option value="线下">有线下班</option>
+          </select>
+        </label>
+        <label>时间
+          <select id="half">
+            <option value="">全部</option>
+            <option value="前八周">有前八周班</option>
+            <option value="后八周">有后八周班</option>
+          </select>
+        </label>
+        <label>排序
+          <select id="sort">
+            <option value="aRate">最佳老师 A 率（A+/A）</option>
+            <option value="aRateInclMinus">最佳老师 A 率（含 A-）</option>
+            <option value="gpa">最佳老师 GPA</option>
+            <option value="code">课号</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="show-ta"> 显示讨论课老师</label>
+      </div>
+    </section>
+
+    <p class="summary" id="summary" aria-live="polite"></p>
+    <div class="cards" id="cards"></div>
+
+    <section id="not-offered" hidden>
+      <h2>2027 春不开的课</h2>
+      <div class="cards" id="not-offered-cards"></div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+  <script src="spring2027.js"></script>
+</body>
+</html>

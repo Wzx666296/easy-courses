@@ -22,6 +22,21 @@ python3 scripts/build_data.py --refresh
 
 会重新下载源 CSV 到 `data/raw/`（不进 git），并生成 `site/data/courses.json`。默认只统计 2021 年以后的成绩，用 `--since 2018` 之类改起始年份。
 
+## 2027 春清单（spring2027.html）
+
+我们自己挑的一批 Gen Ed 课，按 2027 春**实际授课老师**的历史成绩排序。
+
+- 课程清单：`data/spring2027/courses.csv`（课号 + 中文名，增删课改这里）
+- 成绩：WAF [Grade Disparities and Accolades by Instructor](https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/) 的 `final.csv`，每位老师教该课的全部历史学期
+- 老师名单、线上/线下、前/后八周：Course Explorer 2027 春课表 API
+- 两种 A 率：A+/A，以及含 A-
+
+```bash
+python3 scripts/build_spring2027.py --refresh
+```
+
+生成 `site/data/spring2027.json`（网页用）和 `data/spring2027/courses-checked.csv`（人工核对用，Excel 可打开）。不加 `--refresh` 会用 `data/raw/` 里的缓存。
+
 ## 朋友评价
 
 目前手动维护在 `site/data/reviews.json`：
@@ -48,7 +63,9 @@ GPA 计算不含 W；A 比例 = A+/A/A- 占全部有成绩学生的比例。
 ## 目录
 
 ```
-scripts/build_data.py   下载 + 汇总数据
+scripts/build_data.py   下载 + 汇总数据（全部课程）
+scripts/build_spring2027.py  2027 春清单数据
+site/spring2027.html    2027 春清单页面
 site/index.html         页面
 site/app.js             筛选、排序、详情
 site/style.css          样式（自动适配深色模式和手机）
