@@ -26,9 +26,9 @@
    "teachers": [
     {
      "name": "Dokyoung Lee",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -42,14 +42,16 @@
     },
     {
      "name": "K Vittore",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -57,7 +59,7 @@
     "LS",
     "WCC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "CPSC 131",
@@ -78,9 +80,9 @@
    "teachers": [
     {
      "name": "Kris Lambert",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -96,7 +98,7 @@
    "genedCodes": [
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "MUSE 250",
@@ -118,9 +120,9 @@
    "teachers": [
     {
      "name": "Susan Frankenberg",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -137,7 +139,7 @@
     "WCC",
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "SPAN 246",
@@ -159,14 +161,16 @@
    "teachers": [
     {
      "name": "A Ramirez Mendez",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -174,7 +178,7 @@
     "US",
     "LA"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "MUS 133",
@@ -196,10 +200,10 @@
    "teachers": [
     {
      "name": "Jonathon Smith",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上",
-      "线下"
+      "inperson",
+      "online"
      ],
      "sections": 22,
      "stats": {
@@ -213,74 +217,86 @@
     },
     {
      "name": "L Yaralian",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 4,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "S Ortiz Vazquez",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 4,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "S Basson",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 2,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "J Balekita",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 4,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "J Mercado Mendez",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 4,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "D Chuang",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 2,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -288,7 +304,7 @@
     "LA",
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "EPSY 220",
@@ -309,10 +325,10 @@
    "teachers": [
     {
      "name": "Xu Li",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周",
-      "线下"
+      "inperson",
+      "online-B"
      ],
      "sections": 5,
      "stats": {
@@ -328,7 +344,7 @@
    "genedCodes": [
     "BSC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "AIS 285",
@@ -350,9 +366,9 @@
    "teachers": [
     {
      "name": "Korinta Maldonado",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -366,14 +382,16 @@
     },
     {
      "name": "N Myhal",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -381,7 +399,7 @@
     "NW",
     "HP"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "CWL 207",
@@ -403,9 +421,9 @@
    "teachers": [
     {
      "name": "Rini Mehta",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -422,7 +440,7 @@
     "LA",
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "SHS 222",
@@ -444,10 +462,10 @@
    "teachers": [
     {
      "name": "Jerri Seremeth",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周",
-      "线上·后八周"
+      "online-A",
+      "online-B"
      ],
      "sections": 2,
      "stats": {
@@ -464,7 +482,7 @@
     "US",
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HK 243",
@@ -485,9 +503,9 @@
    "teachers": [
     {
      "name": "Jihoon Choi",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -501,21 +519,23 @@
     },
     {
      "name": "O Ayoola",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ADV 150",
@@ -536,9 +556,9 @@
    "teachers": [
     {
      "name": "Steven Hall",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 10,
      "stats": {
@@ -554,7 +574,7 @@
    "genedCodes": [
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANTH 103",
@@ -578,7 +598,7 @@
     "NW",
     "SS"
    ],
-   "status": "已开课，老师未公布"
+   "status": "noTeacher"
   },
   {
    "code": "HDFS 105",
@@ -599,10 +619,10 @@
    "teachers": [
     {
      "name": "Elissa Mitchell",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上",
-      "线下"
+      "inperson",
+      "online"
      ],
      "sections": 9,
      "stats": {
@@ -616,9 +636,9 @@
     },
     {
      "name": "Madhulika Krishnaswamy",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -632,21 +652,23 @@
     },
     {
      "name": "E Li",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "BSC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ECON 102",
@@ -667,9 +689,9 @@
    "teachers": [
     {
      "name": "Isaac DiIanni",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 17,
      "stats": {
@@ -683,9 +705,9 @@
     },
     {
      "name": "Bryan Buckley",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 17,
      "stats": {
@@ -701,7 +723,7 @@
    "genedCodes": [
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "GGIS 101",
@@ -723,9 +745,9 @@
    "teachers": [
     {
      "name": "Sian Butcher",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -739,38 +761,44 @@
     },
     {
      "name": "W Chen",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "K Kato",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "S Pochiraju",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -778,7 +806,7 @@
     "NW",
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "RST 335",
@@ -800,10 +828,10 @@
    "teachers": [
     {
      "name": "Caitlin Brooks",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周",
-      "线上·后八周"
+      "online-A",
+      "online-B"
      ],
      "sections": 2,
      "stats": {
@@ -820,7 +848,7 @@
     "SS",
     "WCC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HK 302",
@@ -841,9 +869,9 @@
    "teachers": [
     {
      "name": "Yih-Kuen Jan",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -857,33 +885,37 @@
     },
     {
      "name": "S Choi",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "K Thornton",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANTH 246",
@@ -904,9 +936,9 @@
    "teachers": [
     {
      "name": "Ripan Malhi",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -920,21 +952,23 @@
     },
     {
      "name": "B New",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "LS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "IB 110",
@@ -951,7 +985,7 @@
     "semesters": 8
    },
    "teachers": [],
-   "status": "Spring 2027 不开课"
+   "status": "notOffered"
   },
   {
    "code": "PLPA 200",
@@ -973,9 +1007,9 @@
    "teachers": [
     {
      "name": "Kris Lambert",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -992,7 +1026,7 @@
     "CLL",
     "LS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ATMS 140",
@@ -1013,9 +1047,9 @@
    "teachers": [
     {
      "name": "Cristian Proistosescu",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -1031,7 +1065,7 @@
    "genedCodes": [
     "PS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "DANC 100",
@@ -1053,9 +1087,9 @@
    "teachers": [
     {
      "name": "Samuel Hanson",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1066,14 +1100,17 @@
       "semesters": 3
      },
      "notes": [
-      "样本小（48 人）"
+      {
+       "type": "smallSample",
+       "students": 48
+      }
      ]
     },
     {
      "name": "Elizabeth Brandt",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -1084,14 +1121,17 @@
       "semesters": 5
      },
      "notes": [
-      "按姓氏匹配（WAF 名为 Elizabeth）"
+      {
+       "type": "nameMatch",
+       "wafName": "Elizabeth"
+      }
      ]
     },
     {
      "name": "Banafsheh Amiri",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -1105,9 +1145,9 @@
     },
     {
      "name": "Sophia Vangelatos",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1118,14 +1158,17 @@
       "semesters": 1
      },
      "notes": [
-      "样本小（24 人）"
+      {
+       "type": "smallSample",
+       "students": 24
+      }
      ]
     },
     {
      "name": "Laura Chiaramonte",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1136,14 +1179,17 @@
       "semesters": 5
      },
      "notes": [
-      "样本小（83 人）"
+      {
+       "type": "smallSample",
+       "students": 83
+      }
      ]
     },
     {
      "name": "Betty Allen",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1157,26 +1203,30 @@
     },
     {
      "name": "A Hanson",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "R Rizzuto",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -1184,7 +1234,7 @@
     "WCC",
     "LA"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "MUS 132",
@@ -1206,9 +1256,9 @@
    "teachers": [
     {
      "name": "Samantha Lampe",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 22,
      "stats": {
@@ -1222,50 +1272,58 @@
     },
     {
      "name": "W Stedman",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 5,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "C Hochstetler",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 5,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "S Tong",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 5,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "A Trujillo Mojica",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 5,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -1273,7 +1331,7 @@
     "US",
     "LA"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "SPED 117",
@@ -1294,9 +1352,9 @@
    "teachers": [
     {
      "name": "Erica Mason",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -1310,9 +1368,9 @@
     },
     {
      "name": "Yvonne Carey",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -1328,7 +1386,7 @@
    "genedCodes": [
     "HP"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HK 208",
@@ -1349,93 +1407,107 @@
    "teachers": [
     {
      "name": "G Kpene",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "M Haugen",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "Y Hwang",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "X Su",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "A Mannava",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "M Matarneh",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "J Baah",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 2,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "HP"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "MACS 100",
@@ -1457,10 +1529,10 @@
    "teachers": [
     {
      "name": "Jonathan Knipp",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上",
-      "线下"
+      "inperson",
+      "online"
      ],
      "sections": 22,
      "stats": {
@@ -1477,7 +1549,7 @@
     "LA",
     "WCC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "FR 156",
@@ -1494,7 +1566,7 @@
     "semesters": 12
    },
    "teachers": [],
-   "status": "Spring 2027 不开课"
+   "status": "notOffered"
   },
   {
    "code": "EALC 230",
@@ -1516,21 +1588,23 @@
    "teachers": [
     {
      "name": "Q Arkenstone",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     },
     {
      "name": "Yating Li",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 3,
      "stats": {
@@ -1544,9 +1618,9 @@
     },
     {
      "name": "Yuwei Jiang",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 3,
      "stats": {
@@ -1560,9 +1634,9 @@
     },
     {
      "name": "Jingling Chen",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 9,
      "stats": {
@@ -1576,9 +1650,9 @@
     },
     {
      "name": "Ruoyi Bian",
-     "role": "讨论课",
+     "role": "discussion",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 3,
      "stats": {
@@ -1589,7 +1663,10 @@
       "semesters": 1
      },
      "notes": [
-      "样本小（69 人）"
+      {
+       "type": "smallSample",
+       "students": 69
+      }
      ]
     }
    ],
@@ -1597,7 +1674,7 @@
     "LA",
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "CLCV 224",
@@ -1619,9 +1696,9 @@
    "teachers": [
     {
      "name": "Craig Williams",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 11,
      "stats": {
@@ -1632,7 +1709,10 @@
       "semesters": 1
      },
      "notes": [
-      "样本小（21 人）"
+      {
+       "type": "smallSample",
+       "students": 21
+      }
      ]
     }
    ],
@@ -1640,7 +1720,7 @@
     "LA",
     "US"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "REL 110",
@@ -1662,9 +1742,9 @@
    "teachers": [
     {
      "name": "Richard Layton",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1681,7 +1761,7 @@
     "NW",
     "HP"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "REL 208",
@@ -1703,9 +1783,9 @@
    "teachers": [
     {
      "name": "Rini Mehta",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -1722,7 +1802,7 @@
     "LA",
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "RST 242",
@@ -1743,10 +1823,10 @@
    "teachers": [
     {
      "name": "Jeongeun Park",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周",
-      "线上·后八周"
+      "online-A",
+      "online-B"
      ],
      "sections": 2,
      "stats": {
@@ -1762,7 +1842,7 @@
    "genedCodes": [
     "WCC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANSC 250",
@@ -1783,9 +1863,9 @@
    "teachers": [
     {
      "name": "Sarah Richardson",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -1801,7 +1881,7 @@
    "genedCodes": [
     "WCC"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HK 271",
@@ -1822,9 +1902,9 @@
    "teachers": [
     {
      "name": "Mudita Dave",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -1838,9 +1918,9 @@
     },
     {
      "name": "Sandraluz Lara-Cinisomo",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1851,14 +1931,17 @@
       "semesters": 2
      },
      "notes": [
-      "样本小（44 人）"
+      {
+       "type": "smallSample",
+       "students": 44
+      }
      ]
     },
     {
      "name": "Brenna Kelley-Freiburger",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周"
+      "online-A"
      ],
      "sections": 1,
      "stats": {
@@ -1874,7 +1957,7 @@
    "genedCodes": [
     "US"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "BTW 250",
@@ -1895,9 +1978,9 @@
    "teachers": [
     {
      "name": "Julie Kraft",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 2,
      "stats": {
@@ -1908,26 +1991,31 @@
       "semesters": 2
      },
      "notes": [
-      "样本小（44 人）"
+      {
+       "type": "smallSample",
+       "students": 44
+      }
      ]
     },
     {
      "name": "D Kinzy",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "CLL"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "SE 495",
@@ -1946,9 +2034,9 @@
    "teachers": [
     {
      "name": "Thomas Titone",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1962,7 +2050,7 @@
     }
    ],
    "genedCodes": [],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ME 470",
@@ -1983,9 +2071,9 @@
    "teachers": [
     {
      "name": "Blake Johnson",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -1999,21 +2087,23 @@
     },
     {
      "name": "S Singh",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
    "genedCodes": [
     "CLL"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "MACS 101",
@@ -2034,10 +2124,10 @@
    "teachers": [
     {
      "name": "Jonathan Knipp",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上",
-      "线下"
+      "inperson",
+      "online"
      ],
      "sections": 13,
      "stats": {
@@ -2053,7 +2143,7 @@
    "genedCodes": [
     "CLL"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANSC 205",
@@ -2074,9 +2164,9 @@
    "teachers": [
     {
      "name": "Carl Parsons",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 2,
      "stats": {
@@ -2090,9 +2180,9 @@
     },
     {
      "name": "Jason Emmert",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 2,
      "stats": {
@@ -2108,7 +2198,7 @@
    "genedCodes": [
     "CLL"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HK 207",
@@ -2129,10 +2219,10 @@
    "teachers": [
     {
      "name": "Christy Bazan",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·前八周",
-      "线上·后八周"
+      "online-A",
+      "online-B"
      ],
      "sections": 2,
      "stats": {
@@ -2148,7 +2238,7 @@
    "genedCodes": [
     "QR1"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "AFRO 228",
@@ -2170,9 +2260,9 @@
    "teachers": [
     {
      "name": "John Meyers",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -2189,7 +2279,7 @@
     "LA",
     "US"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "HDFS 120",
@@ -2211,9 +2301,9 @@
    "teachers": [
     {
      "name": "Karen Kramer",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -2227,14 +2317,16 @@
     },
     {
      "name": "T Viana Da Conceicao Nascimento",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -2242,7 +2334,7 @@
     "SS",
     "US"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANTH 210",
@@ -2264,9 +2356,9 @@
    "teachers": [
     {
      "name": "Karen Kramer",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -2280,9 +2372,9 @@
     },
     {
      "name": "Madhulika Krishnaswamy",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": {
@@ -2293,19 +2385,24 @@
       "semesters": 1
      },
      "notes": [
-      "样本小（95 人）"
+      {
+       "type": "smallSample",
+       "students": 95
+      }
      ]
     },
     {
      "name": "J Zhang",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上"
+      "online"
      ],
      "sections": 1,
      "stats": null,
      "notes": [
-      "WAF 无此老师教这门课的记录"
+      {
+       "type": "noData"
+      }
      ]
     }
    ],
@@ -2313,7 +2410,7 @@
     "SS",
     "NW"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ANTH 182",
@@ -2335,9 +2432,9 @@
    "teachers": [
     {
      "name": "Korinta Maldonado",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -2348,7 +2445,10 @@
       "semesters": 4
      },
      "notes": [
-      "样本小（46 人）"
+      {
+       "type": "smallSample",
+       "students": 46
+      }
      ]
     }
    ],
@@ -2356,7 +2456,7 @@
     "NW",
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "GSD 202",
@@ -2377,9 +2477,9 @@
    "teachers": [
     {
      "name": "Ava Wolf",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -2390,14 +2490,17 @@
       "semesters": 3
      },
      "notes": [
-      "样本小（59 人）"
+      {
+       "type": "smallSample",
+       "students": 59
+      }
      ]
     }
    ],
    "genedCodes": [
     "SS"
    ],
-   "status": "已开课"
+   "status": "offered"
   },
   {
    "code": "ACE 240",
@@ -2416,9 +2519,9 @@
    "teachers": [
     {
      "name": "Craig Lemoine",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线上·后八周"
+      "online-B"
      ],
      "sections": 1,
      "stats": {
@@ -2432,9 +2535,9 @@
     },
     {
      "name": "Donovan Sanchez",
-     "role": "主讲",
+     "role": "lead",
      "modes": [
-      "线下"
+      "inperson"
      ],
      "sections": 1,
      "stats": {
@@ -2448,7 +2551,7 @@
     }
    ],
    "genedCodes": [],
-   "status": "已开课"
+   "status": "offered"
   }
  ]
 }

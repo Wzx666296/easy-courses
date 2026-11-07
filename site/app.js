@@ -1,26 +1,8 @@
-// UIUC 水课查询 — loads data/courses.json (built by scripts/build_data.py) and filters it in the browser.
+// UIUC easy-course finder — loads data/courses.json (built by scripts/build_data.py) and filters it in the browser.
+// Text comes from i18n.js (t, onLangChange).
 
-const GENED_OPTIONS = [
-  ["", "全部（含非 Gen Ed）"],
-  ["ANY", "任意 Gen Ed"],
-  ["ACP", "ACP 高级写作"],
-  ["CS", "Cultural Studies（任意）"],
-  ["NW", "  └ NW 非西方文化"],
-  ["WCC", "  └ WCC 西方/比较文化"],
-  ["US", "  └ US 美国少数族裔文化"],
-  ["HUM", "Humanities（任意）"],
-  ["HP", "  └ HP 历史与哲学"],
-  ["LA", "  └ LA 文学与艺术"],
-  ["NAT", "Natural Sciences（任意）"],
-  ["LS", "  └ LS 生命科学"],
-  ["PS", "  └ PS 物理科学"],
-  ["QR", "Quantitative Reasoning（任意）"],
-  ["QR1", "  └ QR1"],
-  ["QR2", "  └ QR2"],
-  ["SBS", "Social & Behavioral（任意）"],
-  ["BSC", "  └ BSC 行为科学"],
-  ["SS", "  └ SS 社会科学"],
-];
+const GENED_OPTIONS = ["", "ANY", "ACP", "CS", "NW", "WCC", "US", "HUM", "HP", "LA", "NAT", "LS", "PS",
+  "QR", "QR1", "QR2", "SBS", "BSC", "SS"];
 const GENED_GROUPS = {
   CS: ["NW", "WCC", "US"],
   HUM: ["HP", "LA"],
@@ -44,6 +26,23 @@ let reviews = {};
 let recentYear = 0;
 let shown = PAGE_SIZE;
 let current = [];
+let dataRange = null;
+
+function renderGenedOptions() {
+  const value = els.gened.value;
+  els.gened.innerHTML = GENED_OPTIONS.map((v) => `<option value="${v}">${esc(t(v === "" ? "gened.all" : v === "ANY" ? "gened.any" : `gened.${v}`))}</option>`).join("");
+  els.gened.value = value;
+}
+
+// Re-render everything that contains translated text.
+function renderTexts() {
+  renderGenedOptions();
+  for (const opt of els.level.options) if (/^[1-4]$/.test(opt.value)) opt.textContent = t("level.n", { n: opt.value });
+  if (dataRange) $("data-range").textContent = t("search.range", dataRange);
+  applyFilters();
+  const code = decodeURIComponent(location.hash.slice(1));
+  if (code) showDetail(code);
+}
 
 function esc(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -100,9 +99,7 @@ function applyFilters() {
 }
 
 function render() {
-  els.summary.textContent = current.length
-    ? `找到 ${current.length} 门课`
-    : "没有符合条件的课，试试放宽筛选（比如把「最少学生数」改成不限）。";
+  els.summary.textContent = current.length ? t("found", { n: current.length }) : t("noneFound");
   const selected = decodeURIComponent(location.hash.slice(1));
   els.tbody.innerHTML = current.slice(0, shown).map((c) => `
     <tr data-code="${esc(c.code)}" class="${c.code === selected ? "selected" : ""}">
@@ -124,30 +121,30 @@ function showDetail(code) {
   }
   const friendReviews = reviews[code] || [];
   els.detail.innerHTML = `
-    <button class="close" type="button" aria-label="关闭">×</button>
+    <button class="close" type="button" aria-label="${esc(t("close"))}">×</button>
     <h2>${esc(c.code)}</h2>
     <div class="title">${esc(c.title)}</div>
     <div>${c.geneds.map((g) => `<span class="tag">${esc(g)}</span>`).join("")}</div>
     <div class="stats">
-      <div class="stat"><b>${c.gpa.toFixed(2)}</b><span>平均 GPA</span></div>
-      <div class="stat"><b>${pct(c.aRate)}</b><span>拿 A 比例</span></div>
-      <div class="stat"><b>${pct(c.wRate)}</b><span>退课 (W) 比例</span></div>
+      <div class="stat"><b>${c.gpa.toFixed(2)}</b><span>${esc(t("detail.gpa"))}</span></div>
+      <div class="stat"><b>${pct(c.aRate)}</b><span>${esc(t("detail.aRate"))}</span></div>
+      <div class="stat"><b>${pct(c.wRate)}</b><span>${esc(t("detail.wRate"))}</span></div>
     </div>
-    <p class="empty">${c.students.toLocaleString()} 名学生 · ${c.terms} 个学期 · 最近开课 ${esc(c.lastTerm)}</p>
+    <p class="empty">${esc(t("detail.meta", { students: c.students.toLocaleString(), terms: c.terms, last: c.lastTerm }))}</p>
 
-    <h3>按老师（GPA 从高到低）</h3>
+    <h3>${esc(t("detail.byTeacher"))}</h3>
     <table>
-      <thead><tr><th>老师</th><th class="num">GPA</th><th class="num">A</th><th class="num">学生</th><th>最近</th></tr></thead>
+      <thead><tr><th>${esc(t("detail.teacher"))}</th><th class="num">GPA</th><th class="num">${esc(t("detail.a"))}</th><th class="num">${esc(t("detail.students"))}</th><th>${esc(t("detail.last"))}</th></tr></thead>
       <tbody>${c.instructors.map((i) => `
         <tr><td>${esc(i.name)}</td><td class="num">${gpaBadge(i.gpa)}</td><td class="num">${pct(i.aRate)}</td>
         <td class="num">${i.students.toLocaleString()}</td><td>${esc(i.lastTerm)}</td></tr>`).join("")}
       </tbody>
     </table>
 
-    <h3>朋友评价</h3>
+    <h3>${esc(t("detail.reviews"))}</h3>
     ${friendReviews.length
-      ? friendReviews.map((r) => `<div class="review">${esc(r.text)}<br><small>${esc(r.author || "匿名")}${r.term ? " · " + esc(r.term) : ""}${r.rating ? " · 水度 " + esc(r.rating) + "/5" : ""}</small></div>`).join("")
-      : `<p class="empty">还没有评价。（在 site/data/reviews.json 里添加）</p>`}
+      ? friendReviews.map((r) => `<div class="review">${esc(r.text)}<br><small>${esc(r.author || t("detail.anon"))}${r.term ? " · " + esc(r.term) : ""}${r.rating ? " · " + esc(t("detail.easiness", { r: r.rating })) : ""}</small></div>`).join("")
+      : `<p class="empty">${esc(t("detail.noReviews"))}</p>`}
   `;
   els.detail.hidden = false;
   els.layout.classList.add("with-detail");
@@ -161,6 +158,7 @@ function saveStateToUrl() {
     if (el.value !== el.dataset.default) p.set(key, el.value);
   }
   if (!els.recent.checked) p.set("all", "1");
+  p.set("lang", LANG);
   const qs = p.toString();
   history.replaceState(null, "", (qs ? "?" + qs : location.pathname) + location.hash);
 }
@@ -175,15 +173,14 @@ function loadStateFromUrl() {
 }
 
 async function init() {
-  els.gened.innerHTML = GENED_OPTIONS.map(([v, t]) => `<option value="${v}">${esc(t)}</option>`).join("");
-
+  renderGenedOptions();
   let data;
   try {
     const [cRes, rRes] = await Promise.all([fetch("data/courses.json"), fetch("data/reviews.json")]);
     data = await cRes.json();
     reviews = rRes.ok ? (await rRes.json()).reviews || {} : {};
   } catch (err) {
-    els.summary.textContent = "数据加载失败。请用 README 里的命令启动本地服务器（直接双击 HTML 文件打不开数据）。";
+    els.summary.textContent = t("loadFailed");
     console.error(err);
     return;
   }
@@ -196,12 +193,13 @@ async function init() {
   }
   const maxYear = Math.max(...courses.map((c) => termYear(c.lastTerm)));
   recentYear = maxYear - 1;
-  $("data-range").textContent = `统计 ${data.since}–${maxYear} 年，共 ${courses.length} 门课。`;
+  dataRange = { since: data.since, max: maxYear, count: courses.length };
 
   const subjects = [...new Set(courses.map((c) => c.subject))].sort();
   els.subject.insertAdjacentHTML("beforeend", subjects.map((s) => `<option>${esc(s)}</option>`).join(""));
 
   for (const el of [els.gened, els.subject, els.level, els.minStudents, els.sort]) el.dataset.default = el.value;
+  onLangChange(renderTexts);
   loadStateFromUrl();
 
   for (const el of [els.gened, els.subject, els.level, els.minStudents, els.sort, els.recent]) el.addEventListener("change", applyFilters);
@@ -214,8 +212,7 @@ async function init() {
   });
   window.addEventListener("hashchange", () => { showDetail(decodeURIComponent(location.hash.slice(1))); render(); });
 
-  applyFilters();
-  if (location.hash) showDetail(decodeURIComponent(location.hash.slice(1)));
+  renderTexts();
 }
 
 init();

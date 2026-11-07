@@ -2,6 +2,8 @@
 
 帮朋友找 UIUC 给分高的课：按 Gen Ed / 院系 / 课程级别筛选，按平均 GPA 或拿 A 比例排序，点开一门课能看到每个老师的给分情况和朋友评价。
 
+页面支持中文 / English 切换（右上角），也可以用网址参数 `?lang=en` 直接打开英文版。
+
 纯静态网站：一个 Python 脚本把公开数据处理成 JSON，前端是 HTML + 原生 JS，不需要安装任何依赖。
 
 ## 运行
@@ -68,6 +70,7 @@ scripts/build_spring2027.py  2027 春清单数据
 site/spring2027.html    2027 春清单页面
 site/index.html         页面
 site/app.js             筛选、排序、详情
+site/i18n.js            中英文文案 + 语言切换（两个页面共用）
 site/style.css          样式（自动适配深色模式和手机）
 site/data/courses.json  生成的数据（提交到 git，方便直接部署）
 site/data/reviews.json  朋友评价

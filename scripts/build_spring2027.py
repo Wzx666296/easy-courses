@@ -105,16 +105,16 @@ def teachers_from_schedule(root):
     out = {}
     for s in root.iter("detailedSection"):
         sec, part = s.findtext("sectionNumber"), s.findtext("partOfTerm")
-        half = {"A": "前八周", "B": "后八周"}.get(part, "")
+        half = part if part in ("A", "B") else ""  # A = first 8 weeks, B = second 8 weeks
         for m in s.iter("meeting"):
             t = m.find("type")
             mtype = (t.text or "") if t is not None else ""
-            mode = "线上" if "Online" in mtype else "线下"
+            mode = "online" if "Online" in mtype else "inperson"
             for i in m.iter("instructor"):
                 key = ((i.get("lastName") or "").strip(), (i.get("firstName") or "").strip())
                 d = out.setdefault(key, {"sections": set(), "modes": set(), "types": set()})
                 d["sections"].add(sec)
-                d["modes"].add(mode + (f"·{half}" if half else ""))
+                d["modes"].add(mode + (f"-{half}" if half else ""))
                 d["types"].add(mtype)
     return out
 
@@ -134,7 +134,7 @@ def build(refresh):
                   "overall": grade_stats(rows), "teachers": []}
         root = load_schedule(code, refresh)
         if root is None:
-            course["status"] = f"{TERM_LABEL} 不开课"
+            course["status"] = "notOffered"
             courses.append(course)
             continue
         course["offered"] = True
@@ -143,7 +143,7 @@ def build(refresh):
         course["genedCodes"] = [a.get("code").lstrip("1") for a in root.iter("genEdAttribute")]
 
         sched = teachers_from_schedule(root)
-        course["status"] = "已开课" if sched else "已开课，老师未公布"
+        course["status"] = "offered" if sched else "noTeacher"
         for (last, first), d in sched.items():
             same_last = [r for r in rows if r["instructor"].lower() == last.lower()]
             matched = [r for r in same_last if first and r["instructor_first_initial"].upper() == first[0].upper()]
@@ -151,22 +151,22 @@ def build(refresh):
             # Course Explorer sometimes uses a nickname initial (e.g. "B" for Elizabeth).
             if not matched and len(same_last) == 1 and sum(1 for k in sched if k[0].lower() == last.lower()) == 1:
                 matched = same_last
-                notes.append(f"按姓氏匹配（WAF 名为 {same_last[0]['instructor_first_name']}）")
+                notes.append({"type": "nameMatch", "wafName": same_last[0]["instructor_first_name"]})
             stats = grade_stats(matched)
             if stats is None:
-                notes.append("WAF 无此老师教这门课的记录")
+                notes.append({"type": "noData"})
             elif stats["students"] < 100:
-                notes.append(f"样本小（{stats['students']} 人）")
+                notes.append({"type": "smallSample", "students": stats["students"]})
             name = f"{matched[0]['instructor_first_name']} {matched[0]['instructor']}" if matched else f"{first} {last}".strip()
             # Discussion/TA sections: meeting type says so, or section numbers look like AD1 / BDA.
             looks_like_discussion = (d["types"] <= {"Discussion/Recitation"}
                                      or all(re.fullmatch(r"[A-Z]D[A-Z0-9]", s or "") for s in d["sections"]))
-            role = "讨论课" if not (d["types"] & LECTURE_TYPES) and looks_like_discussion else "主讲"
+            role = "discussion" if not (d["types"] & LECTURE_TYPES) and looks_like_discussion else "lead"
             course["teachers"].append({
                 "name": name, "role": role, "modes": sorted(d["modes"]),
                 "sections": len(d["sections"]), "stats": stats, "notes": notes,
             })
-        course["teachers"].sort(key=lambda t: (t["role"] != "主讲", t["stats"] is None,
+        course["teachers"].sort(key=lambda t: (t["role"] != "lead", t["stats"] is None,
                                                -(t["stats"] or {}).get("aRate", 0)))
         courses.append(course)
     return courses
@@ -174,6 +174,26 @@ def build(refresh):
 
 def pct(x):
     return "" if x is None else f"{x * 100:.1f}%"
+
+
+ZH = {
+    "offered": "已开课", "noTeacher": "已开课，老师未公布", "notOffered": f"{TERM_LABEL} 不开课",
+    "lead": "主讲", "discussion": "讨论课",
+    "online": "线上", "inperson": "线下", "A": "前八周", "B": "后八周",
+}
+
+
+def zh_mode(m):
+    mode, _, half = m.partition("-")
+    return ZH[mode] + (f"·{ZH[half]}" if half else "")
+
+
+def zh_note(n):
+    if n["type"] == "nameMatch":
+        return f"按姓氏匹配（WAF 名为 {n['wafName']}）"
+    if n["type"] == "smallSample":
+        return f"样本小（{n['students']} 人）"
+    return "WAF 无此老师教这门课的记录"
 
 
 def write_csv(courses):
@@ -185,15 +205,15 @@ def write_csv(courses):
         w.writerow(hdr)
         for c in courses:
             o = c["overall"] or {}
-            base = [c["code"], c["zh"], c["title"], ", ".join(c.get("genedCodes", [])), c["status"]]
+            base = [c["code"], c["zh"], c["title"], ", ".join(c.get("genedCodes", [])), ZH[c["status"]]]
             tail = [pct(o.get("aRate")), pct(o.get("aRateInclMinus")), o.get("gpa", ""), o.get("students", "")]
             if not c["teachers"]:
                 w.writerow(base + [""] * 9 + tail + [""])
             for t in c["teachers"]:
                 s = t["stats"] or {}
-                w.writerow(base + [t["name"], t["role"], " / ".join(t["modes"]), t["sections"],
+                w.writerow(base + [t["name"], ZH[t["role"]], " / ".join(map(zh_mode, t["modes"])), t["sections"],
                                    pct(s.get("aRate")), pct(s.get("aRateInclMinus")), s.get("gpa", ""),
-                                   s.get("students", ""), s.get("semesters", "")] + tail + ["；".join(t["notes"])])
+                                   s.get("students", ""), s.get("semesters", "")] + tail + ["；".join(map(zh_note, t["notes"]))])
 
 
 def main():
