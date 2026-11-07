@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UIUC 水课查询</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>UIUC 水课查询</h1>
+    <p class="sub">按 Gen Ed、课号、老师找给分高的课。数据来自 UIUC 公开成绩分布，<span id="data-range"></span></p>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="筛选条件">
+      <label class="wide">搜索
+        <input id="q" type="search" placeholder="课号或课名，如 CS 124、ECON、psychology" autocomplete="off">
+      </label>
+      <label>Gen Ed
+        <select id="gened"></select>
+      </label>
+      <label>院系
+        <select id="subject"><option value="">全部</option></select>
+      </label>
+      <label>课程级别
+        <select id="level">
+          <option value="">全部</option>
+          <option value="1">100 级</option>
+          <option value="2">200 级</option>
+          <option value="3">300 级</option>
+          <option value="4">400 级</option>
+          <option value="5">500 级及以上</option>
+        </select>
+      </label>
+      <label>最少学生数
+        <select id="min-students">
+          <option value="0">不限</option>
+          <option value="50">50</option>
+          <option value="200" selected>200</option>
+          <option value="1000">1000</option>
+        </select>
+      </label>
+      <label>排序
+        <select id="sort">
+          <option value="gpa">平均 GPA</option>
+          <option value="aRate">拿 A 比例</option>
+          <option value="students">学生数</option>
+          <option value="code">课号</option>
+        </select>
+      </label>
+      <label class="check"><input id="recent" type="checkbox" checked> 只看最近两年开过的</label>
+    </section>
+
+    <p id="summary" class="summary" aria-live="polite">加载数据中…</p>
+
+    <div class="layout">
+      <div class="table-wrap">
+        <table id="results">
+          <thead>
+            <tr>
+              <th>课程</th>
+              <th class="hide-sm">Gen Ed</th>
+              <th class="num">平均 GPA</th>
+              <th class="num">A 比例</th>
+              <th class="num hide-sm">学生数</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button id="more" type="button" hidden>显示更多</button>
+      </div>
+      <aside id="detail" hidden></aside>
+    </div>
+  </main>
+
+  <footer>
+    数据：<a href="https://github.com/wadefagen/datasets">wadefagen/datasets</a>（GPA 数据集与 Gen Ed 列表）。GPA 不含 W；A 比例 = A+/A/A- 占比。仅供参考，选课前请看最新 Course Explorer。
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

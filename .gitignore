@@ -1,0 +1,7 @@
+# Downloaded source CSVs (re-created by scripts/build_data.py)
+data/raw/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
