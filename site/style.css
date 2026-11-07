@@ -108,7 +108,7 @@ aside#detail {
 aside h2 { margin: 0 0 2px; font-size: 20px; }
 aside h3 { margin: 18px 0 6px; font-size: 14px; }
 aside .close { float: right; font: inherit; font-size: 20px; line-height: 1; border: 0; background: none; color: var(--muted); cursor: pointer; }
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 12px; }
+.stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 12px; }
 .stat { background: var(--bg); border-radius: 8px; padding: 8px 10px; }
 .stat b { display: block; font-size: 20px; font-variant-numeric: tabular-nums; }
 .stat span { font-size: 12px; color: var(--muted); }

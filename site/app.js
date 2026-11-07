@@ -128,7 +128,6 @@ function showDetail(code) {
     <div class="stats">
       <div class="stat"><b>${c.gpa.toFixed(2)}</b><span>${esc(t("detail.gpa"))}</span></div>
       <div class="stat"><b>${pct(c.aRate)}</b><span>${esc(t("detail.aRate"))}</span></div>
-      <div class="stat"><b>${pct(c.wRate)}</b><span>${esc(t("detail.wRate"))}</span></div>
     </div>
     <p class="empty">${esc(t("detail.meta", { students: c.students.toLocaleString(), terms: c.terms, last: c.lastTerm }))}</p>
 
