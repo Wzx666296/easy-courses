@@ -2,7 +2,8 @@
 """Build the Spring 2027 shortlist page data.
 
 Inputs:
-  data/spring2027/courses.csv   our course shortlist (code, Chinese name) — edit this to add/remove courses
+  data/spring2027/courses.csv   our course shortlist (code, Chinese name, optional grades_from for
+                                cross-listed courses whose grades WAF files under another code)
   WAF "Grade Disparities and Accolades by Instructor" final.csv  (grade stats per instructor x course)
   Course Explorer API, Spring 2027 schedule                      (who teaches which section, online/in person)
 
@@ -126,8 +127,10 @@ def build(refresh):
     courses = []
     for item in shortlist:
         code, zh = item["code"].strip(), item["zh"].strip()
-        rows = waf.get(code, [])
-        course = {"code": code, "zh": zh, "title": "", "geneds": [], "offered": False,
+        # Cross-listed courses: WAF may file the grades under the other code (e.g. ANTH 210 -> HDFS 220).
+        grades_code = (item.get("grades_from") or "").strip() or code
+        rows = waf.get(grades_code, [])
+        course = {"code": code, "zh": zh, "gradesFrom": grades_code if grades_code != code else None, "title": "", "geneds": [], "offered": False,
                   "overall": grade_stats(rows), "teachers": []}
         root = load_schedule(code, refresh)
         if root is None:

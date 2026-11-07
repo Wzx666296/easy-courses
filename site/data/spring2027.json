@@ -9,6 +9,7 @@
   {
    "code": "CPSC 113",
    "zh": "环境、农业与社会",
+   "gradesFrom": null,
    "title": "Environment, Agriculture, and Society",
    "geneds": [
     "Nat Sci & Tech - Life Sciences",
@@ -61,6 +62,7 @@
   {
    "code": "CPSC 131",
    "zh": "神话中的农业",
+   "gradesFrom": null,
    "title": "Agriculture in Mythology",
    "geneds": [
     "Cultural Studies - Non-West"
@@ -99,6 +101,7 @@
   {
    "code": "MUSE 250",
    "zh": "博物馆看世界",
+   "gradesFrom": null,
    "title": "The World Through Museums",
    "geneds": [
     "Cultural Studies - Western",
@@ -139,6 +142,7 @@
   {
    "code": "SPAN 246",
    "zh": "拉丁裔文学中的性别与性",
+   "gradesFrom": null,
    "title": "Gender & Sexuality in Latina/o Literature",
    "geneds": [
     "Cultural Studies - US Minority",
@@ -175,6 +179,7 @@
   {
    "code": "MUS 133",
    "zh": "世界音乐导论",
+   "gradesFrom": null,
    "title": "Introduction to World Music",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -288,6 +293,7 @@
   {
    "code": "EPSY 220",
    "zh": "职业发展",
+   "gradesFrom": null,
    "title": "Career Development: Exploration, Choice, and Skills",
    "geneds": [
     "Social & Beh Sci - Beh Sci"
@@ -327,6 +333,7 @@
   {
    "code": "AIS 285",
    "zh": "原住民思想家",
+   "gradesFrom": null,
    "title": "Indigenous Thinkers",
    "geneds": [
     "Cultural Studies - Non-West",
@@ -379,6 +386,7 @@
   {
    "code": "CWL 207",
    "zh": "印度电影",
+   "gradesFrom": null,
    "title": "Indian Cinema in Context",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -419,6 +427,7 @@
   {
    "code": "SHS 222",
    "zh": "聋人社群语言与文化",
+   "gradesFrom": null,
    "title": "Language & Culture of Deaf Communities",
    "geneds": [
     "Cultural Studies - US Minority",
@@ -460,6 +469,7 @@
   {
    "code": "HK 243",
    "zh": "体育与现代社会",
+   "gradesFrom": null,
    "title": "Sport & Modern Society",
    "geneds": [
     "Social & Beh Sci - Soc Sci"
@@ -510,6 +520,7 @@
   {
    "code": "ADV 150",
    "zh": "广告学导论",
+   "gradesFrom": null,
    "title": "Introduction to Advertising",
    "geneds": [
     "Social & Beh Sci - Soc Sci"
@@ -548,6 +559,7 @@
   {
    "code": "ANTH 103",
    "zh": "变迁世界中的人类学",
+   "gradesFrom": null,
    "title": "Anthro in a Changing World",
    "geneds": [
     "Cultural Studies - Non-West",
@@ -571,6 +583,7 @@
   {
    "code": "HDFS 105",
    "zh": "人类发展导论",
+   "gradesFrom": null,
    "title": "Intro to Human Development",
    "geneds": [
     "Social & Beh Sci - Beh Sci"
@@ -638,6 +651,7 @@
   {
    "code": "ECON 102",
    "zh": "微观经济学原理",
+   "gradesFrom": null,
    "title": "Microeconomic Principles",
    "geneds": [
     "Social & Beh Sci - Soc Sci"
@@ -692,6 +706,7 @@
   {
    "code": "GGIS 101",
    "zh": "全球发展与环境",
+   "gradesFrom": null,
    "title": "Global Development & Environment",
    "geneds": [
     "Cultural Studies - Non-West",
@@ -768,6 +783,7 @@
   {
    "code": "RST 335",
    "zh": "休闲与消费文化",
+   "gradesFrom": null,
    "title": "Leisure and Consumer Culture",
    "geneds": [
     "Social & Beh Sci - Soc Sci",
@@ -809,6 +825,7 @@
   {
    "code": "HK 302",
    "zh": "美国社会中的残障问题",
+   "gradesFrom": null,
    "title": "Disability in American Society",
    "geneds": [
     "Social & Beh Sci - Soc Sci"
@@ -871,6 +888,7 @@
   {
    "code": "ANTH 246",
    "zh": "法医科学",
+   "gradesFrom": null,
    "title": "Forensic Science",
    "geneds": [
     "Nat Sci & Tech - Life Sciences"
@@ -921,6 +939,7 @@
   {
    "code": "IB 110",
    "zh": "种族与环境生物学",
+   "gradesFrom": null,
    "title": "",
    "geneds": [],
    "offered": false,
@@ -937,6 +956,7 @@
   {
    "code": "PLPA 200",
    "zh": "植物、病原体与人类",
+   "gradesFrom": null,
    "title": "Plants, Pathogens, and People",
    "geneds": [
     "Advanced Composition",
@@ -977,6 +997,7 @@
   {
    "code": "ATMS 140",
    "zh": "气候与全球变化",
+   "gradesFrom": null,
    "title": "Climate and Global Change",
    "geneds": [
     "Nat Sci & Tech - Phys Sciences"
@@ -1015,6 +1036,7 @@
   {
    "code": "DANC 100",
    "zh": "当代舞蹈导论",
+   "gradesFrom": null,
    "title": "Intro to Contemporary Dance",
    "geneds": [
     "Cultural Studies - Western",
@@ -1167,6 +1189,7 @@
   {
    "code": "MUS 132",
    "zh": "流行音乐研究",
+   "gradesFrom": null,
    "title": "Popular Music Studies",
    "geneds": [
     "Cultural Studies - US Minority",
@@ -1255,6 +1278,7 @@
   {
    "code": "SPED 117",
    "zh": "残障文化",
+   "gradesFrom": null,
    "title": "The Culture of Disability",
    "geneds": [
     "Humanities - Hist & Phil"
@@ -1309,6 +1333,7 @@
   {
    "code": "HK 208",
    "zh": "医学伦理学导论",
+   "gradesFrom": null,
    "title": "Introduction to Medical Ethics",
    "geneds": [
     "Humanities - Hist & Phil"
@@ -1415,6 +1440,7 @@
   {
    "code": "MACS 100",
    "zh": "流行电视与电影导论",
+   "gradesFrom": null,
    "title": "Intro to Popular TV & Movies",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -1456,6 +1482,7 @@
   {
    "code": "FR 156",
    "zh": "探索巴黎",
+   "gradesFrom": null,
    "title": "",
    "geneds": [],
    "offered": false,
@@ -1472,6 +1499,7 @@
   {
    "code": "EALC 230",
    "zh": "当代东亚流行文化",
+   "gradesFrom": null,
    "title": "Popular Cultures of Contemporary East Asia",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -1574,6 +1602,7 @@
   {
    "code": "CLCV 224",
    "zh": "古典文化与少数族裔",
+   "gradesFrom": null,
    "title": "Greco-Roman Antiquity and US Minority Cultures",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -1616,6 +1645,7 @@
   {
    "code": "REL 110",
    "zh": "世界宗教",
+   "gradesFrom": null,
    "title": "World Religions",
    "geneds": [
     "Cultural Studies - Non-West",
@@ -1656,6 +1686,7 @@
   {
    "code": "REL 208",
    "zh": "南亚文化与文学",
+   "gradesFrom": null,
    "title": "Cultures & Literatures of South Asia",
    "geneds": [
     "Humanities - Lit & Arts",
@@ -1696,6 +1727,7 @@
   {
    "code": "RST 242",
    "zh": "自然与美国文化",
+   "gradesFrom": null,
    "title": "Nature in a Multicultural US Society",
    "geneds": [
     "Cultural Studies - Western"
@@ -1735,6 +1767,7 @@
   {
    "code": "ANSC 250",
    "zh": "美国社会中的伴侣动物",
+   "gradesFrom": null,
    "title": "Companion Animals in Society",
    "geneds": [
     "Cultural Studies - Western"
@@ -1773,6 +1806,7 @@
   {
    "code": "HK 271",
    "zh": "美国健康公平",
+   "gradesFrom": null,
    "title": "Health Equity in the United States",
    "geneds": [
     "Cultural Studies - US Minority"
@@ -1845,6 +1879,7 @@
   {
    "code": "BTW 250",
    "zh": "商务沟通原理",
+   "gradesFrom": null,
    "title": "Principles Bus Comm",
    "geneds": [
     "Advanced Composition"
@@ -1897,6 +1932,7 @@
   {
    "code": "SE 495",
    "zh": "高年级工程设计项目 II",
+   "gradesFrom": null,
    "title": "Senior Engineering Project II",
    "geneds": [],
    "offered": true,
@@ -1931,6 +1967,7 @@
   {
    "code": "ME 470",
    "zh": "高年级工程设计项目",
+   "gradesFrom": null,
    "title": "Senior Design Project",
    "geneds": [
     "Advanced Composition"
@@ -1981,6 +2018,7 @@
   {
    "code": "MACS 101",
    "zh": "媒体导论",
+   "gradesFrom": null,
    "title": "Introduction to the Media",
    "geneds": [
     "Advanced Composition"
@@ -2020,6 +2058,7 @@
   {
    "code": "ANSC 205",
    "zh": "世界动物资源",
+   "gradesFrom": null,
    "title": "World Animal Resources",
    "geneds": [
     "Advanced Composition"
@@ -2074,6 +2113,7 @@
   {
    "code": "HK 207",
    "zh": "流行病学导论",
+   "gradesFrom": null,
    "title": "Introduction to Epidemiology",
    "geneds": [
     "Quantitative Reasoning I"
@@ -2108,6 +2148,306 @@
    "genedCodes": [
     "QR1"
    ],
+   "status": "已开课"
+  },
+  {
+   "code": "AFRO 228",
+   "zh": "嘻哈音乐历史文化",
+   "gradesFrom": null,
+   "title": "Hip Hop Music: History and Culture",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6926,
+    "aRateInclMinus": 0.8658,
+    "gpa": 3.72,
+    "students": 231,
+    "semesters": 11
+   },
+   "teachers": [
+    {
+     "name": "John Meyers",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6926,
+      "aRateInclMinus": 0.8658,
+      "gpa": 3.72,
+      "students": 231,
+      "semesters": 11
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [
+    "LA",
+    "US"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "HDFS 120",
+   "zh": "家庭研究导论",
+   "gradesFrom": null,
+   "title": "Intro to Family Studies",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.503,
+    "aRateInclMinus": 0.6436,
+    "gpa": 3.46,
+    "students": 1173,
+    "semesters": 32
+   },
+   "teachers": [
+    {
+     "name": "Karen Kramer",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7284,
+      "aRateInclMinus": 0.806,
+      "gpa": 3.74,
+      "students": 232,
+      "semesters": 8
+     },
+     "notes": []
+    },
+    {
+     "name": "T Viana Da Conceicao Nascimento",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "SS",
+    "US"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANTH 210",
+   "zh": "全球视角下的家庭",
+   "gradesFrom": "HDFS 220",
+   "title": "Families in Global Perspective",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.5812,
+    "aRateInclMinus": 0.8058,
+    "gpa": 3.69,
+    "students": 1977,
+    "semesters": 22
+   },
+   "teachers": [
+    {
+     "name": "Karen Kramer",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6368,
+      "aRateInclMinus": 0.8285,
+      "gpa": 3.71,
+      "students": 939,
+      "semesters": 11
+     },
+     "notes": []
+    },
+    {
+     "name": "Madhulika Krishnaswamy",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.5789,
+      "aRateInclMinus": 0.8421,
+      "gpa": 3.76,
+      "students": 95,
+      "semesters": 1
+     },
+     "notes": [
+      "样本小（95 人）"
+     ]
+    },
+    {
+     "name": "J Zhang",
+     "role": "主讲",
+     "modes": [
+      "线上"
+     ],
+     "sections": 1,
+     "stats": null,
+     "notes": [
+      "WAF 无此老师教这门课的记录"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "SS",
+    "NW"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ANTH 182",
+   "zh": "拉丁美洲文化",
+   "gradesFrom": null,
+   "title": "Latin American Cultures",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6438,
+    "aRateInclMinus": 0.7397,
+    "gpa": 3.57,
+    "students": 73,
+    "semesters": 6
+   },
+   "teachers": [
+    {
+     "name": "Korinta Maldonado",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.7826,
+      "aRateInclMinus": 0.8261,
+      "gpa": 3.7,
+      "students": 46,
+      "semesters": 4
+     },
+     "notes": [
+      "样本小（46 人）"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "NW",
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "GSD 202",
+   "zh": "游戏与玩乐研究",
+   "gradesFrom": null,
+   "title": "Let’s Play: Understanding the Role of Play in Life and Art",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8305,
+    "aRateInclMinus": 0.8983,
+    "gpa": 3.76,
+    "students": 59,
+    "semesters": 3
+   },
+   "teachers": [
+    {
+     "name": "Ava Wolf",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8305,
+      "aRateInclMinus": 0.8983,
+      "gpa": 3.76,
+      "students": 59,
+      "semesters": 3
+     },
+     "notes": [
+      "样本小（59 人）"
+     ]
+    }
+   ],
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "已开课"
+  },
+  {
+   "code": "ACE 240",
+   "zh": "个人理财规划",
+   "gradesFrom": null,
+   "title": "Personal Financial Planning",
+   "geneds": [],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7867,
+    "aRateInclMinus": 0.8117,
+    "gpa": 3.65,
+    "students": 9649,
+    "semesters": 54
+   },
+   "teachers": [
+    {
+     "name": "Craig Lemoine",
+     "role": "主讲",
+     "modes": [
+      "线上·后八周"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.8581,
+      "aRateInclMinus": 0.8584,
+      "gpa": 3.72,
+      "students": 7060,
+      "semesters": 18
+     },
+     "notes": []
+    },
+    {
+     "name": "Donovan Sanchez",
+     "role": "主讲",
+     "modes": [
+      "线下"
+     ],
+     "sections": 1,
+     "stats": {
+      "aRate": 0.6293,
+      "aRateInclMinus": 0.7333,
+      "gpa": 3.57,
+      "students": 1365,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "genedCodes": [],
    "status": "已开课"
   }
  ]

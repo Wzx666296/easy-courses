@@ -94,6 +94,7 @@ function card(c, rank) {
       </table>` : ""}
     ${c.offered && !c.teachers.length ? `<p class="nodata">${esc(c.status)}，下面是整门课的历史数据。</p>` : ""}
     ${!state.showTA && tas.length ? `<div class="meta en">另有 ${tas.length} 位讨论课老师（勾选上方「显示讨论课老师」查看）</div>` : ""}
+    ${c.gradesFrom ? `<div class="meta en">与 ${esc(c.gradesFrom)} 是同一门课，成绩按 ${esc(c.gradesFrom)} 统计</div>` : ""}
     ${o ? `<div class="overall">整门课历史：A 率 ${pct(o.aRate)} · 含 A- ${pct(o.aRateInclMinus)} · GPA ${o.gpa.toFixed(2)} · ${o.students.toLocaleString()} 人</div>` : ""}
   </article>`;
 }
