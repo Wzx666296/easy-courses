@@ -22,6 +22,27 @@
 .chip:hover { border-color: var(--accent); }
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 .chip .count { opacity: .7; margin-left: 3px; }
+.chips.sub { padding-left: 12px; border-left: 3px solid var(--accent-soft); }
+.chips.sub .chip { font-size: 12.5px; padding: 3px 10px; }
+.chips.sub .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--text); }
+.req { margin: 0; font-size: 13px; color: var(--text); background: var(--bg); border-radius: 8px; padding: 8px 12px; }
+.req small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+/* Gen Ed tags, colored by top-level category */
+.tag.g-SBS { background: #e6f0fb; border-color: #c9dcf3; color: #1f4f86; }
+.tag.g-HUM { background: #f4ebfa; border-color: #e1cfee; color: #5e2f86; }
+.tag.g-NAT { background: #e4f4ea; border-color: #c5e5d0; color: #1d6b3c; }
+.tag.g-CS  { background: #fdf0e1; border-color: #f3d9b8; color: #8a4b0b; }
+.tag.g-ACP { background: #fbe7ec; border-color: #f1cbd5; color: #8c2443; }
+.tag.g-QR  { background: #e5f4f6; border-color: #c4e4e9; color: #145f6b; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .tag.g-SBS { background: #1b2a3c; border-color: #2a405a; color: #9cc3f0; }
+  :root:not([data-theme="light"]) .tag.g-HUM { background: #2a1f35; border-color: #40304f; color: #d0b0ee; }
+  :root:not([data-theme="light"]) .tag.g-NAT { background: #17301f; border-color: #25472f; color: #8fd6a8; }
+  :root:not([data-theme="light"]) .tag.g-CS  { background: #33240f; border-color: #4d3718; color: #f0c48c; }
+  :root:not([data-theme="light"]) .tag.g-ACP { background: #351a22; border-color: #4f2733; color: #f0a8bb; }
+  :root:not([data-theme="light"]) .tag.g-QR  { background: #142d31; border-color: #204349; color: #8fd3dd; }
+}
 .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
 .controls label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
 .controls label.check { flex-direction: row; align-items: center; gap: 6px; color: var(--text); padding-bottom: 7px; }

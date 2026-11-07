@@ -13,7 +13,7 @@ const CATEGORIES = [
 const MIN_RELIABLE = 100; // students; below this a teacher's numbers are marked as small-sample
 
 const $ = (id) => document.getElementById(id);
-const state = { cat: "", mode: "", half: "", sort: "aRate", showTA: false };
+const state = { cat: "", sub: "", mode: "", half: "", sort: "aRate", showTA: false };
 let data;
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -21,6 +21,10 @@ const pct = (x) => (x == null ? "—" : `${(x * 100).toFixed(1)}%`);
 const fmtInt = (n) => n.toLocaleString(LANG === "zh" ? "zh-CN" : "en-US");
 const tone = (a) => (a == null ? "" : a >= 0.85 ? "good" : a >= 0.7 ? "mid" : "bad");
 const gpaTone = (g) => (g == null ? "" : g >= 3.75 ? "good" : g >= 3.5 ? "mid" : "bad");
+const catOf = (code) => CATEGORIES.find((c) => c.codes && c.codes.includes(code))?.key || "";
+// Tags sorted by category order so the same categories line up across cards.
+const sortedCodes = (codes) => [...codes].sort((a, b) =>
+  CATEGORIES.findIndex((c) => c.key === catOf(a)) - CATEGORIES.findIndex((c) => c.key === catOf(b)));
 const sortKey = () => (state.sort === "code" ? "aRate" : state.sort);
 
 // Mode codes from the build script: "online" | "inperson", optionally "-A" / "-B" for half-term sections.
@@ -54,6 +58,7 @@ function matches(c) {
   if (state.cat) {
     const cat = CATEGORIES.find((x) => x.key === state.cat);
     if (!c.genedCodes.some((g) => cat.codes.includes(g))) return false;
+    if (state.sub && !c.genedCodes.includes(state.sub)) return false;
   }
   const modes = c.teachers.flatMap((x) => x.modes);
   if (state.mode && !modes.some((m) => m.split("-")[0] === state.mode)) return false;
@@ -79,7 +84,7 @@ function card(c, rank) {
   const leads = c.teachers.filter((x) => x.role === "lead");
   const tas = c.teachers.filter((x) => x.role === "discussion");
   const shown = state.showTA ? c.teachers : leads;
-  const tags = (c.genedCodes || []).map((g) => `<span class="tag">${esc(t(`code.${g}`))}</span>`);
+  const tags = sortedCodes(c.genedCodes || []).map((g) => `<span class="tag g-${catOf(g)}">${esc(t(`code.${g}`))}</span>`);
   if (c.offered && !c.genedCodes.length) tags.push(`<span class="tag warn">${esc(t("notGened"))}</span>`);
   const o = c.overall;
   const h = b ? b.stats : null;
@@ -115,6 +120,32 @@ function renderChips() {
     const label = cat.key ? t(`cat.${cat.key}`) : t("all");
     return `<button type="button" class="chip" data-key="${cat.key}" aria-pressed="${cat.key === state.cat}">${esc(label)}<span class="count">${n}</span></button>`;
   }).join("");
+  renderSubChips();
+}
+
+// Second row: subcategories of the selected category, plus its graduation requirement.
+function renderSubChips() {
+  const cat = CATEGORIES.find((x) => x.key === state.cat);
+  const box = $("sub-chips");
+  const req = $("req");
+  if (!cat || !cat.key) {
+    box.hidden = true; req.hidden = true;
+    return;
+  }
+  const offered = data.courses.filter((c) => c.offered);
+  if (cat.codes.length > 1) {
+    const inCat = offered.filter((c) => c.genedCodes.some((g) => cat.codes.includes(g))).length;
+    box.innerHTML = [`<button type="button" class="chip" data-sub="" aria-pressed="${!state.sub}">${esc(t("all"))}<span class="count">${inCat}</span></button>`]
+      .concat(cat.codes.map((code) => {
+        const n = offered.filter((c) => c.genedCodes.includes(code)).length;
+        return `<button type="button" class="chip" data-sub="${code}" aria-pressed="${state.sub === code}">${esc(t(`code.${code}`))}<span class="count">${n}</span></button>`;
+      })).join("");
+    box.hidden = false;
+  } else {
+    box.hidden = true;
+  }
+  req.innerHTML = `${esc(t(`req.${cat.key}`))}<small>${esc(t("req.note"))}</small>`;
+  req.hidden = false;
 }
 
 function render() {
@@ -156,6 +187,15 @@ async function init() {
     const btn = e.target.closest(".chip");
     if (!btn) return;
     state.cat = btn.dataset.key;
+    state.sub = "";
+    renderSubChips();
+    render();
+  });
+  $("sub-chips").addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn) return;
+    state.sub = btn.dataset.sub;
+    renderSubChips();
     render();
   });
   for (const id of ["mode", "half", "sort"]) {
