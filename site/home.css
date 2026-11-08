@@ -221,6 +221,7 @@
   color: var(--muted);
 }
 .notice p { margin: 0; }
+.notice .fun { margin-bottom: 4px; color: var(--text-2); }
 .notice .contact { margin-top: 4px; color: var(--text-2); }
 .notice .contact a { color: var(--text); font-weight: 500; text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; }
 @media (prefers-reduced-motion: no-preference) { .notice.reveal { animation-delay: .3s; } }
