@@ -7,7 +7,7 @@ const STRINGS = {
   zh: {
     // shared
     "nav.search": "全部课程查询",
-    "nav.spring": "2027 春清单",
+    "nav.spring": "慵懒选课指南",
     "lang.label": "语言",
     "loadFailed": "数据加载失败。请用 README 里的命令启动本地服务器（直接双击 HTML 文件打不开数据）。",
     "students": "{n} 人",
@@ -77,8 +77,8 @@ const STRINGS = {
     "gened.SS": "  └ SS 社会科学",
 
     // spring 2027 page
-    "spring.docTitle": "2027 春水课清单",
-    "spring.title": "2027 春水课清单",
+    "spring.docTitle": "UIUC 慵懒选课指南 2027 Spring",
+    "spring.title": "UIUC 慵懒选课指南 2027 Spring",
     "spring.intro": "我们挑出的 {total} 门课里，{offered} 门 2027 春开课。每门课按 2027 春实际授课老师的历史成绩排序。",
     "spring.filters": "筛选",
     "spring.genedGroup": "Gen Ed 类别",
