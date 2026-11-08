@@ -52,3 +52,20 @@
   .course-head h1 .zh { display: block; margin: 4px 0 0; font-size: 18px; }
   .panel { padding: 16px; }
 }
+
+/* RateMyProfessors link next to each instructor */
+.rmp {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 0 6px;
+  height: 18px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--muted);
+  vertical-align: 1px;
+  transition: color .15s, border-color .15s;
+}
+.rmp:hover { color: var(--blue-text); border-color: var(--blue-line); text-decoration: none; }

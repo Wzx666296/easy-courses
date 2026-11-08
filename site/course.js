@@ -91,7 +91,7 @@ function render() {
     : `<p class="nodata">—</p>`);
 
   const teachers = c.offered ? section(t("course.teachers"),
-    c.teachers.length ? teachersTable(c.teachers) : `<p class="nodata">${esc(t("status.noTeacher"))}</p>`, "wide") : "";
+    c.teachers.length ? `${teachersTable(c.teachers, { rmp: true })}<p class="source">${esc(t("rmp.note"))}</p>` : `<p class="nodata">${esc(t("status.noTeacher"))}</p>`, "wide") : "";
 
   const history = section(t("course.history"), `${bigNumbers(b)}
       ${c.overall ? `<p class="source">${esc(overallLine(c.overall))}</p>` : ""}

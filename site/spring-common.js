@@ -93,12 +93,22 @@ function courseBadges(c) {
     + (async ? pill("async", t("sched.asyncShort")) : "");
 }
 
-function teacherRow(x) {
+// RateMyProfessors search limited to UIUC (school id 1112). When the schedule only gives
+// an initial ("K Vittore"), search by last name so the right person still shows up.
+const RMP_SCHOOL = 1112;
+function rmpUrl(name) {
+  const parts = name.trim().split(/\s+/);
+  const query = parts.length > 1 && parts[0].length <= 1 ? parts.slice(1).join(" ") : name;
+  return `https://www.ratemyprofessors.com/search/professors/${RMP_SCHOOL}?q=${encodeURIComponent(query)}`;
+}
+
+function teacherRow(x, opts = {}) {
   const s = x.stats;
   const notes = x.notes.filter((n) => n.type !== "noData").map(noteLabel);
   const cls = x.role === "discussion" ? "ta" : "";
   return `<tr class="${cls} head">
-    <td><div class="who">${esc(x.name)}${x.role === "discussion" ? `<span class="role">${esc(t("role.discussion"))}</span>` : ""}</div>
+    <td><div class="who">${esc(x.name)}${x.role === "discussion" ? `<span class="role">${esc(t("role.discussion"))}</span>` : ""}${opts.rmp
+        ? `<a class="rmp" href="${esc(rmpUrl(x.name))}" target="_blank" rel="noopener" title="${esc(t("rmp.title", { name: x.name }))}">RMP<span aria-hidden="true"> ↗</span></a>` : ""}</div>
       ${notes.length ? `<div class="note">${esc(notes.join(LANG === "zh" ? "；" : "; "))}</div>` : ""}</td>
     ${s ? `<td class="num">${pct(s.aRate)}</td><td class="num">${pct(s.aRateInclMinus)}</td>
       <td class="num">${s.gpa.toFixed(2)}</td><td class="num hide-xs">${fmtInt(s.students)}</td>`
@@ -127,10 +137,10 @@ function bigNumbers(b) {
     <div class="meta">${esc(t("big.who", { name: b.name }))}</div>`;
 }
 
-function teachersTable(rows) {
+function teachersTable(rows, opts = {}) {
   return `<table class="teachers">
     <thead><tr><th>${esc(t("th.teacher"))}</th><th class="num">${esc(t("th.a"))}</th><th class="num">${esc(t("th.am"))}</th><th class="num">${esc(t("th.gpa"))}</th><th class="num hide-xs">${esc(t("th.n"))}</th></tr></thead>
-    <tbody>${rows.map(teacherRow).join("")}</tbody>
+    <tbody>${rows.map((x) => teacherRow(x, opts)).join("")}</tbody>
   </table>`;
 }
 
