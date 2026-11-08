@@ -6180,65 +6180,6 @@
    "status": "offered"
   },
   {
-   "code": "ATMS 120",
-   "zh": "极端与危险天气",
-   "gradesFrom": null,
-   "title": "Severe and Hazardous Weather",
-   "geneds": [
-    "Nat Sci & Tech - Phys Sciences",
-    "Quantitative Reasoning II"
-   ],
-   "offered": true,
-   "overall": {
-    "aRate": 0.4631,
-    "aRateInclMinus": 0.5544,
-    "gpa": 3.3,
-    "students": 4841,
-    "semesters": 29
-   },
-   "teachers": [
-    {
-     "name": "Jessica Choate",
-     "role": "lead",
-     "modes": [
-      "online-A"
-     ],
-     "sections": 2,
-     "schedule": [
-      {
-       "type": "Online",
-       "mode": "online",
-       "part": "A",
-       "days": "",
-       "start": null,
-       "end": null,
-       "dates": "1/19–3/12",
-       "sections": [
-        "A",
-        "HA"
-       ]
-      }
-     ],
-     "stats": {
-      "aRate": 0.4631,
-      "aRateInclMinus": 0.5544,
-      "gpa": 3.3,
-      "students": 4841,
-      "semesters": 29
-     },
-     "notes": []
-    }
-   ],
-   "extras": {},
-   "description": "Most extreme manifestations of weather and climate are analyzed in terms of their physical basis and their historical, economic and human consequences. Emphasis is placed on the interplay between technological advances, the evolution of meteorology as a science, and the impacts of extreme weather (winter storms, floods, severe thunderstorms, hurricanes, El Nino). Technological advances include satellites, weather radars and profilers, and computer models used for weather prediction. Same as ESE 120.",
-   "credits": "3",
-   "genedCodes": [
-    "PS",
-    "QR2"
-   ],
-   "status": "offered"
-  },
-  {
    "code": "FSHN 120",
    "zh": "当代营养学",
    "gradesFrom": null,
