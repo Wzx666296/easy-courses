@@ -47,6 +47,20 @@ python3 scripts/build_spring2027.py --refresh
 - 如果新下载的数据明显不对（比如课表接口挂了、开课数骤减、成绩文件解析失败），脚本会报错退出、保留旧数据，不会把网站弄坏。需要强制覆盖时本地加 `--force`。
 - 首页显示的"数据更新于"是数据**最后一次真正变化**的日期，没有变化时不会每周刷新。
 
+## 图标和分享卡片
+
+Logo 是"拭目以待"徽章（原图 `assets/mascot.jpg`）。网站图标、主屏幕图标和分享卡片都在 `site/img/`，换图后用 macOS 自带的 Swift 重新生成：
+
+```bash
+swift scripts/brand/make_icons.swift assets/mascot.jpg site/img
+```
+
+```bash
+swift scripts/brand/make_share_card.swift site/img/logo-512.png site/img/og.png
+```
+
+上线后把各页面里 `og:image` 的 `img/og.png` 改成完整网址（如 `https://xxx.github.io/easy-courses/img/og.png`），微信、iMessage 才能稳定显示预览图。
+
 ## 课程详情页（course.html）
 
 清单里每门课点进去是 `course.html?code=ANTH-103`：官方课程描述、2027 春老师与上课时间、历史成绩、成绩构成、往年 syllabus 和 Reddit。
