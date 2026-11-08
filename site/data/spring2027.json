@@ -6034,6 +6034,291 @@
     "QR1"
    ],
    "status": "offered"
+  },
+  {
+   "code": "ABE 152",
+   "zh": "全球环境中的水",
+   "gradesFrom": null,
+   "title": "Water in the Global Environment",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Nat Sci & Tech - Phys Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.9168,
+    "aRateInclMinus": 0.9196,
+    "gpa": 3.85,
+    "students": 4389,
+    "semesters": 16
+   },
+   "teachers": [
+    {
+     "name": "Rabin Bhattarai",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "MW",
+       "start": 780,
+       "end": 890,
+       "dates": "3/15–5/5",
+       "sections": [
+        "WGE"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.9217,
+      "aRateInclMinus": 0.9238,
+      "gpa": 3.86,
+      "students": 1417,
+      "semesters": 5
+     },
+     "notes": []
+    },
+    {
+     "name": "Paul Davidson",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "MW",
+       "start": 780,
+       "end": 890,
+       "dates": "3/15–5/5",
+       "sections": [
+        "WGE"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.9217,
+      "aRateInclMinus": 0.9238,
+      "gpa": 3.86,
+      "students": 1417,
+      "semesters": 5
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "description": "This course develops a comprehensive understanding and appreciation of water and its impact in a global context. The course emphasizes cultural practices associated with water and its use, especially for regions in non-western cultures. Students will develop critical knowledge of: 1) water availability, water quality, and global challenges; 2) historical perspectives of water use; 3) past, present, and future environmental sustainability in relation to water, food, and energy; and 4) conduct analysis of cultural practices and their sustainability based on water in a global context. Students attend 3-4 field trips related to the course.",
+   "credits": "3",
+   "genedCodes": [
+    "NW",
+    "PS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "CHEM 108",
+   "zh": "日常生活中的化学",
+   "gradesFrom": null,
+   "title": "Chemistry, Everyday Phenomena",
+   "geneds": [
+    "Nat Sci & Tech - Phys Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8258,
+    "aRateInclMinus": 0.8723,
+    "gpa": 3.74,
+    "students": 752,
+    "semesters": 12
+   },
+   "teachers": [
+    {
+     "name": "John Leveritt",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "AL"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.8258,
+      "aRateInclMinus": 0.8723,
+      "gpa": 3.74,
+      "students": 752,
+      "semesters": 12
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "description": "[IAI Code: P1903] Introduces the student to the basic applications of chemistry in everyday life. Topics covered include climate change, radioactive isotopes, isolation of elements, polymers, and catalysis. Credit in CHEM 108 does not count toward Chemistry requirements for students in the Specialized Curriculum in Chemistry, the Science and Letters Chemistry major, the Chemistry Teaching Option, or the Chemistry minor; however the course may be taken by students in any of these groups for general education hours. Prerequisite: Credit or concurrent registration in MATH 112.",
+   "credits": "3",
+   "genedCodes": [
+    "PS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "ATMS 120",
+   "zh": "极端与危险天气",
+   "gradesFrom": null,
+   "title": "Severe and Hazardous Weather",
+   "geneds": [
+    "Nat Sci & Tech - Phys Sciences",
+    "Quantitative Reasoning II"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.4631,
+    "aRateInclMinus": 0.5544,
+    "gpa": 3.3,
+    "students": 4841,
+    "semesters": 29
+   },
+   "teachers": [
+    {
+     "name": "Jessica Choate",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A",
+        "HA"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.4631,
+      "aRateInclMinus": 0.5544,
+      "gpa": 3.3,
+      "students": 4841,
+      "semesters": 29
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "description": "Most extreme manifestations of weather and climate are analyzed in terms of their physical basis and their historical, economic and human consequences. Emphasis is placed on the interplay between technological advances, the evolution of meteorology as a science, and the impacts of extreme weather (winter storms, floods, severe thunderstorms, hurricanes, El Nino). Technological advances include satellites, weather radars and profilers, and computer models used for weather prediction. Same as ESE 120.",
+   "credits": "3",
+   "genedCodes": [
+    "PS",
+    "QR2"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "FSHN 120",
+   "zh": "当代营养学",
+   "gradesFrom": null,
+   "title": "Contemporary Nutrition",
+   "geneds": [
+    "Nat Sci & Tech - Life Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.75,
+    "aRateInclMinus": 0.75,
+    "gpa": 3.64,
+    "students": 8688,
+    "semesters": 27
+   },
+   "teachers": [
+    {
+     "name": "Toni Gist",
+     "role": "lead",
+     "modes": [
+      "inperson",
+      "online"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 720,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "H"
+       ]
+      },
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 900,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BLC"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "H",
+        "ONL"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.7622,
+      "aRateInclMinus": 0.7622,
+      "gpa": 3.66,
+      "students": 7775,
+      "semesters": 15
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "description": "Fundamental principles of human nutrition and their application to the selection of an adequate diet for health and wellness; current nutrition topics of importance. Credit is not given for FSHN 120 if credit has been given for FSHN 220.",
+   "credits": "3",
+   "genedCodes": [
+    "LS"
+   ],
+   "status": "offered"
   }
  ]
 }
