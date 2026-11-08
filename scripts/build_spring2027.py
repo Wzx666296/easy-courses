@@ -175,6 +175,8 @@ def build(refresh):
             continue
         course["offered"] = True
         course["title"] = root.findtext("label") or ""
+        # "3 hours." / "1 TO 3 hours." -> "3" / "1–3"
+        course["credits"] = "–".join(re.findall(r"\d+", root.findtext("creditHours") or ""))
         course["geneds"] = [a.text.replace("–", "-").strip() for a in root.iter("genEdAttribute")]
         course["genedCodes"] = [a.get("code").lstrip("1") for a in root.iter("genEdAttribute")]
 

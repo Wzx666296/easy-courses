@@ -13,7 +13,7 @@ const CATEGORIES = [
 const MIN_RELIABLE = 100; // students; below this a teacher's numbers are marked as small-sample
 
 const $ = (id) => document.getElementById(id);
-const state = { cat: "", sub: "", mode: "", half: "", sort: "aRate", showTA: false };
+const state = { q: "", cat: "", sub: "", mode: "", half: "", sort: "aRate", showTA: false };
 let data;
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -49,7 +49,12 @@ function sortValue(c) {
   return c.overall ? c.overall[key] - 1 : -9; // no teacher data: sink below courses that have it
 }
 
+const norm = (x) => (x || "").toLowerCase().replace(/\s+/g, "");
 function matches(c) {
+  if (state.q) {
+    const hay = [c.code, c.zh, c.title, ...c.teachers.map((x) => x.name)].map(norm).join("|");
+    if (!hay.includes(state.q)) return false;
+  }
   if (state.cat) {
     const cat = CATEGORIES.find((x) => x.key === state.cat);
     if (!c.genedCodes.some((g) => cat.codes.includes(g))) return false;
@@ -136,7 +141,7 @@ function card(c, rank) {
   const leads = c.teachers.filter((x) => x.role === "lead");
   const tas = c.teachers.filter((x) => x.role === "discussion");
   const shown = state.showTA ? c.teachers : leads;
-  const tags = sortedCodes(c.genedCodes || []).map((g) => `<span class="tag g-${catOf(g)}">${esc(t(`code.${g}`))}</span>`);
+  const tags = sortedCodes(c.genedCodes || []).map((g) => `<span class="tag">${esc(t(`code.${g}`))}</span>`);
   if (c.offered && !c.genedCodes.length) tags.push(`<span class="tag warn">${esc(t("notGened"))}</span>`);
   const o = c.overall;
   const h = b ? b.stats : null;
@@ -144,7 +149,7 @@ function card(c, rank) {
 
   return `<article class="card ${c.offered ? "" : "muted"}" id="${esc(c.code.replace(" ", "-"))}">
     <div class="card-head">
-      <div><h3>${esc(c.code)}${sub ? `<small>${esc(sub)}</small>` : ""}</h3>${c.title ? `<div class="en">${esc(c.title)}</div>` : ""}</div>
+      <div><h3>${esc(c.code)}${sub ? `<small>${esc(sub)}</small>` : ""}</h3>${c.title ? `<div class="en">${esc(c.title)}${c.credits ? ` · ${esc(t("credits", { n: c.credits }))}` : ""}</div>` : ""}</div>
       ${rank ? `<span class="rank">#${rank}</span>` : ""}
     </div>
     ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
@@ -254,6 +259,7 @@ async function init() {
   for (const id of ["mode", "half", "sort"]) {
     $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); });
   }
+  $("q").addEventListener("input", (e) => { state.q = norm(e.target.value); render(); });
   $("show-ta").addEventListener("change", (e) => { state.showTA = e.target.checked; render(); });
   onLangChange(renderTexts);
   renderTexts();

@@ -49,7 +49,7 @@ function esc(s) {
 }
 const pct = (x) => `${Math.round(x * 100)}%`;
 function gpaBadge(g) {
-  const cls = g >= 3.5 ? "good" : g >= 3.0 ? "mid" : "bad";
+  const cls = g >= 3.7 ? "good" : "";
   return `<span class="gpa ${cls}">${g.toFixed(2)}</span>`;
 }
 const termYear = (label) => Number(label.split(" ").pop());

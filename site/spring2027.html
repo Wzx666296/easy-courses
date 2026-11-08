@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2027 春水课清单</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="spring2027.css">
+  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="spring2027.css?v=4">
 </head>
 <body>
   <header>
@@ -19,6 +19,10 @@
 
   <main>
     <section class="toolbar" data-i18n-aria-label="spring.filters">
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5" stroke-linecap="round"/></svg>
+        <input id="q" type="search" data-i18n-placeholder="spring.q" data-i18n-aria-label="spring.q" autocomplete="off">
+      </label>
       <div class="chips" id="gened-chips" role="group" data-i18n-aria-label="spring.genedGroup"></div>
       <div class="chips sub" id="sub-chips" role="group" data-i18n-aria-label="spring.subGroup" hidden></div>
       <p class="req" id="req" hidden></p>
@@ -60,7 +64,7 @@
   </main>
 
   <footer id="footer"></footer>
-  <script src="i18n.js"></script>
-  <script src="spring2027.js"></script>
+  <script src="i18n.js?v=4"></script>
+  <script src="spring2027.js?v=4"></script>
 </body>
 </html>
