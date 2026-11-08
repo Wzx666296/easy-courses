@@ -11,6 +11,7 @@ const GENED_GROUPS = {
   SBS: ["BSC", "SS"],
 };
 const PAGE_SIZE = 100;
+const WAF_URL = "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/";
 
 const $ = (id) => document.getElementById(id);
 const els = {
@@ -132,6 +133,8 @@ function showDetail(code) {
       <div class="stat"><b class="${aCls(c.aRate)}">${pct(c.aRate)}</b><span>${esc(t("detail.aRate"))}</span></div>
     </div>
     <p class="empty">${esc(t("detail.meta", { students: c.students.toLocaleString(), terms: c.terms, last: c.lastTerm }))}</p>
+    <p class="waf-link"><a href="${WAF_URL}" target="_blank" rel="noopener">${esc(t("detail.waf"))}<span aria-hidden="true"> ↗</span></a>
+      <span class="waf-hint">${esc(t("detail.wafHint", { code: c.code }))}</span></p>
 
     <h3>${esc(t("detail.byTeacher"))}</h3>
     <table>
