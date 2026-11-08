@@ -74,6 +74,7 @@ swift scripts/brand/make_share_card.swift site/img/logo-512.png site/img/og.png
 - 描述来自 Course Explorer（不开课的课用课程目录补）。
 - 成绩构成、syllabus、Reddit 帖子是**手动收录**的，写在 `data/spring2027/extras.json`，改完重新跑 `python3 scripts/build_spring2027.py`。只收录自己打开核实过的来源，格式见文件里的 `_example`。
 - 没收录的课会显示"在网上搜索 syllabus"和"在 r/UIUC 搜索"两个链接。
+- 老师的"UIUC 主页"按钮来自 `data/spring2027/teacher-links.json`（老师名 → illinois.edu 个人页），只收录搜到或打开确认过的个人页；没有的老师不显示这个按钮。
 
 ## 朋友评价
 

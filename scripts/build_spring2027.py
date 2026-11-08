@@ -40,6 +40,7 @@ CE_URL = "https://courses.illinois.edu/cisapp/explorer/schedule/2027/spring/{sub
 # Catalog entry (description etc.) for courses not on the Spring 2027 schedule.
 CATALOG_URL = "https://courses.illinois.edu/cisapp/explorer/catalog/2026/fall/{subj}/{num}.xml"
 EXTRAS_PATH = os.path.join(ROOT, "data", "spring2027", "extras.json")
+TEACHER_LINKS_PATH = os.path.join(ROOT, "data", "spring2027", "teacher-links.json")
 LECTURE_TYPES = {"Lecture", "Lecture-Discussion", "Online Lecture"}
 
 
@@ -222,6 +223,10 @@ def schedule_list(slots):
 def build(refresh):
     waf = load_waf(refresh)
     extras = load_extras()
+    teacher_links = {}
+    if os.path.exists(TEACHER_LINKS_PATH):
+        with open(TEACHER_LINKS_PATH, encoding="utf-8") as f:
+            teacher_links = {k: v for k, v in json.load(f).items() if not k.startswith("_")}
     with open(LIST_PATH, encoding="utf-8", newline="") as f:
         shortlist = list(csv.DictReader(f))
 
@@ -268,6 +273,7 @@ def build(refresh):
             course["teachers"].append({
                 "name": name, "role": role, "modes": sorted(d["modes"]),
                 "sections": len(d["sections"]), "schedule": schedule_list(d["slots"]),
+                "homepage": teacher_links.get(name),
                 "stats": stats, "notes": notes,
             })
         course["teachers"].sort(key=lambda t: (t["role"] != "lead", t["stats"] is None,
