@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN" data-title-key="search.docTitle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UIUC 水课查询</title>
+  <link rel="stylesheet" href="style.css?v=11">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html" data-keep-lang aria-label="Home"><span class="brand-mark" aria-hidden="true"></span><span data-i18n="brand">慵懒选课</span></a>
+      <a href="spring2027.html" data-keep-lang data-i18n="nav.spring">慵懒选课指南</a>
+      <b data-i18n="nav.search">全部课程查询</b>
+      <span class="lang-switch" role="group" data-i18n-aria-label="lang.label"></span>
+    </nav>
+    <h1 data-i18n="search.title">UIUC 水课查询</h1>
+    <p class="sub"><span data-i18n="search.sub"></span><span id="data-range"></span></p>
+  </header>
+
+  <main>
+    <section class="filters" data-i18n-aria-label="search.filters">
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5" stroke-linecap="round"/></svg>
+        <input id="q" type="search" data-i18n-placeholder="search.qPlaceholder" data-i18n-aria-label="search.q" autocomplete="off">
+      </label>
+      <label><span data-i18n="search.gened">Gen Ed</span>
+        <select id="gened"></select>
+      </label>
+      <label><span data-i18n="search.subject">院系</span>
+        <select id="subject"><option value="" data-i18n="all">全部</option></select>
+      </label>
+      <label><span data-i18n="search.level">课程级别</span>
+        <select id="level">
+          <option value="" data-i18n="all">全部</option>
+          <option value="1">100</option>
+          <option value="2">200</option>
+          <option value="3">300</option>
+          <option value="4">400</option>
+          <option value="5" data-i18n="level.5">500 级及以上</option>
+        </select>
+      </label>
+      <label><span data-i18n="search.minStudents">最少学生数</span>
+        <select id="min-students">
+          <option value="0" data-i18n="noLimit">不限</option>
+          <option value="50">50</option>
+          <option value="200" selected>200</option>
+          <option value="1000">1000</option>
+        </select>
+      </label>
+      <label><span data-i18n="search.sort">排序</span>
+        <select id="sort">
+          <option value="gpa" data-i18n="sort.gpa">平均 GPA</option>
+          <option value="aRate" data-i18n="sort.aRate">拿 A 比例</option>
+          <option value="students" data-i18n="sort.students">学生数</option>
+          <option value="code" data-i18n="sort.code">课号</option>
+        </select>
+      </label>
+      <label class="check"><input id="recent" type="checkbox" checked> <span data-i18n="search.recent">只看最近两年开过的</span></label>
+    </section>
+
+    <p id="summary" class="summary" aria-live="polite" data-i18n="loading">加载数据中…</p>
+
+    <div class="layout">
+      <div class="table-wrap">
+        <table id="results">
+          <thead>
+            <tr>
+              <th data-i18n="col.course">课程</th>
+              <th class="hide-sm">Gen Ed</th>
+              <th class="num" data-i18n="col.gpa">平均 GPA</th>
+              <th class="num" data-i18n="col.aRate">A 比例</th>
+              <th class="num hide-sm" data-i18n="col.students">学生数</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button id="more" type="button" hidden data-i18n="more">显示更多</button>
+      </div>
+      <aside id="detail" hidden></aside>
+    </div>
+  </main>
+
+  <footer data-i18n-html="search.footer"></footer>
+
+  <script src="i18n.js?v=11"></script>
+  <script src="app.js?v=11"></script>
+</body>
+</html>

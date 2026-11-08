@@ -14,7 +14,7 @@
 python3 -m http.server 8124 --directory site
 ```
 
-然后打开 <http://localhost:8124>。（不能直接双击 `index.html`，浏览器会拦掉读取 JSON 数据。）
+然后打开 <http://localhost:8124>（首页）。（不能直接双击 `index.html`，浏览器会拦掉读取 JSON 数据。）
 
 ## 更新数据
 
@@ -78,7 +78,8 @@ scripts/build_spring2027.py  2027 春清单数据
 site/spring2027.html    2027 春清单页面
 site/course.html        课程详情页
 site/spring-common.js   清单页和详情页共用的渲染函数
-site/index.html         页面
+site/index.html         首页（搜索、本学期 A 率前几名、入口）
+site/search.html        全部课程查询
 site/app.js             筛选、排序、详情
 site/i18n.js            中英文文案 + 语言切换（两个页面共用）
 site/style.css          样式（自动适配深色模式和手机）

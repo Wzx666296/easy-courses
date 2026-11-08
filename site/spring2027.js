@@ -165,7 +165,20 @@ async function init() {
   $("q").addEventListener("input", (e) => { state.q = norm(e.target.value); state.qRaw = e.target.value; render(); });
   $("show-ta").addEventListener("change", (e) => { state.showTA = e.target.checked; render(); });
   onLangChange(renderTexts);
-  const scroll = restoreState();
+  let scroll = restoreState();
+  const params = new URLSearchParams(location.search);
+  if (params.has("cat") || params.has("q")) {
+    const cat = params.get("cat") || "";
+    state.cat = CATEGORIES.some((c) => c.key === cat) ? cat : "";
+    state.sub = params.get("sub") || "";
+    state.qRaw = params.get("q") || "";
+    state.q = norm(state.qRaw);
+    $("q").value = state.qRaw;
+    scroll = 0;
+    // Drop the one-off params so going back later shows the remembered state.
+    params.delete("cat"); params.delete("sub"); params.delete("q");
+    history.replaceState(null, "", `${location.pathname}${params.toString() ? `?${params}` : ""}`);
+  }
   renderTexts();
   if (scroll) requestAnimationFrame(() => scrollTo(0, scroll));
   addEventListener("pagehide", saveState);
