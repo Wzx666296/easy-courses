@@ -150,6 +150,9 @@
 .how a { color: var(--text); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 2px; }
 
 .home footer { margin-top: 16px; }
+.home-footer p { margin: 0; max-width: 680px; }
+.home-footer .contact { margin-top: 6px; color: var(--muted); }
+.home-footer .contact a { color: var(--text); }
 
 @media (max-width: 760px) {
   .home main { gap: 44px; }
