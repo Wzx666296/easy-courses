@@ -39,6 +39,14 @@ python3 scripts/build_spring2027.py --refresh
 
 生成 `site/data/spring2027.json`（网页用）和 `data/spring2027/courses-checked.csv`（人工核对用，Excel 可打开）。不加 `--refresh` 会用 `data/raw/` 里的缓存。
 
+## 课程详情页（course.html）
+
+清单里每门课点进去是 `course.html?code=ANTH-103`：官方课程描述、2027 春老师与上课时间、历史成绩、成绩构成、往年 syllabus 和 Reddit。
+
+- 描述来自 Course Explorer（不开课的课用课程目录补）。
+- 成绩构成、syllabus、Reddit 帖子是**手动收录**的，写在 `data/spring2027/extras.json`，改完重新跑 `python3 scripts/build_spring2027.py`。只收录自己打开核实过的来源，格式见文件里的 `_example`。
+- 没收录的课会显示"在网上搜索 syllabus"和"在 r/UIUC 搜索"两个链接。
+
 ## 朋友评价
 
 目前手动维护在 `site/data/reviews.json`：
@@ -68,6 +76,8 @@ GPA 计算不含 W；A 比例 = A+/A/A- 占全部有成绩学生的比例。
 scripts/build_data.py   下载 + 汇总数据（全部课程）
 scripts/build_spring2027.py  2027 春清单数据
 site/spring2027.html    2027 春清单页面
+site/course.html        课程详情页
+site/spring-common.js   清单页和详情页共用的渲染函数
 site/index.html         页面
 site/app.js             筛选、排序、详情
 site/i18n.js            中英文文案 + 语言切换（两个页面共用）

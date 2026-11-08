@@ -36,6 +36,9 @@ TERM_LABEL = "Spring 2027"
 WAF_PAGE = "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/"
 WAF_CSV_URL = WAF_PAGE + "final.csv"
 CE_URL = "https://courses.illinois.edu/cisapp/explorer/schedule/2027/spring/{subj}/{num}.xml?mode=detail"
+# Catalog entry (description etc.) for courses not on the Spring 2027 schedule.
+CATALOG_URL = "https://courses.illinois.edu/cisapp/explorer/catalog/2026/fall/{subj}/{num}.xml"
+EXTRAS_PATH = os.path.join(ROOT, "data", "spring2027", "extras.json")
 LECTURE_TYPES = {"Lecture", "Lecture-Discussion", "Online Lecture"}
 
 
@@ -100,6 +103,34 @@ def load_schedule(code, refresh):
     return ET.parse(path).getroot()
 
 
+def load_catalog(code, refresh):
+    subj, number = code.split()
+    path = os.path.join(RAW, "course-catalog", f"{subj}_{number}.xml")
+    if not fetch(CATALOG_URL.format(subj=subj, num=number), path, refresh):
+        return None
+    return ET.parse(path).getroot()
+
+
+def course_info(root):
+    """Title, description, credits and Gen Ed codes from a Course Explorer course element."""
+    return {
+        "title": root.findtext("label") or "",
+        "description": " ".join((root.findtext("description") or "").split()),
+        # "3 hours." / "1 TO 3 hours." -> "3" / "1–3"
+        "credits": "–".join(re.findall(r"\d+", root.findtext("creditHours") or "")),
+        "geneds": [a.text.replace("–", "-").strip() for a in root.iter("genEdAttribute")],
+        "genedCodes": [a.get("code").lstrip("1") for a in root.iter("genEdAttribute")],
+    }
+
+
+def load_extras():
+    """Hand-curated syllabus / grading / Reddit info per course (see data/spring2027/extras.json)."""
+    if not os.path.exists(EXTRAS_PATH):
+        return {}
+    with open(EXTRAS_PATH, encoding="utf-8") as f:
+        return {k: v for k, v in json.load(f).items() if not k.startswith("_")}
+
+
 def to_minutes(hhmm):
     """'02:00PM' -> 840; 'ARRANGED' / missing -> None."""
     try:
@@ -157,6 +188,7 @@ def schedule_list(slots):
 
 def build(refresh):
     waf = load_waf(refresh)
+    extras = load_extras()
     with open(LIST_PATH, encoding="utf-8", newline="") as f:
         shortlist = list(csv.DictReader(f))
 
@@ -169,16 +201,16 @@ def build(refresh):
         course = {"code": code, "zh": zh, "gradesFrom": grades_code if grades_code != code else None, "title": "", "geneds": [], "offered": False,
                   "overall": grade_stats(rows), "teachers": []}
         root = load_schedule(code, refresh)
+        course["extras"] = extras.get(code, {})
         if root is None:
             course["status"] = "notOffered"
+            catalog = load_catalog(code, refresh)
+            if catalog is not None:
+                course.update(course_info(catalog))
             courses.append(course)
             continue
         course["offered"] = True
-        course["title"] = root.findtext("label") or ""
-        # "3 hours." / "1 TO 3 hours." -> "3" / "1–3"
-        course["credits"] = "–".join(re.findall(r"\d+", root.findtext("creditHours") or ""))
-        course["geneds"] = [a.text.replace("–", "-").strip() for a in root.iter("genEdAttribute")]
-        course["genedCodes"] = [a.get("code").lstrip("1") for a in root.iter("genEdAttribute")]
+        course.update(course_info(root))
 
         sched = teachers_from_schedule(root)
         course["status"] = "offered" if sched else "noTeacher"

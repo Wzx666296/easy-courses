@@ -1,0 +1,73 @@
+{
+  "_comment": "Hand-curated extras per course code. Only add sources you have opened and checked. syllabi: [{label, url, source}]; grading: {term, source, url, items: [[name, percent], ...]}; reddit: [{title, url}]",
+  "_example": {
+    "syllabi": [
+      {
+        "label": "Fall 2024 · Section A",
+        "url": "https://...",
+        "source": "illinois.edu"
+      }
+    ],
+    "grading": {
+      "term": "Fall 2024",
+      "source": "Course syllabus",
+      "url": "https://...",
+      "items": [
+        [
+          "Quizzes",
+          20
+        ],
+        [
+          "Midterm",
+          30
+        ],
+        [
+          "Final",
+          50
+        ]
+      ]
+    },
+    "reddit": [
+      {
+        "title": "Thread title",
+        "url": "https://www.reddit.com/r/UIUC/comments/..."
+      }
+    ]
+  },
+  "ATMS 140": {
+    "syllabi": [
+      {
+        "label": "Fall 2022 · Prof. Cristian Proistosescu",
+        "url": "https://cdds-at-uiuc.github.io/syllabi/ATMS140_F22_Syllabus.pdf",
+        "source": "cdds-at-uiuc.github.io"
+      }
+    ],
+    "grading": {
+      "term": "Fall 2022",
+      "source": "ATMS 140 F22 syllabus",
+      "url": "https://cdds-at-uiuc.github.io/syllabi/ATMS140_F22_Syllabus.pdf",
+      "items": [
+        [
+          "Labs & Reflections",
+          35
+        ],
+        [
+          "Retrieval Practices",
+          30
+        ],
+        [
+          "Midterm Exam",
+          10
+        ],
+        [
+          "Final Exam",
+          15
+        ],
+        [
+          "Engagement",
+          10
+        ]
+      ]
+    }
+  }
+}

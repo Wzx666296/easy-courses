@@ -1,0 +1,50 @@
+/* Course page. Builds on style.css + spring2027.css. */
+
+.back { display: inline-block; font-size: 13px; color: var(--muted); margin-bottom: 16px; }
+.back:hover { color: var(--text); text-decoration: none; }
+
+.course-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+.course-head h1 { font-size: 28px; letter-spacing: -0.02em; }
+.course-head h1 .zh { font-size: 22px; font-weight: 500; margin-left: 12px; letter-spacing: 0; }
+.course-head .en { margin: -4px 0 0; color: var(--muted); font-size: 15px; }
+.course-head .status { margin: 0; color: var(--amber-text); font-weight: 500; }
+
+.course-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 16px; align-items: start; }
+.col-main, .col-side { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.panel h2 { margin: 0; font-size: 13px; font-weight: 600; }
+.panel p { margin: 0; }
+
+.description { font-size: 15px; line-height: 1.7; color: var(--text); }
+.source { font-size: 12px; color: var(--faint); }
+.source a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 2px; }
+.source.warn { color: var(--amber-text); }
+
+.links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; }
+.links .source { margin-left: 6px; }
+.search-link { font-size: 13px; }
+.search-link a::after { content: " ↗"; color: var(--faint); }
+
+.grading { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; }
+.grading .row { display: flex; justify-content: space-between; gap: 12px; }
+.grading b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.bar { height: 4px; border-radius: 2px; background: var(--subtle); margin-top: 5px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--ink); opacity: .55; border-radius: 2px; }
+
+@media (max-width: 900px) {
+  .course-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .course-head h1 { font-size: 24px; }
+  .course-head h1 .zh { display: block; margin: 4px 0 0; font-size: 18px; }
+  .panel { padding: 16px; }
+}
