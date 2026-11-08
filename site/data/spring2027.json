@@ -1985,7 +1985,50 @@
     "semesters": 8
    },
    "teachers": [],
-   "extras": {},
+   "extras": {
+    "syllabi": [
+     {
+      "label": "Fall 2026 · Prof. Alex Harmon-Threatt",
+      "url": "https://app.sib.illinois.edu/course/syllabi/IB%20110.pdf",
+      "source": "School of Integrative Biology"
+     }
+    ],
+    "grading": {
+     "term": "Fall 2026",
+     "source": "IB 110 Fall 2026 syllabus",
+     "url": "https://app.sib.illinois.edu/course/syllabi/IB%20110.pdf",
+     "items": [
+      [
+       "Lecture Readings",
+       10
+      ],
+      [
+       "Lecture Questions",
+       15
+      ],
+      [
+       "Discussion Readings",
+       10
+      ],
+      [
+       "Discussion Activities",
+       15
+      ],
+      [
+       "3 Exams",
+       30
+      ],
+      [
+       "Final Project",
+       20
+      ]
+     ],
+     "note": {
+      "zh": "Lecture Questions 和 Discussion Activities 完成 80% 即可拿满分；有额外加分机会。",
+      "en": "Lecture Questions and Discussion Activities give full credit at 80% completion; extra credit is available."
+     }
+    }
+   },
    "status": "notOffered",
    "description": "The environment each person experiences is created by cultural, biological, and political factors. We will explore how race and culture shape environment and the underlying biological processes that influence the people and organisms that occur in these environments. We will also explore how politics can further shape environments for various racial and ethnic groups.",
    "credits": "3",
@@ -2133,7 +2176,11 @@
        "Engagement",
        10
       ]
-     ]
+     ],
+     "note": {
+      "zh": "同一位老师（Proistosescu）；期末成绩可能 curve，但不会低于原始分档。",
+      "en": "Same instructor (Proistosescu); final grades may be curved, never below the listed cutoffs."
+     }
     }
    },
    "description": "Introduces climate change and its interactions with the global environment; surveys the physical, chemical, biological and social factors contributing to global change; includes topics such as greenhouse warming, acid rain, ozone depletion, distinguishes anthropogenic influences and natural variability of the earth system; addresses societal impacts, mitigation strategies, policy options and other human responses to global change. Same as ESE 140.",
@@ -4568,7 +4615,53 @@
      "notes": []
     }
    ],
-   "extras": {},
+   "extras": {
+    "syllabi": [
+     {
+      "label": "Fall 2026 · Thomas A. Titone",
+      "url": "https://ws.engr.illinois.edu/custom/getsyllabus.asp?id=3860",
+      "source": "Grainger Engineering"
+     },
+     {
+      "label": "Fall 2025 · Thomas A. Titone",
+      "url": "https://ws.engr.illinois.edu/custom/getsyllabus.asp?id=3300",
+      "source": "Grainger Engineering"
+     },
+     {
+      "label": "Spring 2025 · Thomas A. Titone",
+      "url": "https://ws.engr.illinois.edu/custom/getsyllabus.asp?id=2889",
+      "source": "Grainger Engineering"
+     },
+     {
+      "label": "Fall 2024 · Thomas A. Titone",
+      "url": "https://ws.engr.illinois.edu/custom/getsyllabus.asp?id=2453",
+      "source": "Grainger Engineering"
+     }
+    ],
+    "grading": {
+     "term": "Fall 2026",
+     "source": "SE 494/495 Fall 2026 syllabus",
+     "url": "https://ws.engr.illinois.edu/custom/getsyllabus.asp?id=3860",
+     "items": [
+      [
+       "Team final report grade (SE 494, grading committee)",
+       40
+      ],
+      [
+       "Individual grade from project advisor (SE 495)",
+       40
+      ],
+      [
+       "Overall performance (course director)",
+       20
+      ]
+     ],
+     "note": {
+      "zh": "这是 SE 494/495 合在一起的成绩构成；SE 495 本身是项目导师给的个人成绩（出勤、参与、互评等）。",
+      "en": "This is the combined SE 494/495 breakdown; SE 495 itself is the individual grade from the project advisor (attendance, participation, peer evaluations)."
+     }
+    }
+   },
    "description": "Adjunct to SE 494. Senior engineering project -- individual component. Individual grade for each team member. 2 undergraduate hours. No graduate credit. Prerequisite: SE 261, SE 290, IE 300, IE 310, and concurrent registration in SE 494. Must enroll concurrently in SE 494.",
    "credits": "2",
    "genedCodes": [],
@@ -5481,7 +5574,46 @@
      "notes": []
     }
    ],
-   "extras": {},
+   "extras": {
+    "syllabi": [
+     {
+      "label": "Fall 2016 · Paul B. Stoddard",
+      "url": "https://blogs.illinois.edu/files/7416/499751/116707.pdf",
+      "source": "blogs.illinois.edu"
+     }
+    ],
+    "grading": {
+     "term": "Fall 2016",
+     "source": "ACE 240 Fall 2016 syllabus",
+     "url": "https://blogs.illinois.edu/files/7416/499751/116707.pdf",
+     "items": [
+      [
+       "First Hourly Exam",
+       16.67
+      ],
+      [
+       "Second Hourly Exam",
+       16.67
+      ],
+      [
+       "Third Hourly Exam",
+       16.67
+      ],
+      [
+       "In-class Homework",
+       25
+      ],
+      [
+       "Online Quizzes",
+       25
+      ]
+     ],
+     "note": {
+      "zh": "这是 2016 年 Paul Stoddard 的版本，不是 2027 春的老师（Lemoine、Sanchez），仅供参考。",
+      "en": "Fall 2016 version by Paul Stoddard, not the Spring 2027 instructors (Lemoine, Sanchez) — for reference only."
+     }
+    }
+   },
    "description": "Examines principles of financial planning applied to individuals and households, with attention to organizing and analyzing financial information, budgeting, acquiring financial assets, managing credit, planning for taxes, investments, risk management, retirement, and estate planning.",
    "credits": "3",
    "genedCodes": [],

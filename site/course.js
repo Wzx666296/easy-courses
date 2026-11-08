@@ -34,6 +34,7 @@ function gradingSection(c) {
     </li>`).join("");
   return section(t("course.grading"), `<ul class="grading">${rows}</ul>
     <p class="source">${esc(t("course.gradingSource", { term: g.term || "" }))}${g.url ? ` · ${extLink(g.url, g.source || t("course.source"))}` : ""}</p>
+    ${g.note ? `<p class="source">${esc(typeof g.note === "string" ? g.note : (g.note[LANG] || g.note.en || ""))}</p>` : ""}
     ${Math.round(total) !== 100 ? `<p class="source warn">${esc(t("course.gradingTotal", { n: total }))}</p>` : ""}
     <p class="source">${esc(t("course.gradingCaveat"))}</p>`);
 }
@@ -97,7 +98,7 @@ function renderFooter() {
 
 async function init() {
   try {
-    data = await (await fetch("data/spring2027.json?v=7")).json();
+    data = await (await fetch("data/spring2027.json", { cache: "no-cache" })).json();
   } catch (err) {
     $("course").innerHTML = `<p class="nodata">${esc(t("loadFailed"))}</p>`;
     console.error(err);

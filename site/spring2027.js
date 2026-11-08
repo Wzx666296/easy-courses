@@ -137,7 +137,7 @@ function renderTexts() {
 
 async function init() {
   try {
-    data = await (await fetch("data/spring2027.json")).json();
+    data = await (await fetch("data/spring2027.json", { cache: "no-cache" })).json();
   } catch (err) {
     $("intro").textContent = t("loadFailed");
     console.error(err);
