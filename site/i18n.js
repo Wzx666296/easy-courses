@@ -126,8 +126,8 @@ const STRINGS = {
     "gened.SS": "  └ SS 社会科学",
 
     // spring 2027 page
-    "spring.docTitle": "UIUC 慵懒选课指南 2027 Spring",
-    "spring.title": "UIUC 慵懒选课指南 2027 Spring",
+    "spring.docTitle": "UIUC 27Spring GenEd 水课指南",
+    "spring.title": "UIUC 27Spring GenEd 水课指南",
     "spring.intro": "我们挑出的 {total} 门课里，{offered} 门 2027 春开课。每门课按 2027 春实际授课老师的历史成绩排序。",
     "spring.filters": "筛选",
     "spring.genedGroup": "Gen Ed 类别",
