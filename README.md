@@ -39,6 +39,12 @@ python3 scripts/build_spring2027.py --refresh
 
 生成 `site/data/spring2027.json`（网页用）和 `data/spring2027/courses-checked.csv`（人工核对用，Excel 可打开）。不加 `--refresh` 会用 `data/raw/` 里的缓存。
 
+## 线上地址与部署
+
+网站：<https://wzx666296.github.io/easy-courses/>
+
+`.github/workflows/deploy.yml` 把 `site/` 发布到 GitHub Pages：每次推送到 `main`、每次数据自动更新成功后都会重新部署，也可以在 Actions 页面手动运行。
+
 ## 自动更新数据
 
 `.github/workflows/update-data.yml` 每周一 14:00 UTC（香槟时间早上 8–9 点）自动运行：重新下载 Course Explorer 2027 春课表、WAF 成绩和 GPA 数据集，重新生成 `site/data/` 和 `data/spring2027/courses-checked.csv`，有变化就自动提交。也可以在 GitHub 仓库的 Actions 页面点 "Run workflow" 手动触发。
@@ -59,7 +65,7 @@ swift scripts/brand/make_icons.swift assets/mascot.jpg site/img
 swift scripts/brand/make_share_card.swift site/img/logo-512.png site/img/og.png
 ```
 
-上线后把各页面里 `og:image` 的 `img/og.png` 改成完整网址（如 `https://xxx.github.io/easy-courses/img/og.png`），微信、iMessage 才能稳定显示预览图。
+`og:image` 用的是线上完整网址（`https://wzx666296.github.io/easy-courses/img/og.png`），换域名时记得一起改。
 
 ## 课程详情页（course.html）
 
