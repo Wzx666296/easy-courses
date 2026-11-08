@@ -16,6 +16,8 @@ const $ = (id) => document.getElementById(id);
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const pct = (x) => (x == null ? "—" : `${(x * 100).toFixed(1)}%`);
+// A rate color: >= 90% green, < 70% red, otherwise the normal text color.
+const aCls = (x) => (x == null ? "" : x >= 0.9 ? "a-hi" : x < 0.7 ? "a-lo" : "");
 const fmtInt = (n) => n.toLocaleString(LANG === "zh" ? "zh-CN" : "en-US");
 const catOf = (code) => CATEGORIES.find((c) => c.codes && c.codes.includes(code))?.key || "";
 // Tags sorted by category order so the same categories line up across cards.
@@ -110,7 +112,7 @@ function teacherRow(x, opts = {}) {
     <td><div class="who">${esc(x.name)}${x.role === "discussion" ? `<span class="role">${esc(t("role.discussion"))}</span>` : ""}</div>
 
       ${notes.length ? `<div class="note">${esc(notes.join(LANG === "zh" ? "；" : "; "))}</div>` : ""}</td>
-    ${s ? `<td class="num">${pct(s.aRate)}</td><td class="num">${pct(s.aRateInclMinus)}</td>
+    ${s ? `<td class="num ${aCls(s.aRate)}">${pct(s.aRate)}</td><td class="num ${aCls(s.aRateInclMinus)}">${pct(s.aRateInclMinus)}</td>
       <td class="num">${s.gpa.toFixed(2)}</td><td class="num hide-xs">${fmtInt(s.students)}</td>`
       : `<td class="nodata" colspan="4">${esc(t("note.noData"))}</td>`}
   </tr>
@@ -133,8 +135,8 @@ function bigNumbers(b) {
   if (!b) return "";
   const h = b.stats;
   return `<div class="big">
-      <div><b>${pct(h.aRate)}</b><span>${esc(t("big.aRate"))}</span></div>
-      <div><b>${pct(h.aRateInclMinus)}</b><span>${esc(t("big.aRateInclMinus"))}</span></div>
+      <div><b class="${aCls(h.aRate)}">${pct(h.aRate)}</b><span>${esc(t("big.aRate"))}</span></div>
+      <div><b class="${aCls(h.aRateInclMinus)}">${pct(h.aRateInclMinus)}</b><span>${esc(t("big.aRateInclMinus"))}</span></div>
       <div><b>${h.gpa.toFixed(2)}</b><span>${esc(t("big.gpa"))}</span></div>
     </div>
     <div class="meta">${esc(t("big.who", { name: b.name }))}</div>`;

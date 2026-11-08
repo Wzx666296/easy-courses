@@ -48,6 +48,8 @@ function esc(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 const pct = (x) => `${Math.round(x * 100)}%`;
+// A rate color: >= 90% green, < 70% red.
+const aCls = (x) => (x >= 0.9 ? "a-hi" : x < 0.7 ? "a-lo" : "");
 function gpaBadge(g) {
   const cls = g >= 3.7 ? "good" : "";
   return `<span class="gpa ${cls}">${g.toFixed(2)}</span>`;
@@ -106,7 +108,7 @@ function render() {
       <td><div class="code">${esc(c.code)}</div><div class="title">${esc(c.title)}</div></td>
       <td class="hide-sm">${c.geneds.map((g) => `<span class="tag">${esc(g)}</span>`).join("")}</td>
       <td class="num">${gpaBadge(c.gpa)}</td>
-      <td class="num">${pct(c.aRate)}</td>
+      <td class="num ${aCls(c.aRate)}">${pct(c.aRate)}</td>
       <td class="num hide-sm">${c.students.toLocaleString()}</td>
     </tr>`).join("");
   els.more.hidden = current.length <= shown;
@@ -127,7 +129,7 @@ function showDetail(code) {
     <div>${c.geneds.map((g) => `<span class="tag">${esc(g)}</span>`).join("")}</div>
     <div class="stats">
       <div class="stat"><b>${c.gpa.toFixed(2)}</b><span>${esc(t("detail.gpa"))}</span></div>
-      <div class="stat"><b>${pct(c.aRate)}</b><span>${esc(t("detail.aRate"))}</span></div>
+      <div class="stat"><b class="${aCls(c.aRate)}">${pct(c.aRate)}</b><span>${esc(t("detail.aRate"))}</span></div>
     </div>
     <p class="empty">${esc(t("detail.meta", { students: c.students.toLocaleString(), terms: c.terms, last: c.lastTerm }))}</p>
 
@@ -135,7 +137,7 @@ function showDetail(code) {
     <table>
       <thead><tr><th>${esc(t("detail.teacher"))}</th><th class="num">GPA</th><th class="num">${esc(t("detail.a"))}</th><th class="num">${esc(t("detail.students"))}</th><th>${esc(t("detail.last"))}</th></tr></thead>
       <tbody>${c.instructors.map((i) => `
-        <tr><td>${esc(i.name)}</td><td class="num">${gpaBadge(i.gpa)}</td><td class="num">${pct(i.aRate)}</td>
+        <tr><td>${esc(i.name)}</td><td class="num">${gpaBadge(i.gpa)}</td><td class="num ${aCls(i.aRate)}">${pct(i.aRate)}</td>
         <td class="num">${i.students.toLocaleString()}</td><td>${esc(i.lastTerm)}</td></tr>`).join("")}
       </tbody>
     </table>

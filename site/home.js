@@ -50,7 +50,7 @@ function renderPreview() {
         </span>
         <span class="r-gened">${sortedCodes(c.genedCodes).slice(0, 2).map((g) => `<span class="tag">${esc(g === "CLL" ? "ACP" : g)}</span>`).join("")}</span>
         <span class="r-fmt">${formatSummary(c)}</span>
-        <span class="num">${b ? pct(b.stats.aRate) : "—"}</span>
+        <span class="num ${b ? aCls(b.stats.aRate) : ""}">${b ? pct(b.stats.aRate) : "—"}</span>
         <span class="num gpa">${b ? b.stats.gpa.toFixed(2) : "—"}</span>
       </a></li>`).join("")
     : `<li class="pv-empty">${esc(t("home.pv.empty"))}</li>`;
