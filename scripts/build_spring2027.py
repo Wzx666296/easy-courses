@@ -20,6 +20,7 @@ import csv
 import json
 import os
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -42,6 +43,25 @@ EXTRAS_PATH = os.path.join(ROOT, "data", "spring2027", "extras.json")
 LECTURE_TYPES = {"Lecture", "Lecture-Discussion", "Online Lecture"}
 
 
+def download(url, path, attempts=3):
+    """Download url to path atomically, retrying transient errors. Raises HTTPError on 404."""
+    tmp = path + ".part"
+    for attempt in range(1, attempts + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "easy-courses-data-refresh/1.0"})
+            with urllib.request.urlopen(req, timeout=60) as resp, open(tmp, "wb") as out:
+                out.write(resp.read())
+            os.replace(tmp, path)
+            return
+        except urllib.error.HTTPError as e:
+            if e.code == 404 or attempt == attempts:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if attempt == attempts:
+                raise
+        time.sleep(2 * attempt)
+
+
 def fetch(url, path, refresh):
     """Download url to path (cached). Returns False on HTTP 404."""
     missing = path + ".404"
@@ -51,7 +71,7 @@ def fetch(url, path, refresh):
         return False
     os.makedirs(os.path.dirname(path), exist_ok=True)
     try:
-        urllib.request.urlretrieve(url, path)
+        download(url, path)
         if os.path.exists(missing):
             os.remove(missing)
         return True
@@ -287,24 +307,59 @@ def write_csv(courses):
                                    s.get("students", ""), s.get("semesters", "")] + tail + ["；".join(map(zh_note, t["notes"]))])
 
 
+def sanity_check(new_courses, old_payload):
+    """Refuse to overwrite good data with something that looks broken (API outage, format change)."""
+    problems = []
+    offered = [c for c in new_courses if c["offered"]]
+    with_stats = sum(1 for c in offered for t in c["teachers"] if t["stats"])
+    if not offered:
+        problems.append("no course is offered — the schedule API probably failed")
+    if with_stats == 0:
+        problems.append("no instructor has grade data — the WAF file probably failed to parse")
+    if old_payload:
+        old_offered = sum(c["offered"] for c in old_payload["courses"])
+        if len(offered) < 0.6 * old_offered:
+            problems.append(f"offered courses dropped from {old_offered} to {len(offered)}")
+    return problems
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="re-download WAF data and Course Explorer schedules")
+    ap.add_argument("--force", action="store_true", help="write output even if the sanity check fails")
     args = ap.parse_args()
+
+    old = None
+    if os.path.exists(JSON_OUT):
+        with open(JSON_OUT, encoding="utf-8") as f:
+            old = json.load(f)
+
     courses = build(args.refresh)
-    os.makedirs(os.path.dirname(JSON_OUT), exist_ok=True)
+    problems = sanity_check(courses, old)
+    if problems and not args.force:
+        for p in problems:
+            print(f"Sanity check failed: {p}", file=sys.stderr)
+        print("Kept the existing data. Re-run with --force to override.", file=sys.stderr)
+        sys.exit(1)
+
     payload = {
         "term": TERM_LABEL,
         "builtAt": time.strftime("%Y-%m-%d"),
         "sources": {"grades": WAF_PAGE, "schedule": "https://courses.illinois.edu/schedule/2027/spring"},
         "courses": courses,
     }
+    # builtAt is "date the data last changed": keep the old date if nothing else differs.
+    if old and {**old, "builtAt": None} == {**payload, "builtAt": None}:
+        payload["builtAt"] = old.get("builtAt", payload["builtAt"])
+        print("No data changes.")
+
+    os.makedirs(os.path.dirname(JSON_OUT), exist_ok=True)
     with open(JSON_OUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
     write_csv(courses)
     offered = sum(c["offered"] for c in courses)
     print(f"{len(courses)} courses ({offered} offered in {TERM_LABEL}) -> "
-          f"{os.path.relpath(JSON_OUT, ROOT)}, {os.path.relpath(CSV_OUT, ROOT)}")
+          f"{os.path.relpath(JSON_OUT, ROOT)}, {os.path.relpath(CSV_OUT, ROOT)} (data date {payload['builtAt']})")
 
 
 if __name__ == "__main__":

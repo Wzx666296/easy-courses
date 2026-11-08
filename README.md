@@ -39,6 +39,14 @@ python3 scripts/build_spring2027.py --refresh
 
 生成 `site/data/spring2027.json`（网页用）和 `data/spring2027/courses-checked.csv`（人工核对用，Excel 可打开）。不加 `--refresh` 会用 `data/raw/` 里的缓存。
 
+## 自动更新数据
+
+`.github/workflows/update-data.yml` 每周一 14:00 UTC（香槟时间早上 8–9 点）自动运行：重新下载 Course Explorer 2027 春课表、WAF 成绩和 GPA 数据集，重新生成 `site/data/` 和 `data/spring2027/courses-checked.csv`，有变化就自动提交。也可以在 GitHub 仓库的 Actions 页面点 "Run workflow" 手动触发。
+
+- 需要先把仓库推到 GitHub 才会运行。
+- 如果新下载的数据明显不对（比如课表接口挂了、开课数骤减、成绩文件解析失败），脚本会报错退出、保留旧数据，不会把网站弄坏。需要强制覆盖时本地加 `--force`。
+- 首页显示的"数据更新于"是数据**最后一次真正变化**的日期，没有变化时不会每周刷新。
+
 ## 课程详情页（course.html）
 
 清单里每门课点进去是 `course.html?code=ANTH-103`：官方课程描述、2027 春老师与上课时间、历史成绩、成绩构成、往年 syllabus 和 Reddit。

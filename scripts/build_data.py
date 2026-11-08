@@ -14,6 +14,9 @@ import argparse
 import csv
 import json
 import os
+import sys
+import time
+import urllib.error
 import urllib.request
 from collections import defaultdict
 
@@ -45,7 +48,18 @@ def download(refresh):
         path = os.path.join(RAW_DIR, name)
         if refresh or not os.path.exists(path):
             print(f"Downloading {url}")
-            urllib.request.urlretrieve(url, path)
+            tmp = path + ".part"
+            for attempt in range(1, 4):
+                try:
+                    req = urllib.request.Request(url, headers={"User-Agent": "easy-courses-data-refresh/1.0"})
+                    with urllib.request.urlopen(req, timeout=120) as resp, open(tmp, "wb") as out:
+                        out.write(resp.read())
+                    os.replace(tmp, path)
+                    break
+                except (urllib.error.URLError, TimeoutError, ConnectionError):
+                    if attempt == 3:
+                        raise
+                    time.sleep(2 * attempt)
 
 
 def new_bucket():
@@ -150,10 +164,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="re-download source CSVs")
     ap.add_argument("--since", type=int, default=2021, help="first year to include (default 2021)")
+    ap.add_argument("--force", action="store_true", help="write output even if the sanity check fails")
     args = ap.parse_args()
 
     download(args.refresh)
     courses = build(args.since)
+    # Refuse to overwrite good data with something that looks broken.
+    if os.path.exists(OUT_PATH) and not args.force:
+        with open(OUT_PATH, encoding="utf-8") as f:
+            old_count = json.load(f).get("count", 0)
+        if len(courses) < 0.9 * old_count:
+            print(f"Sanity check failed: course count dropped from {old_count} to {len(courses)}. "
+                  "Kept the existing data. Re-run with --force to override.", file=sys.stderr)
+            sys.exit(1)
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     payload = {"since": args.since, "count": len(courses), "courses": courses}
     with open(OUT_PATH, "w", encoding="utf-8") as f:
