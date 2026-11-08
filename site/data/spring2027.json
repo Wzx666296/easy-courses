@@ -5618,6 +5618,422 @@
    "credits": "3",
    "genedCodes": [],
    "status": "offered"
+  },
+  {
+   "code": "GLBL 200",
+   "zh": "研究基础",
+   "gradesFrom": null,
+   "title": "Foundations of Research",
+   "geneds": [
+    "Quantitative Reasoning II",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8644,
+    "aRateInclMinus": 0.9153,
+    "gpa": 3.86,
+    "students": 118,
+    "semesters": 5
+   },
+   "teachers": [
+    {
+     "name": "David Schrag",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.8644,
+      "aRateInclMinus": 0.9153,
+      "gpa": 3.86,
+      "students": 118,
+      "semesters": 5
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "description": "Introduction to the foundations of interdisciplinary social science research. Topic include understanding the purpose for research, identifying researchable issues, finding evaluating and using sources effectively, recognizing methods associated with different types of data and disciplines, and writing a literature review. Prepares students for course-based research papers and advanced research methods courses. Guest faculty present their Global Studies-relevant research as students (b)log their own research interests.",
+   "credits": "3",
+   "genedCodes": [
+    "QR2",
+    "SS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "HK 201",
+   "zh": "健康科学研究方法",
+   "gradesFrom": null,
+   "title": "Health Sciences Research Methods",
+   "geneds": [
+    "Quantitative Reasoning II"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6937,
+    "aRateInclMinus": 0.8229,
+    "gpa": 3.72,
+    "students": 813,
+    "semesters": 8
+   },
+   "teachers": [
+    {
+     "name": "Pedro Rodrigues Curi Hallal",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.8091,
+      "aRateInclMinus": 0.9,
+      "gpa": 3.83,
+      "students": 110,
+      "semesters": 1
+     },
+     "notes": []
+    },
+    {
+     "name": "Rafael Miranda Tassitano",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BL1"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.6436,
+      "aRateInclMinus": 0.7606,
+      "gpa": 3.64,
+      "students": 188,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "A Schymiczek Larangeira Almeida",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 570,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB1"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB2"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB3"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "K Zhang",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB4"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "J Bakare",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB1"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB2"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "A Chuhdry",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB3"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB4"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "description": "Provides a practical, step-by-step guide to the research process in health and kinesiology. This course will focus on defining common terms and concepts employed in health research, providing detailed understanding of approaches and tools in different health disciplines, and facilitating understanding of scientific methods for physical activity and health research. This course will navigate through the following topics: identifying a focused research question, choosing a study design, collecting suitable data to answer the research question, analyzing the evidence, and disseminating the findings.",
+   "credits": "3",
+   "genedCodes": [
+    "QR2"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "HK 209",
+   "zh": "生物统计学入门",
+   "gradesFrom": null,
+   "title": "Introduction to Biostatistics and Health Data Analysis",
+   "geneds": [
+    "Quantitative Reasoning I"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8047,
+    "aRateInclMinus": 0.8385,
+    "gpa": 3.68,
+    "students": 384,
+    "semesters": 6
+   },
+   "teachers": [
+    {
+     "name": "Brandi Barnes",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
+     "stats": {
+      "aRate": 0.7895,
+      "aRateInclMinus": 0.8383,
+      "gpa": 3.66,
+      "students": 266,
+      "semesters": 4
+     },
+     "notes": []
+    },
+    {
+     "name": "S Geiger",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "J Fardous",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "description": "Provides an introduction to descriptive and inferential statistics used in the analysis of health studies. Students will learn how to describe health data and to understand statistical inference as applied to health issues.",
+   "credits": "3",
+   "genedCodes": [
+    "QR1"
+   ],
+   "status": "offered"
   }
  ]
 }
