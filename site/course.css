@@ -53,19 +53,23 @@
   .panel { padding: 16px; }
 }
 
-/* RateMyProfessors link next to each instructor */
-.rmp {
+/* External links under each instructor: RateMyProfessors + UIUC page */
+.ext-links { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+.ext {
   display: inline-flex;
   align-items: center;
-  margin-left: 8px;
-  padding: 0 6px;
-  height: 18px;
+  gap: 2px;
+  height: 26px;
+  padding: 0 10px;
   border: 1px solid var(--border);
-  border-radius: 5px;
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--muted);
-  vertical-align: 1px;
-  transition: color .15s, border-color .15s;
+  border-radius: 7px;
+  background: var(--surface);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  transition: color .15s, border-color .15s, background .15s;
 }
-.rmp:hover { color: var(--blue-text); border-color: var(--blue-line); text-decoration: none; }
+.ext span { color: var(--faint); font-weight: 400; }
+.ext:hover { border-color: var(--blue-line); background: var(--blue-soft); color: var(--blue-text); text-decoration: none; }
+.ext:hover span { color: inherit; }

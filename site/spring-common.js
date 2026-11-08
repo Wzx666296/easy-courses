@@ -102,19 +102,32 @@ function rmpUrl(name) {
   return `https://www.ratemyprofessors.com/search/professors/${RMP_SCHOOL}?q=${encodeURIComponent(query)}`;
 }
 
+// Instructor's page on illinois.edu: a Google search limited to the university's sites
+// (department profiles, Illinois Experts, course pages). Uses the full name when known.
+function uiucUrl(name, subject = "") {
+  const parts = name.trim().split(/\s+/);
+  const initialOnly = parts.length > 1 && parts[0].length <= 1;
+  // Only a last name is known: add the department code so the search isn't too broad.
+  const query = initialOnly ? `"${parts.slice(1).join(" ")}" ${subject}` : `"${name}"`;
+  return `https://www.google.com/search?q=${encodeURIComponent(`${query.trim()} site:illinois.edu`)}`;
+}
+
 function teacherRow(x, opts = {}) {
   const s = x.stats;
   const notes = x.notes.filter((n) => n.type !== "noData").map(noteLabel);
   const cls = x.role === "discussion" ? "ta" : "";
   return `<tr class="${cls} head">
-    <td><div class="who">${esc(x.name)}${x.role === "discussion" ? `<span class="role">${esc(t("role.discussion"))}</span>` : ""}${opts.rmp
-        ? `<a class="rmp" href="${esc(rmpUrl(x.name))}" target="_blank" rel="noopener" title="${esc(t("rmp.title", { name: x.name }))}">RMP<span aria-hidden="true"> ↗</span></a>` : ""}</div>
+    <td><div class="who">${esc(x.name)}${x.role === "discussion" ? `<span class="role">${esc(t("role.discussion"))}</span>` : ""}</div>
+
       ${notes.length ? `<div class="note">${esc(notes.join(LANG === "zh" ? "；" : "; "))}</div>` : ""}</td>
     ${s ? `<td class="num">${pct(s.aRate)}</td><td class="num">${pct(s.aRateInclMinus)}</td>
       <td class="num">${s.gpa.toFixed(2)}</td><td class="num hide-xs">${fmtInt(s.students)}</td>`
       : `<td class="nodata" colspan="4">${esc(t("note.noData"))}</td>`}
   </tr>
-  <tr class="${cls} sched"><td colspan="5">${scheduleLines(x.schedule || [])}</td></tr>`;
+  <tr class="${cls} sched"><td colspan="5">${scheduleLines(x.schedule || [])}${opts.rmp ? `<div class="ext-links">
+      <a class="ext rmp" href="${esc(rmpUrl(x.name))}" target="_blank" rel="noopener" title="${esc(t("rmp.title", { name: x.name }))}">RateMyProfessors<span aria-hidden="true"> ↗</span></a>
+      <a class="ext uiuc" href="${esc(uiucUrl(x.name, opts.subject))}" target="_blank" rel="noopener" title="${esc(t("uiuc.title", { name: x.name }))}">${esc(t("uiuc.label"))}<span aria-hidden="true"> ↗</span></a>
+    </div>` : ""}</td></tr>`;
 }
 
 
