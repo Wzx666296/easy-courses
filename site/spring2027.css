@@ -96,3 +96,23 @@
   .cards { grid-template-columns: minmax(0, 1fr); }
   .teachers .hide-xs { display: none; }
 }
+
+/* Format / term-part / time */
+.badges { display: flex; flex-wrap: wrap; gap: 4px; }
+.pill { display: inline-block; font-size: 11.5px; line-height: 1.5; padding: 0 7px; border-radius: 999px; margin-right: 4px; white-space: nowrap; border: 1px solid transparent; }
+.pill.online { background: #e3effd; color: #1d4f8a; }
+.pill.inperson { background: #eceae4; color: #4d4a42; }
+.pill.part-full { background: transparent; border-color: var(--border); color: var(--muted); }
+.pill.part-A, .pill.part-B { background: #fff1d6; color: #7a5200; }
+.pill.async { background: #efe6fb; color: #5a2f8a; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .pill.online { background: #1b2c42; color: #9cc3f0; }
+  :root:not([data-theme="light"]) .pill.inperson { background: #2c2b27; color: #c9c5bb; }
+  :root:not([data-theme="light"]) .pill.part-A, :root:not([data-theme="light"]) .pill.part-B { background: #3a2c0f; color: #f0c870; }
+  :root:not([data-theme="light"]) .pill.async { background: #2a1f38; color: #cdb0ef; }
+}
+.teachers tr.head td { border-bottom: 0; padding-bottom: 2px; }
+.teachers tr.sched td { padding-top: 0; }
+.slot { font-size: 12px; color: var(--muted); margin: 3px 0; line-height: 1.6; }
+.slot .when { color: var(--text); margin-right: 6px; font-variant-numeric: tabular-nums; }
+.slot .kind { margin-right: 6px; }

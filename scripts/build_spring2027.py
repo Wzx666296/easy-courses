@@ -100,23 +100,59 @@ def load_schedule(code, refresh):
     return ET.parse(path).getroot()
 
 
+def to_minutes(hhmm):
+    """'02:00PM' -> 840; 'ARRANGED' / missing -> None."""
+    try:
+        t = time.strptime(hhmm.strip(), "%I:%M%p")
+    except (AttributeError, ValueError):
+        return None
+    return t.tm_hour * 60 + t.tm_min
+
+
+def to_md(date):
+    """'03-15-27Z' -> '3/15'."""
+    try:
+        month, day = date.split("-")[:2]
+        return f"{int(month)}/{int(day)}"
+    except (AttributeError, ValueError):
+        return ""
+
+
 def teachers_from_schedule(root):
-    """Map (last, first) -> sections/modes/meeting types from a Course Explorer course."""
+    """Map (last, first) -> sections, modes, meeting types and grouped meeting times."""
     out = {}
     for s in root.iter("detailedSection"):
         sec, part = s.findtext("sectionNumber"), s.findtext("partOfTerm")
         half = part if part in ("A", "B") else ""  # A = first 8 weeks, B = second 8 weeks
+        dates = f"{to_md(s.findtext('startDate'))}–{to_md(s.findtext('endDate'))}"
         for m in s.iter("meeting"):
             t = m.find("type")
             mtype = (t.text or "") if t is not None else ""
             mode = "online" if "Online" in mtype else "inperson"
+            days = (m.findtext("daysOfTheWeek") or "").strip()
+            start, end = to_minutes(m.findtext("start")), to_minutes(m.findtext("end"))
+            # One line per distinct (type, format, term part, days, time); sections with the same slot are merged.
+            slot = (mtype, mode, half or "full", days if start is not None else "", start, end, dates)
             for i in m.iter("instructor"):
                 key = ((i.get("lastName") or "").strip(), (i.get("firstName") or "").strip())
-                d = out.setdefault(key, {"sections": set(), "modes": set(), "types": set()})
+                d = out.setdefault(key, {"sections": set(), "modes": set(), "types": set(), "slots": {}})
                 d["sections"].add(sec)
                 d["modes"].add(mode + (f"-{half}" if half else ""))
                 d["types"].add(mtype)
+                d["slots"].setdefault(slot, set()).add(sec)
     return out
+
+
+def schedule_list(slots):
+    """Grouped meeting slots, lectures first, then by term part, days and start time."""
+    order = {"Lecture": 0, "Online Lecture": 0, "Lecture-Discussion": 1, "Online": 2, "Laboratory": 3,
+             "Laboratory-Discussion": 3, "Discussion/Recitation": 4, "Online Discussion": 4}
+    items = []
+    for (mtype, mode, part, days, start, end, dates), secs in slots.items():
+        items.append({"type": mtype, "mode": mode, "part": part, "days": days,
+                      "start": start, "end": end, "dates": dates, "sections": sorted(secs)})
+    items.sort(key=lambda x: (order.get(x["type"], 5), x["part"], x["days"], x["start"] or 0))
+    return items
 
 
 def build(refresh):
@@ -164,7 +200,8 @@ def build(refresh):
             role = "discussion" if not (d["types"] & LECTURE_TYPES) and looks_like_discussion else "lead"
             course["teachers"].append({
                 "name": name, "role": role, "modes": sorted(d["modes"]),
-                "sections": len(d["sections"]), "stats": stats, "notes": notes,
+                "sections": len(d["sections"]), "schedule": schedule_list(d["slots"]),
+                "stats": stats, "notes": notes,
             })
         course["teachers"].sort(key=lambda t: (t["role"] != "lead", t["stats"] is None,
                                                -(t["stats"] or {}).get("aRate", 0)))

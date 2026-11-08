@@ -31,6 +31,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8409,
       "aRateInclMinus": 0.8409,
@@ -47,6 +61,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -85,6 +113,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "MW",
+       "start": 1110,
+       "end": 1230,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.9341,
       "aRateInclMinus": 0.9341,
@@ -125,6 +167,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7133,
       "aRateInclMinus": 0.8055,
@@ -166,6 +222,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -206,6 +276,63 @@
       "online"
      ],
      "sections": 22,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BL1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA",
+        "ADB",
+        "ADC",
+        "ADD",
+        "ADE",
+        "ADF",
+        "ADG",
+        "ADH",
+        "ADI",
+        "ADJ",
+        "BDA",
+        "BDB",
+        "BDC",
+        "BDD",
+        "BDE",
+        "BDF",
+        "BDG",
+        "BDH",
+        "BDI",
+        "BDJ"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8345,
       "aRateInclMinus": 0.9006,
@@ -222,6 +349,23 @@
       "online"
      ],
      "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA",
+        "ADB",
+        "ADC",
+        "ADD"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -236,6 +380,23 @@
       "online"
      ],
      "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE",
+        "ADF",
+        "ADG",
+        "ADH"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -250,6 +411,21 @@
       "online"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI",
+        "ADJ"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -264,6 +440,23 @@
       "online"
      ],
      "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDA",
+        "BDB",
+        "BDC",
+        "BDD"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -278,6 +471,23 @@
       "online"
      ],
      "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDE",
+        "BDF",
+        "BDG",
+        "BDH"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -292,6 +502,21 @@
       "online"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDI",
+        "BDJ"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -331,6 +556,35 @@
       "online-B"
      ],
      "sections": 5,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "WE1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "A",
+        "B",
+        "C",
+        "D"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7942,
       "aRateInclMinus": 0.8195,
@@ -371,6 +625,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7143,
       "aRateInclMinus": 0.873,
@@ -387,6 +655,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -426,6 +708,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A2"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.9216,
       "aRateInclMinus": 0.9646,
@@ -468,6 +764,32 @@
       "online-B"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "C01"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "C02"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8895,
       "aRateInclMinus": 0.9554,
@@ -508,6 +830,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ON1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6723,
       "aRateInclMinus": 0.8487,
@@ -524,6 +860,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -561,6 +911,84 @@
       "inperson"
      ],
      "sections": 10,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB5",
+        "AB6"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB7",
+        "AB8"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB1",
+        "AB2"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB3",
+        "AB4"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AB9"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8765,
       "aRateInclMinus": 0.8899,
@@ -625,6 +1053,83 @@
       "online"
      ],
      "sections": 9,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC",
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE",
+        "ADF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG",
+        "ADH"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8174,
       "aRateInclMinus": 0.8564,
@@ -641,6 +1146,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "C1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7259,
       "aRateInclMinus": 0.8222,
@@ -657,6 +1176,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "C2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -694,6 +1227,135 @@
       "inperson"
      ],
      "sections": 17,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 480,
+       "end": 530,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDB",
+        "BDJ"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDC",
+        "BDK"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDD",
+        "BDL",
+        "BDO"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDE",
+        "BDM",
+        "BDP"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDF",
+        "BDN"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDH"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDI"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.4921,
       "aRateInclMinus": 0.6347,
@@ -710,6 +1372,135 @@
       "inperson"
      ],
      "sections": 17,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 480,
+       "end": 530,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB",
+        "ADJ",
+        "ADO"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC",
+        "ADK",
+        "ADP"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADD",
+        "ADL"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE",
+        "ADM"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADF",
+        "ADN"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.4766,
       "aRateInclMinus": 0.5802,
@@ -750,6 +1541,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.876,
       "aRateInclMinus": 0.903,
@@ -766,6 +1571,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -780,6 +1599,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -794,6 +1627,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -834,6 +1681,32 @@
       "online-B"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6375,
       "aRateInclMinus": 0.7646,
@@ -874,6 +1747,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8932,
       "aRateInclMinus": 0.9167,
@@ -890,6 +1777,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 540,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -904,6 +1805,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ON1"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -941,6 +1856,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6822,
       "aRateInclMinus": 0.7338,
@@ -957,6 +1886,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "OL2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1012,6 +1955,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.918,
       "aRateInclMinus": 0.918,
@@ -1052,6 +2009,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8597,
       "aRateInclMinus": 0.9038,
@@ -1092,6 +2063,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 645,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.875,
       "aRateInclMinus": 0.9583,
@@ -1113,6 +2098,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "OL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8308,
       "aRateInclMinus": 0.8943,
@@ -1134,6 +2133,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "OL4"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7899,
       "aRateInclMinus": 0.8487,
@@ -1150,6 +2163,32 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 1020,
+       "end": 1100,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "M",
+       "start": 1020,
+       "end": 1100,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.75,
       "aRateInclMinus": 0.875,
@@ -1171,6 +2210,32 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "M",
+       "start": 540,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 540,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.747,
       "aRateInclMinus": 0.8795,
@@ -1192,6 +2257,32 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 540,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AAP"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 540,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AAP"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6316,
       "aRateInclMinus": 0.7368,
@@ -1208,6 +2299,32 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "M",
+       "start": 1020,
+       "end": 1100,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 1020,
+       "end": 1100,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1222,6 +2339,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "OL3"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1261,6 +2392,239 @@
       "inperson"
      ],
      "sections": 22,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 870,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI",
+        "BDH"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDJ"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH",
+        "BDE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADJ",
+        "BDG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDB"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7593,
       "aRateInclMinus": 0.8668,
@@ -1277,6 +2641,68 @@
       "inperson"
      ],
      "sections": 5,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADJ"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1291,6 +2717,68 @@
       "inperson"
      ],
      "sections": 5,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1305,6 +2793,68 @@
       "inperson"
      ],
      "sections": 5,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDH"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDJ"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDA"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1319,6 +2869,68 @@
       "inperson"
      ],
      "sections": 5,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BDB"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1357,6 +2969,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.9024,
       "aRateInclMinus": 0.9024,
@@ -1373,6 +2999,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8659,
       "aRateInclMinus": 0.8824,
@@ -1412,6 +3052,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ON1"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1426,6 +3080,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1440,6 +3108,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1454,6 +3136,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD2"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1468,6 +3164,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1482,6 +3192,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1496,6 +3220,32 @@
       "inperson"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD5"
+       ]
+      },
+      {
+       "type": "Laboratory",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD6"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1535,6 +3285,162 @@
       "online"
      ],
      "sections": 22,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Online Discussion",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADL",
+        "ADM",
+        "ADN"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC",
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE",
+        "ADF",
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH",
+        "ADI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD2",
+        "AD3"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4",
+        "AD5"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD6"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD7",
+        "AD8"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD9",
+        "ADA"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8636,
       "aRateInclMinus": 0.9178,
@@ -1593,6 +3499,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "GP"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -1607,6 +3527,44 @@
       "inperson"
      ],
      "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8376,
       "aRateInclMinus": 0.8803,
@@ -1623,6 +3581,44 @@
       "inperson"
      ],
      "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD7"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8214,
       "aRateInclMinus": 0.8714,
@@ -1639,6 +3635,105 @@
       "inperson"
      ],
      "sections": 9,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADE"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADG"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADH",
+        "ADI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADF"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD7"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6684,
       "aRateInclMinus": 0.7824,
@@ -1655,6 +3750,44 @@
       "inperson"
      ],
      "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADI"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 900,
+       "end": 950,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADD"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6522,
       "aRateInclMinus": 0.8261,
@@ -1701,6 +3834,74 @@
       "inperson"
      ],
      "sections": 11,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1",
+        "AD2"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3",
+        "AD4"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD5",
+        "ADB",
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD7",
+        "AD8",
+        "ADD"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.1429,
       "aRateInclMinus": 0.381,
@@ -1747,6 +3948,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.5805,
       "aRateInclMinus": 0.7004,
@@ -1788,6 +4003,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.9595,
       "aRateInclMinus": 0.968,
@@ -1829,6 +4058,32 @@
       "online-B"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ONA"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONB"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.802,
       "aRateInclMinus": 0.802,
@@ -1868,6 +4123,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7554,
       "aRateInclMinus": 0.8278,
@@ -1907,6 +4176,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8203,
       "aRateInclMinus": 0.9015,
@@ -1923,6 +4206,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8182,
       "aRateInclMinus": 0.8636,
@@ -1944,6 +4241,20 @@
       "online-A"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ON1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7318,
       "aRateInclMinus": 0.8259,
@@ -1983,6 +4294,32 @@
       "inperson"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "E2"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.4318,
       "aRateInclMinus": 0.5,
@@ -2004,6 +4341,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 735,
+       "dates": "1/19–5/5",
+       "sections": [
+        "P1"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -2039,6 +4390,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Seminar",
+       "mode": "inperson",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "M"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7311,
       "aRateInclMinus": 0.8836,
@@ -2076,6 +4441,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 480,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7249,
       "aRateInclMinus": 0.9194,
@@ -2092,6 +4471,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 960,
+       "end": 1070,
+       "dates": "1/19–5/5",
+       "sections": [
+        "SAE"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -2130,6 +4523,142 @@
       "online"
      ],
      "sections": 13,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 630,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D",
+        "E"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 960,
+       "end": 1040,
+       "dates": "1/19–5/5",
+       "sections": [
+        "F"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "G"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "H"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "I"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "J"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "K"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "LOL",
+        "MOL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7598,
       "aRateInclMinus": 0.8658,
@@ -2169,6 +4698,32 @@
       "inperson"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AA"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7712,
       "aRateInclMinus": 0.8302,
@@ -2185,6 +4740,32 @@
       "inperson"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "BB"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AA"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7308,
       "aRateInclMinus": 0.8087,
@@ -2225,6 +4806,32 @@
       "online-B"
      ],
      "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "ON1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7994,
       "aRateInclMinus": 0.8696,
@@ -2265,6 +4872,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "JPM"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6926,
       "aRateInclMinus": 0.8658,
@@ -2306,6 +4927,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7284,
       "aRateInclMinus": 0.806,
@@ -2322,6 +4957,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -2361,6 +5010,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6368,
       "aRateInclMinus": 0.8285,
@@ -2377,6 +5040,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.5789,
       "aRateInclMinus": 0.8421,
@@ -2398,6 +5075,20 @@
       "online"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": null,
      "notes": [
       {
@@ -2437,6 +5128,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.7826,
       "aRateInclMinus": 0.8261,
@@ -2482,6 +5187,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8305,
       "aRateInclMinus": 0.8983,
@@ -2524,6 +5243,20 @@
       "online-B"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.8581,
       "aRateInclMinus": 0.8584,
@@ -2540,6 +5273,20 @@
       "inperson"
      ],
      "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "PS"
+       ]
+      }
+     ],
      "stats": {
       "aRate": 0.6293,
       "aRateInclMinus": 0.7333,
