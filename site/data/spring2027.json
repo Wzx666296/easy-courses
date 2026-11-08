@@ -1,6 +1,6 @@
 {
  "term": "Spring 2027",
- "builtAt": "2026-11-07",
+ "builtAt": "2026-11-08",
  "sources": {
   "grades": "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/",
   "schedule": "https://courses.illinois.edu/schedule/2027/spring"
@@ -6520,6 +6520,65 @@
    "credits": "3",
    "genedCodes": [
     "LS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "ANTH 278",
+   "zh": "气候变化与文明",
+   "gradesFrom": null,
+   "title": "Climate Change & Civilization",
+   "geneds": [
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7178,
+    "aRateInclMinus": 0.8352,
+    "gpa": 3.74,
+    "students": 443,
+    "semesters": 14
+   },
+   "teachers": [
+    {
+     "name": "Lisa Lucero",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "1"
+       ]
+      }
+     ],
+     "homepage": "https://experts.illinois.edu/en/persons/lisa-j-lucero",
+     "stats": {
+      "aRate": 0.7178,
+      "aRateInclMinus": 0.8352,
+      "gpa": 3.74,
+      "students": 443,
+      "semesters": 14
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Examination of how climate change impacts society. With the increasing need to understand how climate changes and society intersect at present, it is becoming important that we address critical questions about how lessons from the past inform present needs. Case studies from around the world are discussed.",
+   "credits": "3",
+   "genedCodes": [
+    "NW"
    ],
    "status": "offered"
   }
