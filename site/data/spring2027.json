@@ -6581,6 +6581,3336 @@
     "NW"
    ],
    "status": "offered"
+  },
+  {
+   "code": "HK 111",
+   "zh": "公共卫生导论",
+   "gradesFrom": null,
+   "title": "Introduction to Public Health",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7825,
+    "aRateInclMinus": 0.855,
+    "gpa": 3.74,
+    "students": 2469,
+    "semesters": 13
+   },
+   "teachers": [
+    {
+     "name": "Rachel Hoopsick",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 4,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9444,
+      "aRateInclMinus": 0.9861,
+      "gpa": 3.97,
+      "students": 72,
+      "semesters": 1
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 72
+      }
+     ]
+    },
+    {
+     "name": "R Sarbah",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AAP"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "C Mamaril",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "ON2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "I Noor",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "M Khaium",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "If enrolling in a face-to-face section, students must register for one discussion and one lecture section."
+   ],
+   "description": "Introduction to the nation's public health system; includes an overview of the basic concepts and core functions of public health practice, the scope of applications, and the variety of service organizations (both public and private) that shape public health.",
+   "credits": "3",
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "CLCV 231",
+   "zh": "古代城市的发展",
+   "gradesFrom": null,
+   "title": "Development of Ancient Cities",
+   "geneds": [
+    "Humanities - Hist & Phil",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7832,
+    "aRateInclMinus": 0.8812,
+    "gpa": 3.82,
+    "students": 3031,
+    "semesters": 15
+   },
+   "teachers": [
+    {
+     "name": "Brett Kaufman",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": "https://experts.illinois.edu/en/persons/brett-sanford-kaufman/",
+     "stats": {
+      "aRate": 0.8359,
+      "aRateInclMinus": 0.9004,
+      "gpa": 3.83,
+      "students": 1627,
+      "semesters": 11
+     },
+     "notes": []
+    },
+    {
+     "name": "K Markaki",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Same as JS 231."
+   ],
+   "description": "Monuments, archaeological remains, and histories illustrating the development of the earliest states and urban centers of the Ancient Mediterranean, including Athens, Rome, Carthage, and Jerusalem. Same as JS 231.",
+   "credits": "3",
+   "genedCodes": [
+    "HP",
+    "WCC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "ANSC 255",
+   "zh": "动物伦理",
+   "gradesFrom": null,
+   "title": "Animal Ethics",
+   "geneds": [
+    "Humanities - Hist & Phil"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8303,
+    "aRateInclMinus": 0.8303,
+    "gpa": 3.83,
+    "students": 389,
+    "semesters": 10
+   },
+   "teachers": [
+    {
+     "name": "Daniel Shike",
+     "role": "lead",
+     "modes": [
+      "online"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online Lecture",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "DS"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8303,
+      "aRateInclMinus": 0.8303,
+      "gpa": 3.83,
+      "students": 389,
+      "semesters": 10
+     },
+     "notes": []
+    },
+    {
+     "name": "B Webel",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 930,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "DS1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 990,
+       "end": 1040,
+       "dates": "1/19–5/5",
+       "sections": [
+        "DS2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Explores ethical issues raised by human use of animals. Students will be asked to apply philosophical perspectives to historical and current animal issues such as raising animals for food production, the keeping of pets, management and use of wild animals, use of animals in research, animal breeding and biotechnology, and animal control.",
+   "credits": "3",
+   "genedCodes": [
+    "HP"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "HIST 104",
+   "zh": "黑人音乐",
+   "gradesFrom": null,
+   "title": "Black Music",
+   "geneds": [
+    "Humanities - Hist & Phil",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6543,
+    "aRateInclMinus": 0.8098,
+    "gpa": 3.71,
+    "students": 3301,
+    "semesters": 39
+   },
+   "teachers": [
+    {
+     "name": "C Smith",
+     "role": "lead",
+     "modes": [
+      "inperson",
+      "online"
+     ],
+     "sections": 13,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD8"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD9"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD2"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 570,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD6"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD5"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 930,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4",
+        "AD7"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "Vongai Sagonda",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADA"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD4"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 960,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8264,
+      "aRateInclMinus": 0.9097,
+      "gpa": 3.85,
+      "students": 144,
+      "semesters": 2
+     },
+     "notes": []
+    },
+    {
+     "name": "Leonardo E Silva Ventura",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 540,
+       "end": 590,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD8"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD2"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 570,
+       "end": 620,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD6"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7391,
+      "aRateInclMinus": 0.8043,
+      "gpa": 3.67,
+      "students": 46,
+      "semesters": 1
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 46
+      }
+     ]
+    },
+    {
+     "name": "P Kale",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD3"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADC"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD7"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "N De Angelis",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD9"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD5"
+       ]
+      },
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "R",
+       "start": 930,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ADB"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "What is black music, and how do we know what we think we know about it? Together, we will examine musical creations pioneered by Africans and individuals of African descent over several centuries and across hemispheres. Doing so will allow us to consider the unity of the African Diaspora and its music, and also examine internal differences and diversity. Special focus is given to Latin America and the U.S., but, depending on the semester, we will also read about, listen to, and talk about music and musicians in Asia, Africa, and Europe.",
+   "credits": "3",
+   "genedCodes": [
+    "HP",
+    "US"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "FSHN 101",
+   "zh": "食品科学与你",
+   "gradesFrom": null,
+   "title": "The Science of Food and How it Relates to You",
+   "geneds": [
+    "Nat Sci & Tech - Phys Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7352,
+    "aRateInclMinus": 0.7532,
+    "gpa": 3.63,
+    "students": 3055,
+    "semesters": 25
+   },
+   "teachers": [
+    {
+     "name": "Toni Gist",
+     "role": "lead",
+     "modes": [
+      "online"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
+     "homepage": "https://publish.illinois.edu/gist-partnerships/",
+     "stats": {
+      "aRate": 0.7962,
+      "aRateInclMinus": 0.7962,
+      "gpa": 3.69,
+      "students": 2252,
+      "semesters": 14
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Discusses the evolution of the food system to meet the needs and desires of a complex, heterogeneous society. Provides an overview of food in relation to nutrition and health, composition and chemistry, microbiology, safety, processing, preservation, laws and regulations, quality, and the consumer.",
+   "credits": "3",
+   "genedCodes": [
+    "PS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "JOUR 101",
+   "zh": "互动媒体与你",
+   "gradesFrom": null,
+   "title": "Interactive Media & You",
+   "geneds": [
+    "Social & Beh Sci - Beh Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7902,
+    "aRateInclMinus": 0.8411,
+    "gpa": 3.74,
+    "students": 491,
+    "semesters": 6
+   },
+   "teachers": [
+    {
+     "name": "Christopher Ball",
+     "role": "lead",
+     "modes": [
+      "online"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–5/5",
+       "sections": [
+        "ONL"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7902,
+      "aRateInclMinus": 0.8411,
+      "gpa": 3.74,
+      "students": 491,
+      "semesters": 6
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Introduces students to research and theory surrounding new media and technology. We will examine the impacts of interactive media (e.g., social media, video games) on society and, ultimately, our everyday lives. We will look beyond \"good/bad\" classifications of new media in favor of seeking a more balanced understanding of the significance of these evolving technologies. A goal of the course is to reflect on the role interactive media technologies play in our increasingly digital society/lives and how we can leverage them for positive purposes while minimizing the potential for negative consequences.",
+   "credits": "3",
+   "genedCodes": [
+    "BSC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "NRES 101",
+   "zh": "21 世纪野生动物保护",
+   "gradesFrom": null,
+   "title": "Wildlife Conservation in the 21st Century",
+   "geneds": [
+    "Nat Sci & Tech - Life Sciences"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6918,
+    "aRateInclMinus": 0.7842,
+    "gpa": 3.62,
+    "students": 876,
+    "semesters": 6
+   },
+   "teachers": [
+    {
+     "name": "Samuel Stickley",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7823,
+      "aRateInclMinus": 0.8516,
+      "gpa": 3.73,
+      "students": 519,
+      "semesters": 3
+     },
+     "notes": []
+    },
+    {
+     "name": "L Brunk",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "G Witynski",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "An introduction to the conservation, diversity and ecology of animals. The diversity of fish, reptiles, amphibians, mammals, and birds both around the world and in Illinois will be explored. The course will have a strong conservation component where students are introduced to a variety of threats facing animals. The students will be introduced to how to manage sustainable wildlife populations. The students will be exposed to current issues in Illinois to illustrate how people and animals can co-occur and a broad overview of the management, restoration, and conservation techniques.",
+   "credits": "3",
+   "genedCodes": [
+    "LS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "THEA 101",
+   "zh": "戏剧艺术导论",
+   "gradesFrom": null,
+   "title": "Introduction to Theatre Arts",
+   "geneds": [
+    "Humanities - Lit & Arts"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.6613,
+    "aRateInclMinus": 0.7538,
+    "gpa": 3.49,
+    "students": 17453,
+    "semesters": 204
+   },
+   "teachers": [
+    {
+     "name": "Toyosi Morgan",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7742,
+      "aRateInclMinus": 0.8479,
+      "gpa": 3.69,
+      "students": 217,
+      "semesters": 6
+     },
+     "notes": []
+    },
+    {
+     "name": "Thomas Miller",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 24,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A1",
+        "A10",
+        "A11",
+        "A12",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B1",
+        "B10",
+        "B11",
+        "B12",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6701,
+      "aRateInclMinus": 0.7579,
+      "gpa": 3.48,
+      "students": 3498,
+      "semesters": 17
+     },
+     "notes": []
+    },
+    {
+     "name": "Jason Morrissette",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 24,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A1",
+        "A10",
+        "A11",
+        "A12",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B1",
+        "B10",
+        "B11",
+        "B12",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6636,
+      "aRateInclMinus": 0.7546,
+      "gpa": 3.49,
+      "students": 4967,
+      "semesters": 34
+     },
+     "notes": []
+    },
+    {
+     "name": "T Hudson",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 24,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A1",
+        "A10",
+        "A11",
+        "A12",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B1",
+        "B10",
+        "B11",
+        "B12",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "Y Tang",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 24,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A1",
+        "A10",
+        "A11",
+        "A12",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B1",
+        "B10",
+        "B11",
+        "B12",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "M Jones",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A10"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B10"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "K Carter",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A11"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B11"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "T Frota",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A12"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "J D'Souza",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "G Goodwin",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "F Baldwin",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A4",
+        "A5"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B4",
+        "B5"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "R Nazari Najafabadi",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 4,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A6",
+        "A7"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B6",
+        "B7"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "W English",
+     "role": "lead",
+     "modes": [
+      "online-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A8"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "F Crim",
+     "role": "lead",
+     "modes": [
+      "online-A",
+      "online-B"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "A",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A9"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B9"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "N Blondell",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B12"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "G Williams",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "X Felix",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "D Maldonado",
+     "role": "lead",
+     "modes": [
+      "online-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "B",
+       "days": "",
+       "start": null,
+       "end": null,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B8"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Credit is not given toward graduation for: Credit not given for both THEA 101 and THEA 122."
+   ],
+   "description": "[IAI Code: F1907] Introduction to the arts of theater for non-majors, including acting, design, directing, dramaturgy, and playwriting, together with a survey of theatrical history, minority theater, and plays by women. Attendance at Department of Theater productions (ticket fee required). Credit is not given toward graduation for: Credit not given for both THEA 101 and THEA 122.",
+   "credits": "3",
+   "genedCodes": [
+    "LA"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "SOCW 297",
+   "zh": "美国的亚裔家庭",
+   "gradesFrom": null,
+   "title": "Asian Families in America",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.75,
+    "aRateInclMinus": 0.8326,
+    "gpa": 3.73,
+    "students": 436,
+    "semesters": 28
+   },
+   "teachers": [
+    {
+     "name": "Anita Balgopal",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 960,
+       "end": 1035,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9211,
+      "aRateInclMinus": 0.9605,
+      "gpa": 3.93,
+      "students": 76,
+      "semesters": 18
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 76
+      }
+     ]
+    },
+    {
+     "name": "David Chih",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 960,
+       "end": 1035,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7139,
+      "aRateInclMinus": 0.8056,
+      "gpa": 3.68,
+      "students": 360,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Same as AAS 297 and HDFS 221."
+   ],
+   "description": "Offers a comparative analysis of Asian families as they cope and adapt to American society. Examines: 1) how families from four major Asian-American groups (Chinese, Indian, Japanese and Korean) function in American society; 2) how these families compare to families in their country of origin; and 3) how these families are similar to or different from the 'typical American' family. Includes visits to Asian cultural institutions and with Asian families. Same as AAS 297 and HDFS 221.",
+   "credits": "3",
+   "genedCodes": [
+    "SS",
+    "US"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "CI 210",
+   "zh": "数字学习环境导论",
+   "gradesFrom": null,
+   "title": "Introduction to Digital Learning Environments",
+   "geneds": [
+    "Social & Beh Sci - Beh Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8738,
+    "aRateInclMinus": 0.9243,
+    "gpa": 3.89,
+    "students": 317,
+    "semesters": 16
+   },
+   "teachers": [
+    {
+     "name": "Faith Baker",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Discussion/Recitation",
+       "mode": "inperson",
+       "part": "full",
+       "days": "F",
+       "start": 780,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AD"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9104,
+      "aRateInclMinus": 0.9552,
+      "gpa": 3.89,
+      "students": 67,
+      "semesters": 3
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 67
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Surveys the field of digital environments and their capacity to support teaching and learning. Examines theories of interactivity, immersion, learning with multi-media, and digital literacies to discuss and evaluate various digital environments. Students learn to critically assess digital environments and to create original prototypes that target a specific and important learning or teaching goal. Environments that will be discussed and experimented with in class include virtual worlds, social networks, digital classrooms, interactive exhibits, video games, and tangible technologies.",
+   "credits": "3",
+   "genedCodes": [
+    "BSC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "GLBL 100",
+   "zh": "全球研究导论",
+   "gradesFrom": null,
+   "title": "Intro to Global Studies",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7111,
+    "aRateInclMinus": 0.8113,
+    "gpa": 3.62,
+    "students": 1208,
+    "semesters": 78
+   },
+   "teachers": [
+    {
+     "name": "Michelle Patino",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 780,
+       "end": 860,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D"
+       ]
+      }
+     ],
+     "homepage": "https://anthro.illinois.edu/directory/profile/mpatino2",
+     "stats": {
+      "aRate": 0.8793,
+      "aRateInclMinus": 0.9138,
+      "gpa": 3.84,
+      "students": 58,
+      "semesters": 1
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 58
+      }
+     ]
+    },
+    {
+     "name": "Timothy Wedig",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 780,
+       "end": 860,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 740,
+       "dates": "1/19–5/5",
+       "sections": [
+        "HH"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.752,
+      "aRateInclMinus": 0.848,
+      "gpa": 3.62,
+      "students": 125,
+      "semesters": 17
+     },
+     "notes": []
+    },
+    {
+     "name": "Ji Yoo",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 900,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "H"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.358,
+      "aRateInclMinus": 0.5926,
+      "gpa": 3.31,
+      "students": 81,
+      "semesters": 7
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 81
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Foundation course for understanding a range of contemporary issues and learning to analyze them from multiple disciplinary perspectives. Students consider globalizing trends within themes of wealth and poverty; population, cultures, and human rights; environment and sustainability; and governance, conflict, and cooperation. Course objectives are to enhance knowledge of human cultures, their interactions and impacts on the world; develop skills for successfully negotiating realities of contemporary societies; and promote values for global learning, diversity, and sustainable futures.",
+   "credits": "3",
+   "genedCodes": [
+    "SS",
+    "WCC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "PORT 150",
+   "zh": "美国的巴西人书写",
+   "gradesFrom": null,
+   "title": "Writing Brazilians into the U.S.",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8857,
+    "aRateInclMinus": 0.9333,
+    "gpa": 3.84,
+    "students": 105,
+    "semesters": 11
+   },
+   "teachers": [
+    {
+     "name": "John Karam",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8667,
+      "aRateInclMinus": 0.9333,
+      "gpa": 3.87,
+      "students": 75,
+      "semesters": 10
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 75
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Explores ethnic and race relations, gendered and sexualized asymmetries, and class inequities for Brazilians in the US through an interdisciplinary approach grounded in anthropology, cultural studies, and ethnic studies. Students will learn how Brazilian identity in the US is not uniform or static, but rather historically contingent, plural, and contested, and how migrants and their descendants shape \"minority\" as well as \"majority\" categories in the US.",
+   "credits": "3",
+   "genedCodes": [
+    "SS",
+    "US"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "LAST 210",
+   "zh": "安第斯山区的生活",
+   "gradesFrom": null,
+   "title": "Life in the Andes",
+   "geneds": [
+    "Cultural Studies - Non-West",
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8619,
+    "aRateInclMinus": 0.9099,
+    "gpa": 3.77,
+    "students": 333,
+    "semesters": 12
+   },
+   "teachers": [
+    {
+     "name": "Carlos Molina-Vital",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 900,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "MV"
+       ]
+      }
+     ],
+     "homepage": "https://igi.illinois.edu/directory/profile/crm5",
+     "stats": {
+      "aRate": 0.8619,
+      "aRateInclMinus": 0.9099,
+      "gpa": 3.77,
+      "students": 333,
+      "semesters": 12
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "An overview of contemporary Andean culture, as practiced by the people in Peru, Bolivia, and Ecuador. This culture is the result of the resilience of the pre-Hispanic Andean heritage, and the continuous adaptation Andean people have practiced, first, to control their environment and, then, to survive and overcome colonial and postcolonial forms of subordination. No prior knowledge of Spanish, Quechua, or the Andes is required.",
+   "credits": "3",
+   "genedCodes": [
+    "NW",
+    "SS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "CPSC 116",
+   "zh": "全球食品生产网络",
+   "gradesFrom": null,
+   "title": "The Global Food Production Web",
+   "geneds": [
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.851,
+    "aRateInclMinus": 0.851,
+    "gpa": 3.79,
+    "students": 812,
+    "semesters": 10
+   },
+   "teachers": [
+    {
+     "name": "Martin Bohn",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 780,
+       "end": 870,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.851,
+      "aRateInclMinus": 0.851,
+      "gpa": 3.79,
+      "students": 812,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Introduces students to the global web involved in the production of food we consume on a daily basis. Selected ecosystems of plants, people, and cultures in Asia, Africa, and Latin America will be studied based on involvement with various crops. Presents the origin and biology of plants; their evolution with humankind in various cultures; the spread and economic importance of crops around the world; and considers current hunger and environmental issues resulting from the global food web. Interactive communications with selected scientists, producers, and traders around the world through the World Wide Web and email system of the INTERNET permit students to get personal exposure to information and activities.",
+   "credits": "3",
+   "genedCodes": [
+    "NW"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "LLS 240",
+   "zh": "拉丁裔流行文化",
+   "gradesFrom": null,
+   "title": "Latina/o Popular Culture",
+   "geneds": [
+    "Cultural Studies - US Minority"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8227,
+    "aRateInclMinus": 0.883,
+    "gpa": 3.8,
+    "students": 282,
+    "semesters": 11
+   },
+   "teachers": [
+    {
+     "name": "Randy Rodriguez",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8502,
+      "aRateInclMinus": 0.8947,
+      "gpa": 3.82,
+      "students": 247,
+      "semesters": 10
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Same as ENGL 224 and SPAN 240."
+   ],
+   "description": "Provides an introduction to Latina/o popular culture in the United States. Specific modes of popular culture might include mass media, music, film, video, performance, and other expressive forms. Lecture and readings are in English. Same as ENGL 224 and SPAN 240.",
+   "credits": "3",
+   "genedCodes": [
+    "US"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "AFRO 224",
+   "zh": "非裔美国人经验（本学期：种族与粮食安全）",
+   "gradesFrom": null,
+   "title": "Humanist Persp of Afro-Am Exp",
+   "geneds": [
+    "Cultural Studies - US Minority",
+    "Humanities - Lit & Arts"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8034,
+    "aRateInclMinus": 0.9145,
+    "gpa": 3.87,
+    "students": 117,
+    "semesters": 8
+   },
+   "teachers": [
+    {
+     "name": "Esther Ngumbi",
+     "role": "lead",
+     "modes": [
+      "inperson-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "B",
+       "days": "MW",
+       "start": 840,
+       "end": 1010,
+       "dates": "3/15–5/5",
+       "sections": [
+        "1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8333,
+      "aRateInclMinus": 0.9333,
+      "gpa": 3.92,
+      "students": 60,
+      "semesters": 4
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 60
+      }
+     ]
+    }
+   ],
+   "extras": {
+    "prereqZh": "AFRO 100，或经老师同意。"
+   },
+   "prereq": "AFRO 100 or consent of instructor.",
+   "notes": [
+    "Same as CWL 226. Approved for both letter and S/U grading."
+   ],
+   "description": "Presents the Afro-centric world view as it was manifested in traditional African society and in the Afro-American slave community. Shows that this world view merged with European notions of art and humanity, as revealed in modern Afro-American literature, art, and music. Same as CWL 226. Approved for both letter and S/U grading. Prerequisite: AFRO 100 or consent of instructor.",
+   "credits": "3",
+   "genedCodes": [
+    "US",
+    "LA"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "PSYC 239",
+   "zh": "社区心理学",
+   "gradesFrom": null,
+   "title": "Community Psych",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8153,
+    "aRateInclMinus": 0.8863,
+    "gpa": 3.82,
+    "students": 1310,
+    "semesters": 23
+   },
+   "teachers": [
+    {
+     "name": "Nathan Todd",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8178,
+      "aRateInclMinus": 0.8876,
+      "gpa": 3.82,
+      "students": 774,
+      "semesters": 15
+     },
+     "notes": []
+    }
+   ],
+   "extras": {
+    "prereqZh": "PSYC 100。"
+   },
+   "prereq": "PSYC 100.",
+   "notes": [],
+   "description": "Redefines human and social problems and the implications for social programs and policies; reviews the historical antecedents, conceptual models, strategies and tactics of social and community programs; and employs examples from selected social systems (e.g., criminal justice, education, employment, and mental health). Prerequisite: PSYC 100.",
+   "credits": "3",
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "SOCW 200",
+   "zh": "社会工作导论",
+   "gradesFrom": null,
+   "title": "Introduction to Social Work",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.335,
+    "aRateInclMinus": 0.5416,
+    "gpa": 3.3,
+    "students": 973,
+    "semesters": 23
+   },
+   "teachers": [
+    {
+     "name": "April Keaton",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 960,
+       "end": 1035,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8085,
+      "aRateInclMinus": 0.8617,
+      "gpa": 3.8,
+      "students": 94,
+      "semesters": 3
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 94
+      }
+     ]
+    },
+    {
+     "name": "Tara Earls Larrison",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 645,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 825,
+       "dates": "1/19–5/5",
+       "sections": [
+        "B"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 900,
+       "end": 975,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.2844,
+      "aRateInclMinus": 0.5074,
+      "gpa": 3.25,
+      "students": 879,
+      "semesters": 20
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Broad survey of the field of social work; introduction to social services, social welfare organizations, major social problems and target population groups, and the methods used in working with individuals, groups, and communities; includes the range of personnel and skills in social work agencies, and the means of education and training for social work professionals.",
+   "credits": "3",
+   "genedCodes": [
+    "SS"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "GGIS 204",
+   "zh": "世界城市",
+   "gradesFrom": null,
+   "title": "Cities of the World",
+   "geneds": [
+    "Social & Beh Sci - Soc Sci",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.4792,
+    "aRateInclMinus": 0.6615,
+    "gpa": 3.5,
+    "students": 576,
+    "semesters": 14
+   },
+   "teachers": [
+    {
+     "name": "Sian Butcher",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": "https://ggis.illinois.edu/directory/profile/sbutcher",
+     "stats": {
+      "aRate": 0.8039,
+      "aRateInclMinus": 0.8627,
+      "gpa": 3.84,
+      "students": 51,
+      "semesters": 3
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 51
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "In-depth exploration of global urbanization. Using a comparative regional approach, discuss the recent history of global urbanization, dissect its problems, and offer possible solutions. Approximately ten major regions of the world will be examined, exploring the significant urban patterns and processes, built and natural environments, and social, economic, and cultural landscapes of each.",
+   "credits": "3",
+   "genedCodes": [
+    "SS",
+    "WCC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "THEA 110",
+   "zh": "百老汇音乐剧",
+   "gradesFrom": null,
+   "title": "Broadway Musicals",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7748,
+    "aRateInclMinus": 0.8586,
+    "gpa": 3.76,
+    "students": 2087,
+    "semesters": 51
+   },
+   "teachers": [
+    {
+     "name": "Meghan Landon",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MF",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Laboratory-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AY2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8037,
+      "aRateInclMinus": 0.8889,
+      "gpa": 3.83,
+      "students": 540,
+      "semesters": 7
+     },
+     "notes": []
+    },
+    {
+     "name": "Jason Morrissette",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 4,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MF",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 900,
+       "end": 980,
+       "dates": "1/19–5/5",
+       "sections": [
+        "CHP"
+       ]
+      },
+      {
+       "type": "Laboratory-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AY1",
+        "AY2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.777,
+      "aRateInclMinus": 0.8581,
+      "gpa": 3.75,
+      "students": 888,
+      "semesters": 26
+     },
+     "notes": []
+    },
+    {
+     "name": "T Hudson",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MF",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
+      {
+       "type": "Laboratory-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "W",
+       "start": 840,
+       "end": 890,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AY1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "A cultural context of the uniquely \"American\" Broadway musical through an introduction to the art form, an analysis of the pertinent time period, and historical and critical placement of the work as a reflection (and development) of the identity of the United States. This course will introduce the collaborative artistry of the musical, survey specific iconic works, and explore the socio-economic impacts of the Broadway musical. Attendance at selected performances is required.",
+   "credits": "3",
+   "genedCodes": [
+    "LA",
+    "WCC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "ARTJ 302",
+   "zh": "日本动画导论",
+   "gradesFrom": null,
+   "title": "Intro to Japanese Animation",
+   "geneds": [
+    "Humanities - Hist & Phil",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.7729,
+    "aRateInclMinus": 0.869,
+    "gpa": 3.7,
+    "students": 229,
+    "semesters": 7
+   },
+   "teachers": [
+    {
+     "name": "Lindsey Stirek",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1010,
+       "dates": "1/19–5/5",
+       "sections": [
+        "1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7823,
+      "aRateInclMinus": 0.8776,
+      "gpa": 3.76,
+      "students": 147,
+      "semesters": 5
+     },
+     "notes": []
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [],
+   "description": "Introduction to anime (Japanese animation), its history, its relevance in both a Japanese and global context, and its international impact; emphasis on philosophical inquiry into issues raised in a variety of dubbed/subtitled anime and critical analysis of related scholarly articles; discussion of the mechanics of anime creation and examination of its interaction with other media including videogames and manga.",
+   "credits": "3",
+   "genedCodes": [
+    "HP",
+    "NW"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "CLCV 220",
+   "zh": "探索希腊罗马世界",
+   "gradesFrom": null,
+   "title": "Exploring the Greek and Roman World",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Western"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.5221,
+    "aRateInclMinus": 0.6716,
+    "gpa": 3.35,
+    "students": 408,
+    "semesters": 23
+   },
+   "teachers": [
+    {
+     "name": "Angeliki Tzanetou",
+     "role": "lead",
+     "modes": [
+      "inperson-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "B",
+       "days": "TR",
+       "start": 600,
+       "end": 710,
+       "dates": "3/15–5/5",
+       "sections": [
+        "G"
+       ]
+      }
+     ],
+     "homepage": "https://experts.illinois.edu/en/persons/angeliki-tzanetou/",
+     "stats": {
+      "aRate": 0.7037,
+      "aRateInclMinus": 0.8272,
+      "gpa": 3.72,
+      "students": 81,
+      "semesters": 4
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 81
+      }
+     ]
+    },
+    {
+     "name": "Victoria Austen",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D"
+       ]
+      }
+     ],
+     "homepage": "https://experts.illinois.edu/en/persons/victoria-austen/",
+     "stats": {
+      "aRate": 0.6607,
+      "aRateInclMinus": 0.8393,
+      "gpa": 3.76,
+      "students": 56,
+      "semesters": 2
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 56
+      }
+     ]
+    },
+    {
+     "name": "Clara Bosak-Schroeder",
+     "role": "lead",
+     "modes": [
+      "inperson-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "B",
+       "days": "MW",
+       "start": 840,
+       "end": 950,
+       "dates": "3/15–5/5",
+       "sections": [
+        "C"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6207,
+      "aRateInclMinus": 0.7414,
+      "gpa": 3.56,
+      "students": 58,
+      "semesters": 3
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 58
+      }
+     ]
+    },
+    {
+     "name": "Brian Walters",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "CHP"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.5638,
+      "aRateInclMinus": 0.7021,
+      "gpa": 3.47,
+      "students": 94,
+      "semesters": 6
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 94
+      }
+     ]
+    },
+    {
+     "name": "D Leon Ruiz",
+     "role": "lead",
+     "modes": [
+      "inperson-A"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "A",
+       "days": "TR",
+       "start": 840,
+       "end": 950,
+       "dates": "1/19–3/12",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "B Bevis",
+     "role": "lead",
+     "modes": [
+      "inperson-B"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "B",
+       "days": "TR",
+       "start": 540,
+       "end": 650,
+       "dates": "3/15–5/5",
+       "sections": [
+        "B"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Same as CWL 220. May be repeated in separate terms, if topics vary."
+   ],
+   "description": "Focused study of topics in ancient Greek and Roman literature, art, archaeology, and culture in their Mediterranean context. May also explore reflections in later literature and art. Same as CWL 220. May be repeated in separate terms, if topics vary.",
+   "credits": "3",
+   "genedCodes": [
+    "LA",
+    "WCC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "SPED 322",
+   "zh": "智力障碍导论",
+   "gradesFrom": null,
+   "title": "Introduction to Intellectual Disability",
+   "geneds": [
+    "Social & Beh Sci - Beh Sci"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.8196,
+    "aRateInclMinus": 0.8544,
+    "gpa": 3.76,
+    "students": 776,
+    "semesters": 10
+   },
+   "teachers": [
+    {
+     "name": "Emily Tarconish",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "T",
+       "start": 960,
+       "end": 1130,
+       "dates": "1/19–5/5",
+       "sections": [
+        "A"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.753,
+      "aRateInclMinus": 0.8207,
+      "gpa": 3.69,
+      "students": 251,
+      "semesters": 3
+     },
+     "notes": []
+    }
+   ],
+   "extras": {
+    "prereqZh": "PSYC 100 或 SPED 117，或同等课程。"
+   },
+   "prereq": "PSYC 100 or SPED 117; or equivalent.",
+   "notes": [
+    "Same as PSYC 322."
+   ],
+   "description": "Study of the history and current status of the social, emotional, physical, and learning characteristics and problems of persons with an intellectual disability; identification and diagnosis; available services and provisions; and educational programs and lifelong processes of adaptation for these individuals and their families. Same as PSYC 322. Prerequisite: PSYC 100 or SPED 117; or equivalent.",
+   "credits": "3",
+   "genedCodes": [
+    "BSC"
+   ],
+   "status": "offered"
+  },
+  {
+   "code": "REL 260",
+   "zh": "伊斯兰神秘主义者与圣徒",
+   "gradesFrom": null,
+   "title": "Mystics and Saints in Islam",
+   "geneds": [
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
+   ],
+   "offered": true,
+   "overall": {
+    "aRate": 0.75,
+    "aRateInclMinus": 0.9464,
+    "gpa": 3.83,
+    "students": 56,
+    "semesters": 5
+   },
+   "teachers": [
+    {
+     "name": "Mukhtar Ali",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 920,
+       "dates": "1/19–5/5",
+       "sections": [
+        "MA"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.75,
+      "aRateInclMinus": 0.9464,
+      "gpa": 3.83,
+      "students": 56,
+      "semesters": 5
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 56
+      }
+     ]
+    }
+   ],
+   "extras": {},
+   "prereq": "",
+   "notes": [
+    "Same as SAME 260. No knowledge of Islam or foreign language is required."
+   ],
+   "description": "Examines mystical concepts and practices in Islam through the ages, through the lives and writings of important mystics and Sufi holy men and women, as well as the integration of mysticism and the Sufi Orders into Muslim society and Islamic orthodoxy. Same as SAME 260. No knowledge of Islam or foreign language is required.",
+   "credits": "3",
+   "genedCodes": [
+    "LA",
+    "NW"
+   ],
+   "status": "offered"
   }
  ]
 }

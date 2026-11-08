@@ -220,5 +220,14 @@
   },
   "CHEM 108": {
     "prereqZh": "已修过或同学期修 MATH 112。"
+  },
+  "AFRO 224": {
+    "prereqZh": "AFRO 100，或经老师同意。"
+  },
+  "PSYC 239": {
+    "prereqZh": "PSYC 100。"
+  },
+  "SPED 322": {
+    "prereqZh": "PSYC 100 或 SPED 117，或同等课程。"
   }
 }
