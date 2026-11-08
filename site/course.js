@@ -53,6 +53,19 @@ function redditSection(c) {
     <p class="search-link">${extLink(redditSearch(c.code), t("course.searchReddit", { code: c.code }))}</p>`);
 }
 
+function prereqSection(c) {
+  const zh = LANG === "zh" && c.extras && c.extras.prereqZh;
+  const body = c.prereq
+    ? (zh
+        ? `<p class="prereq">${esc(zh)}</p><p class="source">${esc(t("course.prereqOfficial"))}：<span lang="en">${esc(c.prereq)}</span></p>`
+        : `<p class="prereq" lang="en">${esc(c.prereq)}</p>`)
+    : `<p class="nodata">${esc(t("course.prereqNone"))}</p>`;
+  const notes = (c.notes || []).length
+    ? `<div class="notes"><p class="source">${esc(t("course.notes"))}</p><ul lang="en">${c.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul></div>`
+    : "";
+  return section(t("course.prereq"), body + notes, c.prereq ? "has-prereq" : "");
+}
+
 function render() {
   const c = courseFromUrl();
   if (!c) {
@@ -87,7 +100,7 @@ function render() {
 
   $("course").innerHTML = `${head}
     <div class="course-grid">
-      <div class="col-main">${description}${teachers}</div>
+      <div class="col-main">${description}${prereqSection(c)}${teachers}</div>
       <aside class="col-side">${history}${gradingSection(c)}${syllabusSection(c)}${redditSection(c)}</aside>
     </div>`;
 }

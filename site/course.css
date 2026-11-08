@@ -24,6 +24,10 @@
 .panel h2 { margin: 0; font-size: 13px; font-weight: 600; }
 .panel p { margin: 0; }
 
+.prereq { font-size: 15px; line-height: 1.65; color: var(--text); font-weight: 500; }
+.has-prereq { border-left: 3px solid var(--amber); }
+.notes { margin-top: 4px; padding-top: 10px; border-top: 1px solid var(--border); }
+.notes ul { margin: 6px 0 0; padding-left: 18px; font-size: 13px; line-height: 1.6; color: var(--muted); }
 .description { font-size: 15px; line-height: 1.7; color: var(--text); }
 .source { font-size: 12px; color: var(--faint); }
 .source a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 2px; }

@@ -1,5 +1,5 @@
 {
-  "_comment": "Hand-curated extras per course code. Only add sources you have opened and checked. syllabi: [{label, url, source}]; grading: {term, source, url, items: [[name, percent], ...], note?: {zh, en}}; reddit: [{title, url}]",
+  "_comment": "Hand-curated extras per course code. Only add sources you have opened and checked. syllabi: [{label, url, source}]; grading: {term, source, url, items: [[name, percent], ...], note?: {zh, en}}; reddit: [{title, url}]; prereqZh: Chinese translation of the official prerequisite text",
   "_example": {
     "syllabi": [
       {
@@ -163,7 +163,8 @@
         "zh": "这是 SE 494/495 合在一起的成绩构成；SE 495 本身是项目导师给的个人成绩（出勤、参与、互评等）。",
         "en": "This is the combined SE 494/495 breakdown; SE 495 itself is the individual grade from the project advisor (attendance, participation, peer evaluations)."
       }
-    }
+    },
+    "prereqZh": "SE 261、SE 290、IE 300、IE 310，并且同学期注册 SE 494。"
   },
   "ACE 240": {
     "syllabi": [
@@ -204,5 +205,20 @@
         "en": "Fall 2016 version by Paul Stoddard, not the Spring 2027 instructors (Lemoine, Sanchez) — for reference only."
       }
     }
+  },
+  "PLPA 200": {
+    "prereqZh": "RHET 105 或同等的写作课。"
+  },
+  "BTW 250": {
+    "prereqZh": "大二及以上，并且已完成全校 Composition I 写作要求。"
+  },
+  "ME 470": {
+    "prereqZh": "需修完机械工程的若干核心课（ME 330，ME 320 或 ME 360，并已修或同时修 ME 371 等，有两种组合），具体见官方原文。"
+  },
+  "ANSC 205": {
+    "prereqZh": "已完成全校 Composition I 写作要求。"
+  },
+  "CHEM 108": {
+    "prereqZh": "已修过或同学期修 MATH 112。"
   }
 }

@@ -131,9 +131,22 @@ def load_catalog(code, refresh):
     return ET.parse(path).getroot()
 
 
+def split_prereq(info):
+    """'Same as X. Prerequisite: RHET 105 or equivalent.' -> ('RHET 105 or equivalent.', 'Same as X.')"""
+    m = re.search(r"Prerequisites?:\s*(.*)$", info, re.S)
+    if not m:
+        return "", info.strip()
+    return m.group(1).strip(), info[:m.start()].strip()
+
+
 def course_info(root):
-    """Title, description, credits and Gen Ed codes from a Course Explorer course element."""
+    """Title, description, credits, Gen Ed codes, prerequisites and notes from a Course Explorer course."""
+    info = " ".join((root.findtext("courseSectionInformation") or "").split())
+    prereq, other = split_prereq(info)
+    notes = [x for x in (other, " ".join((root.findtext("classScheduleInformation") or "").split())) if x]
     return {
+        "prereq": prereq,
+        "notes": notes,
         "title": root.findtext("label") or "",
         "description": " ".join((root.findtext("description") or "").split()),
         # "3 hours." / "1 TO 3 hours." -> "3" / "1–3"
