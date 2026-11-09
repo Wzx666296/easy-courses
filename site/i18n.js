@@ -56,7 +56,7 @@ const STRINGS = {
     "home.contact": "发现数据有误，或者有建议？欢迎写信到 <a href=\"mailto:wzchris1808@gmail.com\">wzchris1808@gmail.com</a>",
     "home.footer": "独立开发的第三方选课工具，与 UIUC 官方无关。历史给分不代表未来，选课前请以官方课表和当学期 syllabus 为准。",
     "nav.search": "全部课程查询",
-    "nav.spring": "慵懒选课指北",
+    "nav.spring": "选课指北",
     "lang.label": "语言",
     "loadFailed": "数据加载失败。请用 README 里的命令启动本地服务器（直接双击 HTML 文件打不开数据）。",
     "students": "{n} 人",
