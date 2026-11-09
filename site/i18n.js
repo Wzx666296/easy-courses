@@ -7,9 +7,9 @@ const STRINGS = {
   zh: {
     // shared
     "brand": "慵懒",
-    "home.docTitle": "慵懒选课 · UIUC Spring 2027 选课指南",
+    "home.docTitle": "慵懒选课 · UIUC Spring 2027 选课指北",
     "home.pill": "Spring 2027 · UIUC",
-    "home.title": "Gen Ed",
+    "home.title": "Gen Ed 指北",
     "home.lede": "探索 UIUC Spring 2027 课程，比较历史 GPA、课程信息与通识要求，让选课更轻松。",
     "home.cta1": "探索 Spring 2027 课程",
     "home.cta2": "了解通识分类",
@@ -56,7 +56,7 @@ const STRINGS = {
     "home.contact": "发现数据有误，或者有建议？欢迎写信到 <a href=\"mailto:wzchris1808@gmail.com\">wzchris1808@gmail.com</a>",
     "home.footer": "独立开发的第三方选课工具，与 UIUC 官方无关。历史给分不代表未来，选课前请以官方课表和当学期 syllabus 为准。",
     "nav.search": "全部课程查询",
-    "nav.spring": "慵懒选课指南",
+    "nav.spring": "慵懒选课指北",
     "lang.label": "语言",
     "loadFailed": "数据加载失败。请用 README 里的命令启动本地服务器（直接双击 HTML 文件打不开数据）。",
     "students": "{n} 人",
@@ -128,8 +128,8 @@ const STRINGS = {
     "gened.SS": "  └ SS 社会科学",
 
     // spring 2027 page
-    "spring.docTitle": "UIUC 27Spring GenEd 水课指南",
-    "spring.title": "UIUC 27Spring GenEd 水课指南",
+    "spring.docTitle": "UIUC 27Spring GenEd 水课指北",
+    "spring.title": "UIUC 27Spring GenEd 水课指北",
     "spring.intro": "我们挑出的 {total} 门课里，{offered} 门 2027 春开课。每门课按 2027 春实际授课老师的历史成绩排序。",
     "spring.filters": "筛选",
     "spring.genedGroup": "Gen Ed 类别",
@@ -185,7 +185,7 @@ const STRINGS = {
     "spring.q": "搜索课号、课名或老师",
     "detailLink": "详情 →",
     "course.docTitle": "课程详情",
-    "course.back": "← 返回指南",
+    "course.back": "← 返回指北",
     "course.notFound": "没有找到这门课。",
     "course.description": "课程描述",
     "rmp.title": "在 RateMyProfessors 上查看 {name} 的评价（UIUC）",
