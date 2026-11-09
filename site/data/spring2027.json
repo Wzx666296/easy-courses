@@ -1,6 +1,6 @@
 {
  "term": "Spring 2027",
- "builtAt": "2026-11-08",
+ "builtAt": "2026-11-09",
  "sources": {
   "grades": "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/",
   "schedule": "https://courses.illinois.edu/schedule/2027/spring"
@@ -598,7 +598,7 @@
       "inperson",
       "online-B"
      ],
-     "sections": 5,
+     "sections": 4,
      "schedule": [
       {
        "type": "Lecture-Discussion",
@@ -623,8 +623,7 @@
        "sections": [
         "A",
         "B",
-        "C",
-        "D"
+        "C"
        ]
       }
      ],
@@ -747,8 +746,8 @@
    "gradesFrom": null,
    "title": "Indian Cinema in Context",
    "geneds": [
-    "Humanities - Lit & Arts",
-    "Cultural Studies - Non-West"
+    "Cultural Studies - Non-West",
+    "Humanities - Lit & Arts"
    ],
    "offered": true,
    "overall": {
@@ -799,8 +798,8 @@
    "description": "Introduction to Indian mainstream (mainly Bollywood) cinema and its evolution through the last seven decades. Topics to be explored include, but not limited to, the relation between Indian society/culture and its cinematic representations, cinema's resistance to dominant nationalist and patriarchal ideologies, its interactions with the postcolonial nation-state of India, how globalization has changed the industry. All films will be screened with subtitles. No knowledge of Hindi or any other Indian language is required. Same as MACS 207.",
    "credits": "3",
    "genedCodes": [
-    "LA",
-    "NW"
+    "NW",
+    "LA"
    ],
    "status": "offered"
   },
@@ -2130,8 +2129,8 @@
    "gradesFrom": null,
    "title": "Plants, Pathogens, and People",
    "geneds": [
-    "Advanced Composition",
-    "Nat Sci & Tech - Life Sciences"
+    "Nat Sci & Tech - Life Sciences",
+    "Advanced Composition"
    ],
    "offered": true,
    "overall": {
@@ -2184,8 +2183,8 @@
    "description": "Plant diseases and their impact on food supplies and human history are studied in lectures, demonstrations and discussions. Issues of food production and safety, pesticide use and human health, and the environment are considered. Includes the biology of pathogens that cause plant disease. Designed for non-science and science majors. Prerequisite: RHET 105 or equivalent.",
    "credits": "3",
    "genedCodes": [
-    "CLL",
-    "LS"
+    "LS",
+    "CLL"
    ],
    "status": "offered"
   },
@@ -2639,8 +2638,8 @@
    "gradesFrom": null,
    "title": "Popular Music Studies",
    "geneds": [
-    "Cultural Studies - US Minority",
-    "Humanities - Lit & Arts"
+    "Humanities - Lit & Arts",
+    "Cultural Studies - US Minority"
    ],
    "offered": true,
    "overall": {
@@ -3216,8 +3215,8 @@
    "description": "Courses within this rubric provide an analytical and historical introduction to genres of popular music from the United States and around the world. Iterations of the course may focus on a specific genre, such as Rock, Reggae, or Afropop, or may deal with broader subjects, such as the continua of styles including R&B, Soul, Funk, and Hip Hop, or the pan-generic, international phenomenon of pop music globalization in the twentieth century.",
    "credits": "3",
    "genedCodes": [
-    "US",
-    "LA"
+    "LA",
+    "US"
    ],
    "status": "offered"
   },
@@ -4323,8 +4322,8 @@
    "gradesFrom": null,
    "title": "Cultures & Literatures of South Asia",
    "geneds": [
-    "Humanities - Lit & Arts",
-    "Cultural Studies - Non-West"
+    "Cultural Studies - Non-West",
+    "Humanities - Lit & Arts"
    ],
    "offered": true,
    "overall": {
@@ -4375,8 +4374,8 @@
    "description": "Introduction to the literary traditions of South Asia from the beginnings to the end of the Mughal era. Students will read - in translation - selections from a wide range of texts beginning with the earliest Vedic Hymns to the seventeenth and eighteenth century Sufi poetry and songs. Provides students an understanding of the heterogeneous and rich literary and cultural past of the region. Same as ASST 208, CWL 208, and SAME 208.",
    "credits": "3",
    "genedCodes": [
-    "LA",
-    "NW"
+    "NW",
+    "LA"
    ],
    "status": "offered"
   },
@@ -9492,8 +9491,8 @@
    "gradesFrom": null,
    "title": "Intro to Japanese Animation",
    "geneds": [
-    "Humanities - Hist & Phil",
-    "Cultural Studies - Non-West"
+    "Cultural Studies - Non-West",
+    "Humanities - Hist & Phil"
    ],
    "offered": true,
    "overall": {
@@ -9542,8 +9541,8 @@
    "description": "Introduction to anime (Japanese animation), its history, its relevance in both a Japanese and global context, and its international impact; emphasis on philosophical inquiry into issues raised in a variety of dubbed/subtitled anime and critical analysis of related scholarly articles; discussion of the mechanics of anime creation and examination of its interaction with other media including videogames and manga.",
    "credits": "3",
    "genedCodes": [
-    "HP",
-    "NW"
+    "NW",
+    "HP"
    ],
    "status": "offered"
   },
