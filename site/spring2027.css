@@ -119,3 +119,14 @@
   .teachers .hide-xs { display: none; }
   .big b { font-size: 20px; }
 }
+
+/* Live section status: a colored dot + word (green open, amber restricted, red full). */
+.av-open { --av: var(--green); }
+.av-restricted { --av: var(--amber); }
+.av-closed { --av: var(--red); }
+.pill.av, .av-dot { display: inline-flex; align-items: center; gap: 5px; font-weight: 500; color: var(--text); }
+.pill.av i, .av-dot i { width: 7px; height: 7px; border-radius: 50%; background: var(--av); flex: none; }
+.slot .av-dot { margin-left: 10px; font-size: 11.5px; font-weight: 400; color: var(--muted); }
+.avail-note { font-size: 12px; color: var(--faint); margin: -6px 0 14px; line-height: 1.6; }
+.avail-note a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.avail-note:empty { display: none; }

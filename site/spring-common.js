@@ -67,11 +67,12 @@ const partLabel = (part, dates) => (part === "full" ? t("part.full") : `${t(`hal
 const pill = (cls, text) => `<span class="pill ${cls}">${esc(text)}</span>`;
 
 // One line per lecture/online/lab slot; discussion slots of one teacher are condensed into a single line.
-function scheduleLines(schedule) {
+function scheduleLines(schedule, code) {
+  const dot = (secs) => (code ? availDot(availOf(code, secs)) : "");
   const main = schedule.filter((x) => !DISCUSSION_TYPES.includes(x.type));
   const disc = schedule.filter((x) => DISCUSSION_TYPES.includes(x.type)).sort(bySlotTime);
   const lines = main.map((x) => `<div class="slot">${pill(x.mode, t(`mode.${x.mode}`))}${pill(`part-${x.part}`, partLabel(x.part, x.dates))}
-      <span class="when">${esc(fmtTime(x))}</span>${x.type === "Online" ? "" : `<span class="kind">${esc(t(`type.${x.type}`))}</span>`}</div>`);
+      <span class="when">${esc(fmtTime(x))}</span>${x.type === "Online" ? "" : `<span class="kind">${esc(t(`type.${x.type}`))}</span>`}${dot(x.sections)}</div>`);
   if (disc.length) {
     const first = disc[0];
     const times = disc.map(fmtTime);
@@ -79,7 +80,7 @@ function scheduleLines(schedule) {
     const more = times.length > 4 ? t("sched.more", { n: times.length }) : "";
     lines.push(`<div class="slot">${pill(first.mode, t(`mode.${first.mode}`))}${pill(`part-${first.part}`, partLabel(first.part, first.dates))}
       <span class="kind">${esc(t(disc.length > 1 ? "sched.discPick" : "sched.disc"))}</span>
-      <span class="when">${esc(shown + more)}</span></div>`);
+      <span class="when">${esc(shown + more)}</span>${dot(disc.flatMap((x) => x.sections))}</div>`);
   }
   return lines.join("");
 }
@@ -116,7 +117,7 @@ function teacherRow(x, opts = {}) {
       <td class="num">${s.gpa.toFixed(2)}</td><td class="num hide-xs">${fmtInt(s.students)}</td>`
       : `<td class="nodata" colspan="4">${esc(t("note.noData"))}</td>`}
   </tr>
-  <tr class="${cls} sched"><td colspan="5">${scheduleLines(x.schedule || [])}${opts.rmp ? `<div class="ext-links">
+  <tr class="${cls} sched"><td colspan="5">${scheduleLines(x.schedule || [], opts.code)}${opts.rmp ? `<div class="ext-links">
       <a class="ext rmp" href="${esc(rmpUrl(x.name))}" target="_blank" rel="noopener" title="${esc(t("rmp.title", { name: x.name }))}">RateMyProfessors<span aria-hidden="true"> ↗</span></a>
       ${x.homepage ? `<a class="ext uiuc" href="${esc(x.homepage)}" target="_blank" rel="noopener" title="${esc(t("uiuc.title", { name: x.name }))}">${esc(t("uiuc.label"))}<span aria-hidden="true"> ↗</span></a>` : ""}
     </div>` : ""}</td></tr>`;
@@ -152,3 +153,34 @@ function teachersTable(rows, opts = {}) {
 const slugOf = (code) => code.replace(" ", "-");
 const courseUrl = (code) => `course.html?code=${encodeURIComponent(slugOf(code))}&lang=${LANG}`;
 const overallLine = (o) => (o ? t("overall", { a: pct(o.aRate), am: pct(o.aRateInclMinus), gpa: o.gpa.toFixed(2), n: fmtInt(o.students) }) : "");
+
+// ---- live section status (data/status.json, refreshed hourly by the deploy workflow) ----
+let STATUS = null;
+async function loadStatus() {
+  try {
+    const r = await fetch("data/status.json", { cache: "no-cache" });
+    STATUS = r.ok ? await r.json() : null;
+  } catch (_) { STATUS = null; }
+  return STATUS;
+}
+const AVAIL_ORDER = ["open", "restricted", "closed", "unknown"];
+const statusOf = (code) => (STATUS && STATUS.courses[code]) || null;
+// Best status among the given sections (or all sections of the course).
+function availOf(code, sections) {
+  const st = statusOf(code);
+  if (!st) return null;
+  const list = (sections || Object.keys(st.sections)).map((s) => st.sections[s]).filter(Boolean);
+  if (!list.length) return null;
+  return AVAIL_ORDER.find((k) => list.some((x) => x.status === k)) || null;
+}
+const availPill = (a) => (a && a !== "unknown" ? `<span class="pill av av-${a}"><i aria-hidden="true"></i>${esc(t(`avail.${a}`))}</span>` : "");
+const availDot = (a) => (a && a !== "unknown" ? `<span class="av-dot av-${a}"><i aria-hidden="true"></i>${esc(t(`avail.${a}`))}</span>` : "");
+const availCourse = (c) => availPill(c.offered ? availOf(c.code) : null);
+// "updated 12 minutes ago"
+function statusAge() {
+  if (!STATUS) return "";
+  const min = Math.max(0, Math.round((Date.now() - Date.parse(STATUS.fetchedAt)) / 60000));
+  if (min < 60) return t("avail.ageMin", { n: min });
+  const h = Math.round(min / 60);
+  return h < 48 ? t("avail.ageHour", { n: h }) : t("avail.ageDay", { n: Math.round(h / 24) });
+}

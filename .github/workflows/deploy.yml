@@ -1,6 +1,8 @@
 # Publish site/ to GitHub Pages: on every push to main, after each successful
 # weekly data refresh (its commit is made with GITHUB_TOKEN, which does not
-# trigger push workflows), or manually.
+# trigger push workflows), every hour (to refresh live section status), or manually.
+# Each run fetches section status from Course Explorer into site/data/status.json
+# and publishes it with the site; that file is not committed.
 name: Deploy site
 
 on:
@@ -9,6 +11,8 @@ on:
   workflow_run:
     workflows: ["Update course data"]
     types: [completed]
+  schedule:
+    - cron: "23 * * * *"   # hourly; GitHub may start scheduled runs late
   workflow_dispatch:
 
 permissions:
@@ -31,6 +35,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch live section status
+        run: python scripts/fetch_status.py --fallback "https://wzx666296.github.io/easy-courses/data/status.json"
 
       - uses: actions/configure-pages@v5
 

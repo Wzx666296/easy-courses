@@ -66,6 +66,25 @@ function prereqSection(c) {
   return section(t("course.prereq"), body + notes, c.prereq ? "has-prereq" : "");
 }
 
+// Live registration status and restrictions, from data/status.json.
+function registrationSection(c) {
+  const st = c.offered ? statusOf(c.code) : null;
+  if (!st) return "";
+  const secs = Object.entries(st.sections);
+  const counts = AVAIL_ORDER.filter((k) => k !== "unknown")
+    .map((k) => [k, secs.filter(([, x]) => x.status === k).length]).filter(([, n]) => n);
+  const summary = counts.map(([k, n]) => `<span class="av-item">${availDot(k)}<span class="av-n">${esc(t("avail.count", { n }))}</span></span>`).join("");
+  // Same restriction text on several sections -> one line listing those sections.
+  const byText = new Map();
+  for (const [sec, x] of secs) for (const r of x.restrictions) byText.set(r, [...(byText.get(r) || []), sec]);
+  const restr = [...byText].map(([r, list]) => `<li><span class="secs">${esc(list.join(", "))}</span><span lang="en">${esc(r)}</span></li>`).join("");
+  const info = st.info.map((x) => `<li lang="en">${esc(x)}</li>`).join("");
+  return section(t("avail.title"), `<div class="av-summary">${summary}</div>
+    ${restr ? `<p class="source">${esc(t("avail.restrictions"))}</p><ul class="restr">${restr}</ul>` : `<p class="nodata">${esc(t("avail.noRestrictions"))}</p>`}
+    ${info ? `<p class="source">${esc(t("avail.info"))}</p><ul class="restr info">${info}</ul>` : ""}
+    <p class="source">${esc(t("avail.caveat", { age: statusAge() }))} · ${extLink(explorerUrl(c.code), t("avail.live"))}</p>`, "wide");
+}
+
 function render() {
   const c = courseFromUrl();
   if (!c) {
@@ -81,7 +100,7 @@ function render() {
       <h1>${esc(c.code)}${LANG === "zh" ? `<span class="zh">${esc(c.zh)}</span>` : ""}</h1>
       <p class="en">${esc(c.title)}${c.credits ? ` · ${esc(t("credits", { n: c.credits }))}` : ""}</p>
       ${tags ? `<div class="tags">${tags}</div>` : ""}
-      ${c.offered && c.teachers.length ? `<div class="badges">${courseBadges(c)}</div>` : ""}
+      ${c.offered && c.teachers.length ? `<div class="badges">${availCourse(c)}${courseBadges(c)}</div>` : ""}
       ${!c.offered ? `<p class="status">${esc(t("spring.notOfferedTitle"))}</p>` : ""}
     </div>`;
 
@@ -91,7 +110,7 @@ function render() {
     : `<p class="nodata">—</p>`);
 
   const teachers = c.offered ? section(t("course.teachers"),
-    c.teachers.length ? `${teachersTable(c.teachers, { rmp: true })}<p class="source">${esc(t("rmp.note"))}</p>` : `<p class="nodata">${esc(t("status.noTeacher"))}</p>`, "wide") : "";
+    c.teachers.length ? `${teachersTable(c.teachers, { rmp: true, code: c.code })}<p class="source">${esc(t("rmp.note"))}</p>` : `<p class="nodata">${esc(t("status.noTeacher"))}</p>`, "wide") : "";
 
   const history = section(t("course.history"), `${bigNumbers(b)}
       ${c.overall ? `<p class="source">${esc(overallLine(c.overall))}</p>` : ""}
@@ -100,7 +119,7 @@ function render() {
 
   $("course").innerHTML = `${head}
     <div class="course-grid">
-      <div class="col-main">${description}${prereqSection(c)}${teachers}</div>
+      <div class="col-main">${description}${prereqSection(c)}${registrationSection(c)}${teachers}</div>
       <aside class="col-side">${history}${gradingSection(c)}${syllabusSection(c)}${redditSection(c)}</aside>
     </div>`;
 }
@@ -111,7 +130,7 @@ function renderFooter() {
 
 async function init() {
   try {
-    data = await (await fetch("data/spring2027.json", { cache: "no-cache" })).json();
+    [data] = await Promise.all([fetch("data/spring2027.json", { cache: "no-cache" }).then((r) => r.json()), loadStatus()]);
   } catch (err) {
     $("course").innerHTML = `<p class="nodata">${esc(t("loadFailed"))}</p>`;
     console.error(err);

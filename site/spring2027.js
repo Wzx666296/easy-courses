@@ -1,7 +1,7 @@
 // Spring 2027 shortlist — renders data/spring2027.json (built by scripts/build_spring2027.py).
 // Text comes from i18n.js (t, onLangChange); shared helpers from spring-common.js.
 
-const state = { q: "", qRaw: "", cat: "", sub: "", mode: "", half: "", sort: "aRate", showTA: false };
+const state = { q: "", qRaw: "", cat: "", sub: "", mode: "", half: "", sort: "aRate", showTA: false, hideFull: false };
 let data;
 
 const sortKey = () => (state.sort === "code" ? "aRate" : state.sort);
@@ -27,6 +27,7 @@ function matches(c) {
   const modes = c.teachers.flatMap((x) => x.modes);
   if (state.mode && !modes.some((m) => m.split("-")[0] === state.mode)) return false;
   if (state.half && !modes.some((m) => (m.split("-")[1] || "full") === state.half)) return false;
+  if (state.hideFull && availOf(c.code) === "closed") return false;
   return true;
 }
 
@@ -45,9 +46,9 @@ function card(c, rank) {
       ${rank ? `<span class="rank">#${rank}</span>` : ""}
     </div>
     ${tags ? `<div class="tags">${tags}</div>` : ""}
-    ${c.offered && c.teachers.length ? `<div class="badges">${courseBadges(c)}</div>` : ""}
+    ${c.offered && c.teachers.length ? `<div class="badges">${availCourse(c)}${courseBadges(c)}</div>` : ""}
     ${bigNumbers(b)}
-    ${c.offered && shown.length ? teachersTable(shown) : ""}
+    ${c.offered && shown.length ? teachersTable(shown, { code: c.code }) : ""}
     ${c.status === "noTeacher" ? `<p class="nodata">${esc(t("status.noTeacher"))}</p>` : ""}
     ${!state.showTA && tas.length ? `<div class="meta">${esc(t("taHidden", { n: tas.length }))}</div>` : ""}
     ${c.gradesFrom ? `<div class="meta">${esc(t("crossList", { code: c.gradesFrom }))}</div>` : ""}
@@ -105,6 +106,7 @@ function restoreState() {
     $("q").value = saved.qRaw || "";
     for (const id of ["mode", "half", "sort"]) $(id).value = state[id];
     $("show-ta").checked = state.showTA;
+    $("hide-full").checked = state.hideFull;
     return saved.scroll || 0;
   } catch (_) { return null; }
 }
@@ -117,6 +119,7 @@ function render() {
 
   $("cards").innerHTML = list.map((c, i) => card(c, state.sort === "code" ? 0 : i + 1)).join("");
   $("summary").textContent = list.length ? t("spring.count", { n: list.length }) : t("spring.none");
+  $("avail-note").innerHTML = STATUS ? t("avail.note", { age: esc(statusAge()), url: esc(STATUS.source) }) : "";
 
   const missing = data.courses.filter((c) => !c.offered);
   $("not-offered").hidden = !missing.length || !!(state.cat || state.mode || state.half);
@@ -137,7 +140,7 @@ function renderTexts() {
 
 async function init() {
   try {
-    data = await (await fetch("data/spring2027.json", { cache: "no-cache" })).json();
+    [data] = await Promise.all([fetch("data/spring2027.json", { cache: "no-cache" }).then((r) => r.json()), loadStatus()]);
   } catch (err) {
     $("intro").textContent = t("loadFailed");
     console.error(err);
@@ -164,6 +167,8 @@ async function init() {
   }
   $("q").addEventListener("input", (e) => { state.q = norm(e.target.value); state.qRaw = e.target.value; render(); });
   $("show-ta").addEventListener("change", (e) => { state.showTA = e.target.checked; render(); });
+  $("hide-full").addEventListener("change", (e) => { state.hideFull = e.target.checked; render(); });
+  $("hide-full").closest("label").hidden = !STATUS;
   onLangChange(renderTexts);
   let scroll = restoreState();
   const params = new URLSearchParams(location.search);

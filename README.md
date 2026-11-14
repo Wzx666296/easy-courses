@@ -121,3 +121,11 @@ site/data/reviews.json  朋友评价
 - 朋友在网页上直接提交评价（例如 Google Form → 表格，或接 Supabase 这类免费后端）
 - 部署到 GitHub Pages，发链接给朋友
 - 加"同时满足两个 Gen Ed"的筛选
+
+## 选课状态（有空位 / 已满 / 有限制）
+
+`scripts/fetch_status.py` 读取 Course Explorer 公开课表页上每个时段的状态和选课限制，生成 `site/data/status.json`（不进 git）。部署工作流每小时运行一次并随网站发布。Course Explorer 本身每 10 分钟更新，不公开剩余座位数。本地预览前可手动运行：
+
+```bash
+python3 scripts/fetch_status.py
+```

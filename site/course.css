@@ -73,3 +73,13 @@
 .ext span { color: var(--faint); font-weight: 400; }
 .ext:hover { border-color: var(--blue-line); background: var(--blue-soft); color: var(--blue-text); text-decoration: none; }
 .ext:hover span { color: inherit; }
+
+/* Registration status panel */
+.av-summary { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13.5px; margin-bottom: 12px; }
+.av-item { display: inline-flex; align-items: center; gap: 6px; }
+.av-summary .av-n { color: var(--muted); }
+.restr { list-style: none; padding: 0; margin: 4px 0 12px; font-size: 13px; line-height: 1.55; }
+.restr li { padding: 6px 0; border-top: 1px solid var(--border); }
+.restr li:first-child { border-top: 0; }
+.restr .secs { display: inline-block; min-width: 3.5em; margin-right: 10px; color: var(--muted); font-variant-numeric: tabular-nums; font-weight: 500; }
+.restr.info li { color: var(--muted); }
