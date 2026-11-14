@@ -180,6 +180,7 @@ const availCourse = (c) => availPill(c.offered ? availOf(c.code) : null);
 function statusAge() {
   if (!STATUS) return "";
   const min = Math.max(0, Math.round((Date.now() - Date.parse(STATUS.fetchedAt)) / 60000));
+  if (min < 1) return t("avail.ageNow");
   if (min < 60) return t("avail.ageMin", { n: min });
   const h = Math.round(min / 60);
   return h < 48 ? t("avail.ageHour", { n: h }) : t("avail.ageDay", { n: Math.round(h / 24) });
