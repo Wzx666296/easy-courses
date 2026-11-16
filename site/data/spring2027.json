@@ -1,6 +1,6 @@
 {
  "term": "Spring 2027",
- "builtAt": "2026-11-09",
+ "builtAt": "2026-11-16",
  "sources": {
   "grades": "https://waf.cs.illinois.edu/visualizations/Grade-Disparities-and-Accolades-by-Instructor/",
   "schedule": "https://courses.illinois.edu/schedule/2027/spring"
@@ -746,8 +746,8 @@
    "gradesFrom": null,
    "title": "Indian Cinema in Context",
    "geneds": [
-    "Cultural Studies - Non-West",
-    "Humanities - Lit & Arts"
+    "Humanities - Lit & Arts",
+    "Cultural Studies - Non-West"
    ],
    "offered": true,
    "overall": {
@@ -798,8 +798,8 @@
    "description": "Introduction to Indian mainstream (mainly Bollywood) cinema and its evolution through the last seven decades. Topics to be explored include, but not limited to, the relation between Indian society/culture and its cinematic representations, cinema's resistance to dominant nationalist and patriarchal ideologies, its interactions with the postcolonial nation-state of India, how globalization has changed the industry. All films will be screened with subtitles. No knowledge of Hindi or any other Indian language is required. Same as MACS 207.",
    "credits": "3",
    "genedCodes": [
-    "NW",
-    "LA"
+    "LA",
+    "NW"
    ],
    "status": "offered"
   },
@@ -2129,8 +2129,8 @@
    "gradesFrom": null,
    "title": "Plants, Pathogens, and People",
    "geneds": [
-    "Nat Sci & Tech - Life Sciences",
-    "Advanced Composition"
+    "Advanced Composition",
+    "Nat Sci & Tech - Life Sciences"
    ],
    "offered": true,
    "overall": {
@@ -2183,8 +2183,8 @@
    "description": "Plant diseases and their impact on food supplies and human history are studied in lectures, demonstrations and discussions. Issues of food production and safety, pesticide use and human health, and the environment are considered. Includes the biology of pathogens that cause plant disease. Designed for non-science and science majors. Prerequisite: RHET 105 or equivalent.",
    "credits": "3",
    "genedCodes": [
-    "LS",
-    "CLL"
+    "CLL",
+    "LS"
    ],
    "status": "offered"
   },
@@ -3328,13 +3328,26 @@
    },
    "teachers": [
     {
-     "name": "G Kpene",
+     "name": "Cezar Mamaril",
      "role": "lead",
      "modes": [
+      "inperson",
       "online-A"
      ],
-     "sections": 1,
+     "sections": 2,
      "schedule": [
+      {
+       "type": "Lecture",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "AL1"
+       ]
+      },
       {
        "type": "Online",
        "mode": "online",
@@ -3349,10 +3362,17 @@
       }
      ],
      "homepage": null,
-     "stats": null,
+     "stats": {
+      "aRate": 0.7802,
+      "aRateInclMinus": 0.8791,
+      "gpa": 3.76,
+      "students": 91,
+      "semesters": 2
+     },
      "notes": [
       {
-       "type": "noData"
+       "type": "smallSample",
+       "students": 91
       }
      ]
     },
@@ -4656,6 +4676,592 @@
    },
    "teachers": [
     {
+     "name": "Kayla Williams",
+     "role": "lead",
+     "modes": [
+      "inperson",
+      "online"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 825,
+       "dates": "1/19–5/5",
+       "sections": [
+        "Q1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "S1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "F3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9561,
+      "aRateInclMinus": 0.9561,
+      "gpa": 3.93,
+      "students": 114,
+      "semesters": 5
+     },
+     "notes": [
+      {
+       "type": "nameMatch",
+       "wafName": "Kayla"
+      }
+     ]
+    },
+    {
+     "name": "John Claborn",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "F2"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 930,
+       "end": 1005,
+       "dates": "1/19–5/5",
+       "sections": [
+        "G1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9556,
+      "aRateInclMinus": 0.9556,
+      "gpa": 3.96,
+      "students": 45,
+      "semesters": 11
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 45
+      }
+     ]
+    },
+    {
+     "name": "Katherine Newton",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "F1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "E3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9545,
+      "aRateInclMinus": 0.9545,
+      "gpa": 3.82,
+      "students": 22,
+      "semesters": 4
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 22
+      }
+     ]
+    },
+    {
+     "name": "Marilyn Holguin",
+     "role": "lead",
+     "modes": [
+      "online"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "MW",
+       "start": 1020,
+       "end": 1095,
+       "dates": "1/19–5/5",
+       "sections": [
+        "H1"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "MW",
+       "start": 1110,
+       "end": 1185,
+       "dates": "1/19–5/5",
+       "sections": [
+        "I1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9385,
+      "aRateInclMinus": 0.9462,
+      "gpa": 3.9,
+      "students": 130,
+      "semesters": 6
+     },
+     "notes": []
+    },
+    {
+     "name": "Matthew Schering",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 735,
+       "dates": "1/19–5/5",
+       "sections": [
+        "P2"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 930,
+       "end": 1005,
+       "dates": "1/19–5/5",
+       "sections": [
+        "T1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.9277,
+      "aRateInclMinus": 0.9398,
+      "gpa": 3.88,
+      "students": 166,
+      "semesters": 4
+     },
+     "notes": []
+    },
+    {
+     "name": "Michael Shetina",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 645,
+       "dates": "1/19–5/5",
+       "sections": [
+        "M1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "S2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8913,
+      "aRateInclMinus": 0.9203,
+      "gpa": 3.82,
+      "students": 138,
+      "semesters": 5
+     },
+     "notes": []
+    },
+    {
+     "name": "Grace Vowels",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C2"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.8696,
+      "aRateInclMinus": 0.8841,
+      "gpa": 3.85,
+      "students": 69,
+      "semesters": 2
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 69
+      }
+     ]
+    },
+    {
+     "name": "Joseph Grohens",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 660,
+       "end": 735,
+       "dates": "1/19–5/5",
+       "sections": [
+        "P1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 825,
+       "dates": "1/19–5/5",
+       "sections": [
+        "Q3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.75,
+      "aRateInclMinus": 0.8529,
+      "gpa": 3.75,
+      "students": 136,
+      "semesters": 17
+     },
+     "notes": []
+    },
+    {
+     "name": "Daniel Roche",
+     "role": "lead",
+     "modes": [
+      "inperson",
+      "online"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MW",
+       "start": 930,
+       "end": 1005,
+       "dates": "1/19–5/5",
+       "sections": [
+        "G2"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "TR",
+       "start": 1020,
+       "end": 1095,
+       "dates": "1/19–5/5",
+       "sections": [
+        "U1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.7035,
+      "aRateInclMinus": 0.823,
+      "gpa": 3.66,
+      "students": 226,
+      "semesters": 11
+     },
+     "notes": []
+    },
+    {
+     "name": "Gail Hapke",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 750,
+       "end": 825,
+       "dates": "1/19–5/5",
+       "sections": [
+        "Q2"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "TR",
+       "start": 840,
+       "end": 915,
+       "dates": "1/19–5/5",
+       "sections": [
+        "S3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6759,
+      "aRateInclMinus": 0.8476,
+      "gpa": 3.76,
+      "students": 361,
+      "semesters": 20
+     },
+     "notes": []
+    },
+    {
+     "name": "Lee McGuire",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 720,
+       "end": 770,
+       "dates": "1/19–5/5",
+       "sections": [
+        "X1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6583,
+      "aRateInclMinus": 0.824,
+      "gpa": 3.74,
+      "students": 676,
+      "semesters": 20
+     },
+     "notes": []
+    },
+    {
+     "name": "Hilary Selznick",
+     "role": "lead",
+     "modes": [
+      "online"
+     ],
+     "sections": 2,
+     "schedule": [
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "MW",
+       "start": 660,
+       "end": 735,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D3"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "MW",
+       "start": 750,
+       "end": 825,
+       "dates": "1/19–5/5",
+       "sections": [
+        "G3"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.6124,
+      "aRateInclMinus": 0.7636,
+      "gpa": 3.6,
+      "students": 258,
+      "semesters": 9
+     },
+     "notes": []
+    },
+    {
+     "name": "Sydney Slobodnik",
+     "role": "lead",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 3,
+     "schedule": [
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 600,
+       "end": 650,
+       "dates": "1/19–5/5",
+       "sections": [
+        "C1"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 660,
+       "end": 710,
+       "dates": "1/19–5/5",
+       "sections": [
+        "D2"
+       ]
+      },
+      {
+       "type": "Lecture-Discussion",
+       "mode": "inperson",
+       "part": "full",
+       "days": "MWF",
+       "start": 780,
+       "end": 830,
+       "dates": "1/19–5/5",
+       "sections": [
+        "E1"
+       ]
+      }
+     ],
+     "homepage": null,
+     "stats": {
+      "aRate": 0.5119,
+      "aRateInclMinus": 0.6905,
+      "gpa": 3.57,
+      "students": 84,
+      "semesters": 21
+     },
+     "notes": [
+      {
+       "type": "smallSample",
+       "students": 84
+      }
+     ]
+    },
+    {
      "name": "Julie Kraft",
      "role": "lead",
      "modes": [
@@ -4704,23 +5310,35 @@
      ]
     },
     {
-     "name": "D Kinzy",
+     "name": "P Gupta",
      "role": "lead",
      "modes": [
-      "inperson"
+      "online"
      ],
-     "sections": 1,
+     "sections": 2,
      "schedule": [
       {
-       "type": "Lecture-Discussion",
-       "mode": "inperson",
+       "type": "Online",
+       "mode": "online",
+       "part": "full",
+       "days": "TR",
+       "start": 570,
+       "end": 645,
+       "dates": "1/19–5/5",
+       "sections": [
+        "M2"
+       ]
+      },
+      {
+       "type": "Online",
+       "mode": "online",
        "part": "full",
        "days": "TR",
        "start": 660,
        "end": 735,
        "dates": "1/19–5/5",
        "sections": [
-        "P1"
+        "P3"
        ]
       }
      ],
@@ -6241,7 +6859,7 @@
      ]
     },
     {
-     "name": "J Fardous",
+     "name": "M Khaium",
      "role": "discussion",
      "modes": [
       "inperson"
@@ -6758,12 +7376,12 @@
      ]
     },
     {
-     "name": "M Khaium",
+     "name": "J Fardous",
      "role": "discussion",
      "modes": [
       "inperson"
      ],
-     "sections": 2,
+     "sections": 1,
      "schedule": [
       {
        "type": "Discussion/Recitation",
@@ -6776,7 +7394,24 @@
        "sections": [
         "AD3"
        ]
-      },
+      }
+     ],
+     "homepage": null,
+     "stats": null,
+     "notes": [
+      {
+       "type": "noData"
+      }
+     ]
+    },
+    {
+     "name": "M Khaium",
+     "role": "discussion",
+     "modes": [
+      "inperson"
+     ],
+     "sections": 1,
+     "schedule": [
       {
        "type": "Discussion/Recitation",
        "mode": "inperson",
@@ -8625,24 +9260,24 @@
        "type": "Lecture-Discussion",
        "mode": "inperson",
        "part": "full",
-       "days": "TR",
+       "days": "MW",
        "start": 780,
        "end": 860,
        "dates": "1/19–5/5",
        "sections": [
-        "B"
+        "A"
        ]
       },
       {
        "type": "Lecture-Discussion",
        "mode": "inperson",
        "part": "full",
-       "days": "TR",
-       "start": 930,
-       "end": 1010,
+       "days": "MW",
+       "start": 900,
+       "end": 980,
        "dates": "1/19–5/5",
        "sections": [
-        "D"
+        "H"
        ]
       }
      ],
@@ -8673,12 +9308,12 @@
        "type": "Lecture-Discussion",
        "mode": "inperson",
        "part": "full",
-       "days": "MW",
-       "start": 780,
-       "end": 860,
+       "days": "TR",
+       "start": 660,
+       "end": 740,
        "dates": "1/19–5/5",
        "sections": [
-        "A"
+        "HH"
        ]
       },
       {
@@ -8686,11 +9321,11 @@
        "mode": "inperson",
        "part": "full",
        "days": "TR",
-       "start": 660,
-       "end": 740,
+       "start": 780,
+       "end": 860,
        "dates": "1/19–5/5",
        "sections": [
-        "HH"
+        "B"
        ]
       }
      ],
@@ -8703,42 +9338,6 @@
       "semesters": 17
      },
      "notes": []
-    },
-    {
-     "name": "Ji Yoo",
-     "role": "lead",
-     "modes": [
-      "inperson"
-     ],
-     "sections": 1,
-     "schedule": [
-      {
-       "type": "Lecture-Discussion",
-       "mode": "inperson",
-       "part": "full",
-       "days": "MW",
-       "start": 900,
-       "end": 980,
-       "dates": "1/19–5/5",
-       "sections": [
-        "H"
-       ]
-      }
-     ],
-     "homepage": null,
-     "stats": {
-      "aRate": 0.358,
-      "aRateInclMinus": 0.5926,
-      "gpa": 3.31,
-      "students": 81,
-      "semesters": 7
-     },
-     "notes": [
-      {
-       "type": "smallSample",
-       "students": 81
-      }
-     ]
     }
    ],
    "extras": {},
@@ -9005,8 +9604,8 @@
    "gradesFrom": null,
    "title": "Humanist Persp of Afro-Am Exp",
    "geneds": [
-    "Cultural Studies - US Minority",
-    "Humanities - Lit & Arts"
+    "Humanities - Lit & Arts",
+    "Cultural Studies - US Minority"
    ],
    "offered": true,
    "overall": {
@@ -9064,8 +9663,8 @@
    "description": "Presents the Afro-centric world view as it was manifested in traditional African society and in the Afro-American slave community. Shows that this world view merged with European notions of art and humanity, as revealed in modern Afro-American literature, art, and music. Same as CWL 226. Approved for both letter and S/U grading. Prerequisite: AFRO 100 or consent of instructor.",
    "credits": "3",
    "genedCodes": [
-    "US",
-    "LA"
+    "LA",
+    "US"
    ],
    "status": "offered"
   },
@@ -9491,8 +10090,8 @@
    "gradesFrom": null,
    "title": "Intro to Japanese Animation",
    "geneds": [
-    "Cultural Studies - Non-West",
-    "Humanities - Hist & Phil"
+    "Humanities - Hist & Phil",
+    "Cultural Studies - Non-West"
    ],
    "offered": true,
    "overall": {
@@ -9541,8 +10140,8 @@
    "description": "Introduction to anime (Japanese animation), its history, its relevance in both a Japanese and global context, and its international impact; emphasis on philosophical inquiry into issues raised in a variety of dubbed/subtitled anime and critical analysis of related scholarly articles; discussion of the mechanics of anime creation and examination of its interaction with other media including videogames and manga.",
    "credits": "3",
    "genedCodes": [
-    "NW",
-    "HP"
+    "HP",
+    "NW"
    ],
    "status": "offered"
   },
