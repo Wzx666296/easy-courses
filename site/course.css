@@ -83,3 +83,9 @@
 .restr li:first-child { border-top: 0; }
 .restr .secs { display: inline-block; min-width: 3.5em; margin-right: 10px; color: var(--muted); font-variant-numeric: tabular-nums; font-weight: 500; }
 .restr.info li { color: var(--muted); }
+
+/* STAT 400 seat page */
+.stat-big { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 600; margin: 8px 0 6px; }
+.stat-big i { width: 12px; height: 12px; border-radius: 50%; background: var(--av); flex: none; }
+.stat-table td { vertical-align: middle; }
+.stat-table .av-dot { font-weight: 400; }

@@ -28,6 +28,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "data", "spring2027.json")
 OUT = os.path.join(ROOT, "site", "data", "status.json")
 PAGE = "https://courses.illinois.edu/schedule/2027/spring/{subj}/{num}"
+# Courses tracked on their own page (stat400.html) even though they are not on the shortlist.
+WATCH = ["STAT 400"]
 UA = "easy-courses status (+https://github.com/Wzx666296/easy-courses)"
 
 
@@ -70,12 +72,20 @@ def parse(page):
         dl = re.search(r"<dl>(.*?)</dl>", row, re.S)
         if not (crn and sec and dl):
             continue
+        # Visible columns after CRN: type, section, time, day, location, instructor.
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        at = next((i for i, c in enumerate(cells) if f"<div>{crn.group(1)}</div>" in c), None)
+        col = lambda k: " / ".join(" ".join(text(m)) for m in re.findall(r'<div class="app-meeting"[^>]*>(.*?)</div>', cells[at + k], re.S)) if at is not None and at + k < len(cells) else ""
         details = {}
         for dt, dd in re.findall(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", dl.group(1), re.S):
             details[" ".join(text(dt)).rstrip(":")] = text(dd)
         raw = " ".join(details.get("Availability", [])) or "Unknown"
         sections[sec.group(1).strip()] = {
             "crn": crn.group(1),
+            "type": col(1).replace("/ ", "/"),
+            "time": col(3).replace(" -", "–"),
+            "days": col(4),
+            "instructor": col(6),
             "status": normalize(raw),
             "raw": raw,
             "restrictions": details.get("Restriction(s)", []),
@@ -91,6 +101,7 @@ def main():
 
     with open(DATA, encoding="utf-8") as f:
         codes = [c["code"] for c in json.load(f)["courses"] if c.get("offered")]
+    codes += [c for c in WATCH if c not in codes]
 
     courses, failed = {}, []
     for code in codes:

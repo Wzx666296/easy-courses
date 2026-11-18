@@ -1,0 +1,60 @@
+# Email when a STAT 400 (Spring 2027) lecture section goes from full to open.
+# Checks Course Explorer every 10 minutes (GitHub may start scheduled runs late).
+# The last check's open lectures are kept in the Actions cache so each opening
+# sends one email. Needs repository secrets NOTIFY_TO and SMTP_PASS (see
+# scripts/notify_open.py). "Run workflow" with "test" checked sends a test email.
+name: Watch STAT 400
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Send a test email now"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: watch-stat400
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/cache/restore@v4
+        with:
+          path: .watch
+          key: watch-stat400-${{ github.run_id }}
+          restore-keys: watch-stat400-
+
+      - name: Check lectures and email if one opened
+        env:
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        run: |
+          if [ "${{ inputs.test }}" = "true" ]; then
+            python scripts/notify_open.py --code "STAT 400" --test
+          else
+            python scripts/notify_open.py --code "STAT 400" --state .watch/stat400.json
+          fi
+
+      - uses: actions/cache/save@v4
+        if: ${{ inputs.test != true }}
+        with:
+          path: .watch
+          key: watch-stat400-${{ github.run_id }}
